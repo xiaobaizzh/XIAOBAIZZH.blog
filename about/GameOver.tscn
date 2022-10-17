@@ -1,0 +1,287 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://GameOver.gd" type="Script" id=1]
+[ext_resource path="res://200-offline-sprite.png" type="Texture" id=2]
+[ext_resource path="res://fonts/pixelate/SFPixelate-Bold.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://ChoosePlayer.tscn" type="PackedScene" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+
+size = 100
+use_mipmaps = false
+use_filter = false
+font_data = ExtResource( 3 )
+_sections_unfolded = [ "Extra Spacing", "Font", "Settings" ]
+
+[sub_resource type="Animation" id=2]
+
+resource_name = "IN"
+length = 3.0
+loop = false
+step = 0.1
+
+[sub_resource type="Animation" id=3]
+
+resource_name = "s"
+length = 5.0
+loop = false
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("GAME:rect_scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1.2 ),
+"transitions": PoolRealArray( 1, 4 ),
+"update": 0,
+"values": [ Vector2( 0, 0 ), Vector2( 1, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("GAME:rect_position")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.7, 4.1 ),
+"transitions": PoolRealArray( 0.25, -4, 1 ),
+"update": 0,
+"values": [ Vector2( 361, 0 ), Vector2( 361, 92 ), Vector2( 360, 220 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("DinoLeft:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/keys = {
+"times": PoolRealArray( 0, 1.2, 2.3, 2.8, 3.3, 4.1, 4.6 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( -130.952, 347.21 ), Vector2( -130.952, 347.21 ), Vector2( 171.952, 347.21 ), Vector2( 171.952, 347.21 ), Vector2( 207.026, 347.21 ), Vector2( 207.026, 347.21 ), Vector2( 171.952, 347.21 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("DinoRight:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/keys = {
+"times": PoolRealArray( 0, 1.2, 2.3, 2.8, 3.3, 4.1, 4.6 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1150.01, 344.421 ), Vector2( 1150.01, 344.421 ), Vector2( 847.014, 344.421 ), Vector2( 847.014, 344.421 ), Vector2( 805.26, 349.432 ), Vector2( 805.26, 349.432 ), Vector2( 847.014, 344.421 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("ButRestart:visible")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/keys = {
+"times": PoolRealArray(  ),
+"transitions": PoolRealArray(  ),
+"update": 1,
+"values": [  ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("OVER:rect_position")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/keys = {
+"times": PoolRealArray( 0, 1.2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 368, 610 ), Vector2( 368, 477 ) ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("ButRestart/ImgRestart:scale")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/keys = {
+"times": PoolRealArray( 0, 3.9 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1e-05, 1e-05 ), Vector2( 2.43845, 2.43845 ) ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("ButRestart/ImgRestart:rotation_degrees")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/keys = {
+"times": PoolRealArray( 0, 3.9 ),
+"transitions": PoolRealArray( 1, -0.25 ),
+"update": 0,
+"values": [ 960.0, 0.0 ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("DinoLeft:rotation_degrees")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/keys = {
+"times": PoolRealArray( 0, 2.8, 3.3, 3.7, 4.6 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0, 21.0, 21.0, 0.0 ]
+}
+tracks/9/type = "value"
+tracks/9/path = NodePath("DinoRight:rotation_degrees")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/imported = false
+tracks/9/keys = {
+"times": PoolRealArray( 0, 2.8, 3.3, 3.7, 4.6 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0, -20.9678, -20.9678, 0.0 ]
+}
+
+[node name="GameOverScreen" type="Node2D"]
+
+script = ExtResource( 1 )
+
+[node name="Restart" type="Sprite" parent="."]
+
+visible = false
+position = Vector2( 511.911, 320.222 )
+scale = Vector2( 3, 3 )
+texture = ExtResource( 2 )
+region_enabled = true
+region_rect = Rect2( 0, 0, 73, 70 )
+_sections_unfolded = [ "Region", "Textures", "Transform" ]
+
+[node name="DinoLeft" type="Sprite" parent="."]
+
+position = Vector2( 171.952, 347.21 )
+scale = Vector2( 3, 3 )
+texture = ExtResource( 2 )
+region_enabled = true
+region_rect = Rect2( 2118, 0, 85, 90 )
+_sections_unfolded = [ "Region", "Transform" ]
+
+[node name="DinoRight" type="Sprite" parent="."]
+
+position = Vector2( 847.014, 344.421 )
+scale = Vector2( 3, 3 )
+texture = ExtResource( 2 )
+flip_h = true
+region_enabled = true
+region_rect = Rect2( 2118, 0, 85, 90 )
+_sections_unfolded = [ "Offset", "Region", "Transform" ]
+
+[node name="GAME" type="Label" parent="."]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 360.0
+margin_top = 220.0
+margin_right = 662.0
+margin_bottom = 318.0
+rect_pivot_offset = Vector2( 155.559, 73.7997 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 1, 0, 0, 1 )
+text = "GAME"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Focus", "Hint", "Rect", "custom_colors", "custom_fonts" ]
+
+[node name="OVER" type="Label" parent="."]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 368.0
+margin_top = 477.0
+margin_right = 670.0
+margin_bottom = 571.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 1, 0, 0, 1 )
+text = "OVER"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Rect", "custom_colors", "custom_fonts" ]
+
+[node name="ButRestart" type="Button" parent="."]
+
+self_modulate = Color( 1, 1, 1, 0 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 440.0
+margin_top = 320.0
+margin_right = 584.0
+margin_bottom = 454.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+flat = false
+_sections_unfolded = [ "Anchor", "Focus", "Grow Direction", "Hint", "Margin", "Mouse", "Rect", "Theme", "Visibility", "custom_fonts" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="ImgRestart" type="Sprite" parent="ButRestart"]
+
+position = Vector2( 70, 70 )
+scale = Vector2( 2.43845, 2.43845 )
+texture = ExtResource( 2 )
+region_enabled = true
+region_rect = Rect2( 0, 0, 73, 70 )
+_sections_unfolded = [ "Material", "Region", "Textures", "Transform", "Visibility" ]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+root_node = NodePath("..")
+anims/IN = SubResource( 2 )
+anims/s = SubResource( 3 )
+playback/active = true
+playback/speed = 1.0
+blend_times = [  ]
+autoplay = ""
+_sections_unfolded = [ "playback" ]
+
+[node name="ChoosePlayer" parent="." instance=ExtResource( 4 )]
+
+margin_left = 950.0
+margin_top = 530.0
+margin_right = 1012.0
+margin_bottom = 590.0
+_sections_unfolded = [ "Material", "Rect", "Theme" ]
+
+[connection signal="hide" from="." to="." method="_on_GameOverScreen_hide"]
+
+[connection signal="visibility_changed" from="." to="." method="_on_GameOverScreen_visibility_changed"]
+
+[connection signal="mouse_entered" from="ButRestart" to="." method="_on_Button_mouse_entered"]
+
+[connection signal="mouse_exited" from="ButRestart" to="." method="_on_Button_mouse_exited"]
+
+[connection signal="pressed" from="ButRestart" to="." method="_on_Button_pressed"]
+
+[connection signal="playerisabird" from="ChoosePlayer" to="." method="_on_ChoosePlayer_playerisabird"]
+
+

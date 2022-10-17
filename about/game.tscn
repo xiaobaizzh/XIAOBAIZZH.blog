@@ -1,0 +1,495 @@
+[gd_scene load_steps=27 format=2]
+
+[ext_resource path="res://game.gd" type="Script" id=1]
+[ext_resource path="res://fonts/pixelate/SFPixelate-Bold.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://ActionPopups.tscn" type="PackedScene" id=3]
+[ext_resource path="res://mainTheme.tres" type="Theme" id=4]
+[ext_resource path="res://PopupMenu.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Fleisch.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Sonne.tscn" type="PackedScene" id=7]
+[ext_resource path="res://assets/Mond.tscn" type="PackedScene" id=8]
+[ext_resource path="res://assets/parallaxBackground.tscn" type="PackedScene" id=9]
+[ext_resource path="res://ground.png" type="Texture" id=10]
+[ext_resource path="res://parallaxForeground.tscn" type="PackedScene" id=11]
+[ext_resource path="res://GameOver.tscn" type="PackedScene" id=12]
+[ext_resource path="res://assets/rumbleCam/RumbleCam.tscn" type="PackedScene" id=13]
+[ext_resource path="res://shaders/contrastBrightnessShader.tres" type="Shader" id=14]
+[ext_resource path="res://shaders/texture/white.png" type="Texture" id=15]
+
+[sub_resource type="DynamicFont" id=1]
+
+size = 30
+use_mipmaps = false
+use_filter = false
+font_data = ExtResource( 2 )
+_sections_unfolded = [ "Extra Spacing", "Settings" ]
+
+[sub_resource type="DynamicFont" id=2]
+
+size = 22
+use_mipmaps = false
+use_filter = false
+font_data = ExtResource( 2 )
+_sections_unfolded = [ "Extra Spacing", "Font", "Settings" ]
+
+[sub_resource type="ShortCut" id=3]
+
+
+[sub_resource type="Gradient" id=4]
+
+offsets = PoolRealArray( 0, 0.701044, 0.89295 )
+colors = PoolColorArray( 0.984234, 0.984234, 0.984234, 1, 0.648438, 1, 0.942322, 1, 0.679688, 1, 0.924927, 1 )
+_sections_unfolded = [ "Resource" ]
+
+[sub_resource type="GradientTexture" id=5]
+
+gradient = SubResource( 4 )
+width = 2048
+
+[sub_resource type="Gradient" id=6]
+
+offsets = PoolRealArray( 0.00159236, 0.0159236, 0.463668, 0.726644 )
+colors = PoolColorArray( 1, 0.971924, 0.28125, 1, 0.984234, 0.984234, 0.984234, 1, 1, 0.966064, 0.457031, 1, 0.933594, 0.799971, 0.444916, 1 )
+_sections_unfolded = [ "Resource" ]
+
+[sub_resource type="GradientTexture" id=7]
+
+gradient = SubResource( 6 )
+width = 2048
+
+[sub_resource type="RectangleShape2D" id=8]
+
+custom_solver_bias = 0.0
+extents = Vector2( 21.273, 10 )
+
+[sub_resource type="RectangleShape2D" id=9]
+
+custom_solver_bias = 0.0
+extents = Vector2( 10, 10 )
+
+[sub_resource type="ShaderMaterial" id=10]
+
+render_priority = 0
+shader = ExtResource( 14 )
+shader_param/brightnessFac = 0.0
+shader_param/saturationFac = 1.0
+shader_param/contrastFac = 1.0
+_sections_unfolded = [ "shader_param" ]
+
+[sub_resource type="Animation" id=11]
+
+length = 30.0
+loop = true
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("shaderSpass:material:shader_param/saturationFac")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/keys = {
+"times": PoolRealArray( 0, 8.1, 13.8, 18.6, 27.3 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 1.0, 1.0, 0.393073, 0.393073, 1.0 ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("shaderSpass:material:shader_param/contrastFac")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/keys = {
+"times": PoolRealArray( 0, 8.1, 13.8, 18.6, 27.3 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 1.0, 1.0, 0.344, 0.344, 1.0 ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("shaderSpass:material:shader_param/brightnessFac")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/keys = {
+"times": PoolRealArray( 0, 8.1, 13.8, 18.6, 27.3 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0, -0.6, -0.6, 0.0 ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("sprites/background/Sonne:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/keys = {
+"times": PoolRealArray( 0, 11.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 80.9996, 61.9997 ), Vector2( 82.9996, -127 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("sprites/background/Mond:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/keys = {
+"times": PoolRealArray( 0, 11.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 82, -48 ), Vector2( 88, 62 ) ]
+}
+
+[node name="game" type="Control"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 40.0
+margin_bottom = 40.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_horizontal_guides_": [ 359.36 ],
+"_edit_lock_": true
+}
+
+[node name="hud" type="CanvasLayer" parent="."]
+
+layer = 1
+offset = Vector2( 0, 0 )
+rotation = 0.0
+scale = Vector2( 1, 1 )
+
+[node name="points" type="Label" parent="hud"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 820.0
+margin_top = 10.0
+margin_right = 1018.0
+margin_bottom = 39.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 0.325439, 0.325439, 0.325439, 1 )
+text = "000000000"
+align = 2
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Rect", "Size Flags", "custom_colors", "custom_constants", "custom_fonts", "custom_styles" ]
+
+[node name="players" type="RichTextLabel" parent="hud"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 740.0
+margin_top = 37.0
+margin_right = 1022.0
+margin_bottom = 326.0
+rect_pivot_offset = Vector2( 0, 0 )
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/normal_font = SubResource( 2 )
+custom_constants/line_separation = 0
+bbcode_enabled = true
+bbcode_text = "[right]1 Dankrad [/right] 
+[right]1 aaaaa Dreaded-gnu[/right] "
+visible_characters = -1
+percent_visible = 1.0
+override_selected_font_color = false
+_sections_unfolded = [ "BBCode", "Grow Direction", "Rect", "Size Flags", "Theme", "custom_colors", "custom_constants", "custom_fonts", "custom_styles" ]
+
+[node name="actionPopup" parent="hud" instance=ExtResource( 3 )]
+
+[node name="menu" type="Button" parent="hud"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 763.0
+margin_top = 12.0
+margin_right = 812.0
+margin_bottom = 32.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+theme = ExtResource( 4 )
+toggle_mode = false
+enabled_focus_mode = 1
+shortcut = null
+group = null
+text = "menu"
+flat = false
+_sections_unfolded = [ "Theme" ]
+
+[node name="PopupMenu" parent="hud" instance=ExtResource( 5 )]
+
+visible = false
+margin_left = 121.0
+margin_top = 61.0
+margin_right = 161.0
+margin_bottom = 101.0
+
+[node name="Fleisch" parent="hud" instance=ExtResource( 6 )]
+
+margin_left = 5.0
+margin_top = 533.0
+margin_right = 45.0
+margin_bottom = 573.0
+
+[node name="Mute" type="CheckBox" parent="hud"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 694.0
+margin_top = 9.0
+margin_right = 753.0
+margin_bottom = 32.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+custom_colors/font_color = Color( 0.651402, 0.792969, 0.0681458, 1 )
+toggle_mode = true
+enabled_focus_mode = 1
+shortcut = SubResource( 3 )
+group = null
+text = "MUTE"
+flat = false
+align = 0
+_sections_unfolded = [ "Visibility" ]
+
+[node name="sprites" type="Node2D" parent="."]
+
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="background" type="Node2D" parent="sprites"]
+
+[node name="gradientSky" type="Sprite" parent="sprites/background"]
+
+position = Vector2( 1052.72, 182.43 )
+rotation = -1.5708
+scale = Vector2( 0.20658, 2168.35 )
+texture = SubResource( 5 )
+offset = Vector2( -25.2217, -0.498946 )
+_sections_unfolded = [ "Region", "Transform" ]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Sonne" parent="sprites/background" instance=ExtResource( 7 )]
+
+position = Vector2( 80.9996, 61.9997 )
+
+[node name="Mond" parent="sprites/background" instance=ExtResource( 8 )]
+
+position = Vector2( 82, -48 )
+z = 4096
+_sections_unfolded = [ "Transform", "Z" ]
+
+[node name="parallaxBackground" parent="sprites/background" instance=ExtResource( 9 )]
+
+position = Vector2( 1, 2.6702 )
+
+[node name="gradientGround" type="Sprite" parent="sprites/background"]
+
+position = Vector2( -13.5201, 529.45 )
+rotation = 1.5708
+scale = Vector2( 0.145033, 2149.04 )
+texture = SubResource( 7 )
+offset = Vector2( -25.2217, -0.498946 )
+_sections_unfolded = [ "Region", "Transform" ]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="wolken" type="Node2D" parent="sprites"]
+
+[node name="constantMovement" type="Node2D" parent="sprites"]
+
+_sections_unfolded = [ "Transform" ]
+
+[node name="ground" type="Node2D" parent="sprites/constantMovement"]
+
+_sections_unfolded = [ "Transform" ]
+__meta__ = {
+"_edit_group_": true,
+"_edit_lock_": true
+}
+
+[node name="Sprite1" type="Sprite" parent="sprites/constantMovement/ground"]
+
+editor/display_folded = true
+position = Vector2( 2400.79, 380 )
+texture = ExtResource( 10 )
+offset = Vector2( -1200, 1 )
+region_rect = Rect2( 0, 0, 2500, 26 )
+_sections_unfolded = [ "Material", "Offset", "Region", "Transform" ]
+
+[node name="VisibilityNotifier2D" type="VisibilityNotifier2D" parent="sprites/constantMovement/ground/Sprite1"]
+
+rect = Rect2( -10, -10, 20, 20 )
+
+[node name="Sprite2" type="Sprite" parent="sprites/constantMovement/ground"]
+
+editor/display_folded = true
+position = Vector2( 4800, 380 )
+texture = ExtResource( 10 )
+offset = Vector2( -1200, 1 )
+region_rect = Rect2( 0, 0, 2500, 26 )
+_sections_unfolded = [ "Material", "Offset", "Region", "Transform" ]
+
+[node name="VisibilityNotifier2D" type="VisibilityNotifier2D" parent="sprites/constantMovement/ground/Sprite2"]
+
+rect = Rect2( -10, -10, 20, 20 )
+
+[node name="obstacles" type="Node2D" parent="sprites/constantMovement"]
+
+[node name="restartPoints" type="Node2D" parent="sprites/constantMovement"]
+
+[node name="collectables" type="Node2D" parent="sprites"]
+
+[node name="enemys" type="Node2D" parent="sprites"]
+
+[node name="parallaxForeground" parent="sprites" instance=ExtResource( 11 )]
+
+[node name="players" type="Node2D" parent="."]
+
+position = Vector2( 51.2639, 47.1628 )
+_sections_unfolded = [ "Transform" ]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="groundCollision" type="StaticBody2D" parent="." groups=[
+"ground",
+]]
+
+input_pickable = false
+collision_layer = 3
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+_sections_unfolded = [ "Collision", "Pickable", "Transform" ]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="groundCollision"]
+
+position = Vector2( 485.777, 398.802 )
+rotation = 3.14159
+scale = Vector2( 30.2855, 1.74003 )
+shape = SubResource( 8 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="leftBlock" type="StaticBody2D" parent="."]
+
+editor/display_folded = true
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 0.0
+bounce = 0.0
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="leftBlock"]
+
+position = Vector2( -20, -73.4225 )
+scale = Vector2( 1.65385, 62.1349 )
+shape = SubResource( 9 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="rightBlock" type="StaticBody2D" parent="."]
+
+editor/display_folded = true
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 0.0
+bounce = 0.0
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="rightBlock"]
+
+position = Vector2( 1040.72, -91.1267 )
+scale = Vector2( 1.65385, 62.1349 )
+shape = SubResource( 9 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="GameOverScreen" parent="." instance=ExtResource( 12 )]
+
+editor/display_folded = true
+visible = false
+
+[node name="cameraNode" parent="." instance=ExtResource( 13 )]
+
+[node name="shaderSpass" type="Sprite" parent="."]
+
+material = SubResource( 10 )
+position = Vector2( -84.333, -59.662 )
+scale = Vector2( 18.2812, 11.349 )
+z = 4095
+texture = ExtResource( 15 )
+centered = false
+_sections_unfolded = [ "Material", "Offset", "Transform", "Visibility", "Z" ]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+root_node = NodePath("..")
+anims/daynightcycle = SubResource( 11 )
+playback/active = true
+playback/speed = 1.0
+blend_times = [  ]
+autoplay = "daynightcycle"
+_sections_unfolded = [ "Playback Options", "playback" ]
+
+[connection signal="pressed" from="hud/menu" to="." method="_on_menu_pressed"]
+
+[connection signal="restartGame" from="hud/PopupMenu" to="." method="_on_PopupMenu_restartGame"]
+
+[connection signal="toggled" from="hud/Mute" to="." method="_on_Mute_toggled"]
+
+[connection signal="screen_exited" from="sprites/constantMovement/ground/Sprite1/VisibilityNotifier2D" to="." method="_on_VisibilityNotifier2D_screen_exited"]
+
+[connection signal="screen_exited" from="sprites/constantMovement/ground/Sprite2/VisibilityNotifier2D" to="." method="_on_VisibilityNotifier2D_screen_exited"]
+
+[connection signal="restartGame" from="GameOverScreen" to="." method="_on_GameOverScreen_restartGame"]
+
+
