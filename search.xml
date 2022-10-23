@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>博客终于弄好了</title>
+    <url>/2022/10/06/%E5%8D%9A%E5%AE%A2%E7%BB%88%E4%BA%8E%E5%BC%84%E5%A5%BD%E4%BA%86/</url>
+    <content><![CDATA[<p><a href="https://zhuanlan.zhihu.com/p/102592286">参考教程</a></p>
+<p>域名：<a href="https://www.namesilo.com/?rid=3853d48oc">NameSilo</a><br>服务器＆DNS：<a href="https://dash.cloudflare.com/">Cloudflare</a><br><a href="https://hexo.io/zh-cn/">Hexo</a>部署</p>
+]]></content>
+  </entry>
+  <entry>
     <title>如何创建自己的&#39;机器贝&#39;</title>
     <url>/2022/10/10/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84-%E6%9C%BA%E5%99%A8%E8%B4%9D/</url>
     <content><![CDATA[<p><mark>提示：最好用虚拟机或者备用机弄机器人，否则会有一系列问题影响正常使用</mark></p>
@@ -19,13 +26,6 @@
       <tags>
         <tag>新手教程</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>博客终于弄好了</title>
-    <url>/2022/10/06/%E5%8D%9A%E5%AE%A2%E7%BB%88%E4%BA%8E%E5%BC%84%E5%A5%BD%E4%BA%86/</url>
-    <content><![CDATA[<p><a href="https://zhuanlan.zhihu.com/p/102592286">参考教程</a></p>
-<p>域名：<a href="https://www.namesilo.com/?rid=3853d48oc">NameSilo</a><br>服务器＆DNS：<a href="https://dash.cloudflare.com/">Cloudflare</a><br><a href="https://hexo.io/zh-cn/">Hexo</a>部署</p>
-]]></content>
   </entry>
   <entry>
     <title>萌新玩我的世界JAVA服务器教程</title>
