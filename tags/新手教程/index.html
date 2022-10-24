@@ -1023,8 +1023,6 @@
     
     <!-- 背景彩带 -->
     
-      <script type="text/javascript" size="100" alpha='0.4' zIndex="-1" src="/js/ribbon.min.js"></script>
-    
 
     <script src="/js/utils/index.js"></script>
     <script src="/js/app.js"></script>
@@ -1336,7 +1334,7 @@
 <!-- 具体js，请前往valine/script.ejs查看 -->
 
     <script>
-  var requiredFields = 'nick,mail';
+  var requiredFields = 'nick';
   requiredFields = requiredFields.split(',');
   comment_el = '.comment';
   let looperValine = null;
@@ -1349,7 +1347,7 @@
         verify: false,
         app_id: "RuXFNZdTtQXteKfdVNN0L4I7-gzGzoHsz",
         app_key: "txft6MvvbiopFEvUO4hpRCxo",
-        placeholder: "发条评论吧",
+        placeholder: "来发评论吧~",
         avatar: "",
         master: "",   //博主邮箱md5
         tagMeta: ["博主","小伙伴","访客"],     //标识字段名
