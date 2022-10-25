@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>博客终于弄好了</title>
-    <url>/2022/10/06/%E5%8D%9A%E5%AE%A2%E7%BB%88%E4%BA%8E%E5%BC%84%E5%A5%BD%E4%BA%86/</url>
-    <content><![CDATA[<p><a href="https://zhuanlan.zhihu.com/p/102592286">参考教程</a></p>
-<p>域名：<a href="https://www.namesilo.com/?rid=3853d48oc">NameSilo</a><br>服务器＆DNS：<a href="https://dash.cloudflare.com/">Cloudflare</a><br><a href="https://hexo.io/zh-cn/">Hexo</a>部署</p>
-]]></content>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>如何创建自己的&#39;机器贝&#39;</title>
     <url>/2022/10/10/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84-%E6%9C%BA%E5%99%A8%E8%B4%9D/</url>
     <content><![CDATA[<p><mark>提示：最好用虚拟机或者备用机弄机器人，否则会有一系列问题影响正常使用</mark></p>
@@ -27,6 +17,16 @@
 ]]></content>
       <tags>
         <tag>新手教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客终于弄好了</title>
+    <url>/2022/10/06/%E5%8D%9A%E5%AE%A2%E7%BB%88%E4%BA%8E%E5%BC%84%E5%A5%BD%E4%BA%86/</url>
+    <content><![CDATA[<p><a href="https://zhuanlan.zhihu.com/p/102592286">参考教程</a></p>
+<p>域名：<a href="https://www.namesilo.com/?rid=3853d48oc">NameSilo</a><br>服务器＆DNS：<a href="https://dash.cloudflare.com/">Cloudflare</a><br><a href="https://hexo.io/zh-cn/">Hexo</a>部署</p>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -63,10 +63,36 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
 
 <p>出现yes&#x2F;no选择，输入yes即可</p>
+<p>在Github新建一个储存库，名字写text</p>
+<p><img src="D:\Blog_imagine\Snipaste_2022-10-25_18-46-52.png" class="lazyload placeholder" data-srcset="D:\Blog_imagine\Snipaste_2022-10-25_18-46-52.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"></p>
+<p><img src="D:\Blog_imagine\Snipaste_2022-10-25_18-46-01.png" class="lazyload placeholder" data-srcset="D:\Blog_imagine\Snipaste_2022-10-25_18-46-01.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"></p>
+<p>进入库，复制链接</p>
+<p><img src="D:\Blog_imagine\复制链接.png" class="lazyload placeholder" data-srcset="D:\Blog_imagine\复制链接.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"></p>
+<p>在之前建的文件夹text里打开Git bash，输入</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone 复制的链接</span><br></pre></td></tr></table></figure>
+
+<p><mark>*git中的复制粘贴是 Ctrl+insert 和Shift+insert</mark></p>
+<p>在本地就会克隆库的内容，新建一个text.txt文件</p>
+<p><img src="D:\Blog_imagine\新建text.png" class="lazyload placeholder" data-srcset="D:\Blog_imagine\新建text.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"></p>
+<p>打开Git bash，输入</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git add text.txt</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"> git commit -m &quot;commit text file&quot;</span><br></pre></td></tr></table></figure>
+
+<p>第一次提交要填邮箱和用户名，输入</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">git config --global user.email <span class="string">&quot;你的邮箱&quot;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;你的用户名&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>现在要将本地库提交到Github，输入</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git push origin main</span><br></pre></td></tr></table></figure>
+
+<p>第一次上传需要验证邮箱，验证即可</p>
+<p>现在在github库里可以看到text文件了</p>
 ]]></content>
       <tags>
-        <tag>hexo</tag>
         <tag>新手教程</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -83,6 +109,58 @@
 ]]></content>
       <tags>
         <tag>新手教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>搭建hexo博客教程（2）</title>
+    <url>/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/</url>
+    <content><![CDATA[<h2 id="安装nodejs"><a href="#安装nodejs" class="headerlink" title="安装nodejs"></a>安装nodejs</h2><p><a href="https://nodejs.org/zh-cn/">nodejs下载</a></p>
+<p>翻到第17页下载12.15.0版本</p>
+<p><img src="D:\Blog_imagine\下载nodejs.png" class="lazyload placeholder" data-srcset="D:\Blog_imagine\下载nodejs.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"></p>
+<p>下载完成打开，一直按next安装就好</p>
+<p>Win+R打开cmd，输入命令查看是否安装成功</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure>
+
+<p>在nodejs文件中新建两个文件夹，分别命名node_cache和node_global</p>
+<p>打开电脑控制面板，编辑系统环境变量</p>
+<p>系统变量中新建变量，名为NODE_PATH，值为D:\nodejs\node_global\node_modules</p>
+<p><img src="D:\Blog_imagine\环境变量1.png" class="lazyload placeholder" data-srcset="D:\Blog_imagine\环境变量1.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"></p>
+<p>再将用户变量的Path的npm路径改为D:\nodejs\node_global,并新建一个路径D:\Blog\node_modules\hexo-cli\bin</p>
+<p><img src="D:\Blog_imagine\环境变量2.png" class="lazyload placeholder" data-srcset="D:\Blog_imagine\环境变量2.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"></p>
+<p><img src="D:\Blog_imagine\环境变量3.png" class="lazyload placeholder" data-srcset="D:\Blog_imagine\环境变量3.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"></p>
+<p>点击确认保存设置</p>
+<p>打开cmd，输入</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install webpack -g</span><br></pre></td></tr></table></figure>
+
+<h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><p>在github中新建储存库，名称随便填</p>
+<p><img src="D:\Blog_imagine\新建储存库.png" class="lazyload placeholder" data-srcset="D:\Blog_imagine\新建储存库.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"></p>
+<p>D盘新建文件夹，名称为Blog，打开cmd，输入</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+
+<p>打开Blog文件，打开Git bash，输入</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
+
+<p>以笔记本打开 _config.yml文件，在最下面写上</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: 你的储存库链接</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+
+<p><mark>*冒号都为英语的冒号，冒号和内容之间有空格（之后的所有设置也是这样）</mark></p>
+<p>再打开Git bash，输入</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+<p>完成后再输入</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+
+<h2 id="购买域名"><a href="#购买域名" class="headerlink" title="购买域名"></a>购买域名</h2><p>推荐<a href="https://www.namesilo.com/?rid=3853d48oc">namesilo</a>，比较便宜</p>
+]]></content>
+      <tags>
+        <tag>新手教程</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
 </search>
