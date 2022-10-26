@@ -30,79 +30,6 @@
       </tags>
   </entry>
   <entry>
-    <title>搭建hexo博客教程（2）</title>
-    <url>/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="安装nodejs"><a href="#安装nodejs" class="headerlink" title="安装nodejs"></a>安装nodejs</h2><p><a href="https://nodejs.org/zh-cn/">nodejs下载</a></p>
-<p>翻到第17页下载12.15.0版本</p>
-<img src="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E4%B8%8B%E8%BD%BDnodejs.png" class="lazyload placeholder" data-srcset="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E4%B8%8B%E8%BD%BDnodejs.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
-
-<p>下载完成打开，一直按next安装就好</p>
-<p>Win+R打开cmd，输入命令查看是否安装成功</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure>
-
-<p>在nodejs文件中新建两个文件夹，分别命名node_cache和node_global</p>
-<p>打开电脑控制面板，编辑系统环境变量</p>
-<p>系统变量中新建变量，名为NODE_PATH，值为D:\nodejs\node_global\node_modules</p>
-<p>再将用户变量的Path的npm路径改为D:\nodejs\node_global,并新建一个路径D:\Blog\node_modules\hexo-cli\bin</p>
-<img src="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F1.png" class="lazyload placeholder" data-srcset="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F1.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
-
-<img src="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F2.png" class="lazyload placeholder" data-srcset="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F2.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
-
-<img src="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F3.png" class="lazyload placeholder" data-srcset="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F3.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
-
-<p>点击确认保存设置</p>
-<p>打开cmd，输入</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install webpack -g</span><br></pre></td></tr></table></figure>
-
-<h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><p>在github中新建储存库，名称随便填</p>
-<img src="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E6%96%B0%E5%BB%BA%E5%82%A8%E5%AD%98%E5%BA%93.png" class="lazyload placeholder" data-srcset="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E6%96%B0%E5%BB%BA%E5%82%A8%E5%AD%98%E5%BA%93.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
-
-<p>D盘新建文件夹，名称为Blog，打开cmd，输入</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
-
-<p>打开Blog文件，打开Git bash，输入</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
-
-<p>以笔记本打开 _config.yml文件，在最下面写上</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: 你的储存库链接</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
-
-<p><mark>*冒号都为英语的冒号，冒号和内容之间有空格（之后的所有设置也是这样）</mark></p>
-<p>再打开Git bash，输入</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-
-<p>完成后再输入</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-
-<h2 id="购买域名"><a href="#购买域名" class="headerlink" title="购买域名"></a>购买域名</h2><p>推荐<a href="https://www.namesilo.com/?rid=3853d48oc">namesilo</a>，比较便宜</p>
-]]></content>
-      <tags>
-        <tag>新手教程</tag>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>萌新玩我的世界JAVA服务器教程</title>
-    <url>/2022/10/09/%E8%90%8C%E6%96%B0%E7%8E%A9%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8CJAVA%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="安装hmcl启动器"><a href="#安装hmcl启动器" class="headerlink" title="安装hmcl启动器"></a>安装hmcl启动器</h2><p><a href="https://url94.ctfile.com/d/33326794-44675752-fc62fc">下载hmcl（Windows）</a>（访问密码5267）<br> <a href="https://wwc.lanzoub.com/iKwAu0e4bi2f">下载hmcl（安卓）</a>（密码:5iq9）</p>
-<span id="more"></span>
-
-<p><img src="https://picx.zhimg.com/80/v2-2ec57081a55a676c827ed8f030b7f548_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-2ec57081a55a676c827ed8f030b7f548_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="点击文件名下载">下载完成后直接打开</p>
-<h2 id="添加账户"><a href="#添加账户" class="headerlink" title="添加账户"></a>添加账户</h2><p><img src="https://picx.zhimg.com/80/v2-7c3f7c55d54e8f62d4147ac717795aed_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-7c3f7c55d54e8f62d4147ac717795aed_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="点击左侧的账户"></p>
-<p>如果你没有正版，用离线模式即可，离线模式可以玩没有正版验证的服务器</p>
-<h2 id="下载服务器的版本"><a href="#下载服务器的版本" class="headerlink" title="下载服务器的版本"></a>下载服务器的版本</h2><p>这里以1.16.5为例 <img src="https://picx.zhimg.com/80/v2-87a34b0d86feca67a2e2b9742be7618a_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-87a34b0d86feca67a2e2b9742be7618a_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="点击左侧下载"> <img src="https://pic1.zhimg.com/80/v2-b921cba769deb5bf4b66f9659b6b7e54_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-b921cba769deb5bf4b66f9659b6b7e54_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="选择版本"> <img src="https://pic1.zhimg.com/80/v2-ebef5796af2ca6bc99a936e300dfd1d6_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-ebef5796af2ca6bc99a936e300dfd1d6_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="安装">安装完成后回到主界面启动游戏</p>
-<h2 id="添加服务器"><a href="#添加服务器" class="headerlink" title="添加服务器"></a>添加服务器</h2><p><img src="https://pic1.zhimg.com/80/v2-651db25f6ef266f6407e8832a39825c3_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-651db25f6ef266f6407e8832a39825c3_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="点击多人游戏"> <img src="https://pic1.zhimg.com/80/v2-a3a2de81972340347123843706461e4a_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-a3a2de81972340347123843706461e4a_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="添加服务器"> <img src="https://picx.zhimg.com/80/v2-f5460974d552c7fc0144a71679296498_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-f5460974d552c7fc0144a71679296498_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="填服务器信息">添加完成后就可以进服务器游玩了</p>
-]]></content>
-      <tags>
-        <tag>新手教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>搭建hexo博客教程（1）</title>
     <url>/2022/10/24/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%881%EF%BC%89/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="注册Github账号"><a href="#注册Github账号" class="headerlink" title="注册Github账号"></a>注册<a href="https://github.com/">Github</a>账号</h2><p>注册完成后验证邮箱</p>
@@ -173,8 +100,76 @@
       </tags>
   </entry>
   <entry>
-    <title>胡锦涛‘被请离’</title>
-    <url>/2022/10/26/%E8%83%A1%E9%94%A6%E6%B6%9B%E2%80%98%E8%A2%AB%E8%AF%B7%E7%A6%BB%E2%80%99/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+    <title>萌新玩我的世界JAVA服务器教程</title>
+    <url>/2022/10/09/%E8%90%8C%E6%96%B0%E7%8E%A9%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8CJAVA%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="安装hmcl启动器"><a href="#安装hmcl启动器" class="headerlink" title="安装hmcl启动器"></a>安装hmcl启动器</h2><p><a href="https://url94.ctfile.com/d/33326794-44675752-fc62fc">下载hmcl（Windows）</a>（访问密码5267）<br> <a href="https://wwc.lanzoub.com/iKwAu0e4bi2f">下载hmcl（安卓）</a>（密码:5iq9）</p>
+<span id="more"></span>
+
+<p><img src="https://picx.zhimg.com/80/v2-2ec57081a55a676c827ed8f030b7f548_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-2ec57081a55a676c827ed8f030b7f548_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="点击文件名下载">下载完成后直接打开</p>
+<h2 id="添加账户"><a href="#添加账户" class="headerlink" title="添加账户"></a>添加账户</h2><p><img src="https://picx.zhimg.com/80/v2-7c3f7c55d54e8f62d4147ac717795aed_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-7c3f7c55d54e8f62d4147ac717795aed_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="点击左侧的账户"></p>
+<p>如果你没有正版，用离线模式即可，离线模式可以玩没有正版验证的服务器</p>
+<h2 id="下载服务器的版本"><a href="#下载服务器的版本" class="headerlink" title="下载服务器的版本"></a>下载服务器的版本</h2><p>这里以1.16.5为例 <img src="https://picx.zhimg.com/80/v2-87a34b0d86feca67a2e2b9742be7618a_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-87a34b0d86feca67a2e2b9742be7618a_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="点击左侧下载"> <img src="https://pic1.zhimg.com/80/v2-b921cba769deb5bf4b66f9659b6b7e54_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-b921cba769deb5bf4b66f9659b6b7e54_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="选择版本"> <img src="https://pic1.zhimg.com/80/v2-ebef5796af2ca6bc99a936e300dfd1d6_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-ebef5796af2ca6bc99a936e300dfd1d6_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="安装">安装完成后回到主界面启动游戏</p>
+<h2 id="添加服务器"><a href="#添加服务器" class="headerlink" title="添加服务器"></a>添加服务器</h2><p><img src="https://pic1.zhimg.com/80/v2-651db25f6ef266f6407e8832a39825c3_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-651db25f6ef266f6407e8832a39825c3_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="点击多人游戏"> <img src="https://pic1.zhimg.com/80/v2-a3a2de81972340347123843706461e4a_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-a3a2de81972340347123843706461e4a_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="添加服务器"> <img src="https://picx.zhimg.com/80/v2-f5460974d552c7fc0144a71679296498_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-f5460974d552c7fc0144a71679296498_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="填服务器信息">添加完成后就可以进服务器游玩了</p>
+]]></content>
+      <tags>
+        <tag>新手教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>搭建hexo博客教程（2）</title>
+    <url>/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="安装nodejs"><a href="#安装nodejs" class="headerlink" title="安装nodejs"></a>安装nodejs</h2><p><a href="https://nodejs.org/zh-cn/">nodejs下载</a></p>
+<p>翻到第17页下载12.15.0版本</p>
+<img src="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E4%B8%8B%E8%BD%BDnodejs.png" class="lazyload placeholder" data-srcset="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E4%B8%8B%E8%BD%BDnodejs.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+
+<p>下载完成打开，一直按next安装就好</p>
+<p>Win+R打开cmd，输入命令查看是否安装成功</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure>
+
+<p>在nodejs文件中新建两个文件夹，分别命名node_cache和node_global</p>
+<p>打开电脑控制面板，编辑系统环境变量</p>
+<p>系统变量中新建变量，名为NODE_PATH，值为D:\nodejs\node_global\node_modules</p>
+<p>再将用户变量的Path的npm路径改为D:\nodejs\node_global,并新建一个路径D:\Blog\node_modules\hexo-cli\bin</p>
+<img src="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F1.png" class="lazyload placeholder" data-srcset="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F1.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+
+<img src="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F2.png" class="lazyload placeholder" data-srcset="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F2.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+
+<img src="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F3.png" class="lazyload placeholder" data-srcset="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F3.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+
+<p>点击确认保存设置</p>
+<p>打开cmd，输入</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install webpack -g</span><br></pre></td></tr></table></figure>
+
+<h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><p>在github中新建储存库，名称随便填</p>
+<img src="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E6%96%B0%E5%BB%BA%E5%82%A8%E5%AD%98%E5%BA%93.png" class="lazyload placeholder" data-srcset="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E6%96%B0%E5%BB%BA%E5%82%A8%E5%AD%98%E5%BA%93.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+
+<p>D盘新建文件夹，名称为Blog，打开cmd，输入</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+
+<p>打开Blog文件，打开Git bash，输入</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
+
+<p>以笔记本打开 _config.yml文件，在最下面写上</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: 你的储存库链接</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+
+<p><mark>*冒号都为英语的冒号，冒号和内容之间有空格（之后的所有设置也是这样）</mark></p>
+<p>再打开Git bash，输入</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+<p>完成后再输入</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+
+<h2 id="购买域名"><a href="#购买域名" class="headerlink" title="购买域名"></a>购买域名</h2><p>推荐<a href="https://www.namesilo.com/?rid=3853d48oc">namesilo</a>，比较便宜</p>
+]]></content>
+      <tags>
+        <tag>新手教程</tag>
+        <tag>hexo</tag>
+      </tags>
   </entry>
 </search>
