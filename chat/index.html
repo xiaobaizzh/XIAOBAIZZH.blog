@@ -11,7 +11,7 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-  <title>搭建hexo博客教程（2） | 波兰仔的博客</title>
+  <title>聊天室 | 波兰仔的博客</title>
 
   <link rel="icon" type="image/png" href="/medias/favicon.png">
   <link rel="stylesheet" href="https://at.alicdn.com/t/font_1911880_c1nvbyezg17.css">
@@ -553,21 +553,21 @@
 
 
 <div class="post-detail-header" id="thumbnail_canvas" style="background-repeat: no-repeat; background-size: cover; 
-  background-position: center center;position: relative;background-image:url('/medias/7.jpg')">
+  background-position: center center;position: relative;background-image:url('/medias/3.jpg')">
   <div class="post-detail-header-mask"></div>
   <canvas id="header_canvas"style="position:absolute;bottom:0;pointer-events:none;"></canvas>
   
   <div class="post-detail-header_info-box">
     <div class="title-box">
       <span class="title">
-        搭建hexo博客教程（2）
+        聊天室
       </span>
     </div>
     
     
       
         <span class="post-detail-header_date">
-          <i class="fas fa-calendar"></i> 发表于：2022-10-25 |
+          <i class="fas fa-calendar"></i> 发表于：2022-10-27 |
         </span>
       
 
@@ -576,7 +576,7 @@
       
         <div class="post-detail-header_wordcount">
           <span class="totalcount">
-            <i class="fas fa-file-text-o"></i> 字数统计: 292 |
+            <i class="fas fa-file-text-o"></i> 字数统计: 0 |
           </span>
   
           <span class="min2read">
@@ -607,69 +607,9 @@
   <div class="main-content">
     <article class="post post-detail">
       <div class="post-content">
-        <h2 id="安装nodejs"><a href="#安装nodejs" class="headerlink" title="安装nodejs"></a>安装nodejs</h2><p><a target="_blank" rel="noopener" href="https://nodejs.org/zh-cn/">nodejs下载</a></p>
-<p>翻到第17页下载12.15.0版本</p>
-<img src="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E4%B8%8B%E8%BD%BDnodejs.png" class="lazyload placeholder" data-srcset="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E4%B8%8B%E8%BD%BDnodejs.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
-
-<p>下载完成打开，一直按next安装就好</p>
-<p>Win+R打开cmd，输入命令查看是否安装成功</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure>
-
-<p>在nodejs文件中新建两个文件夹，分别命名node_cache和node_global</p>
-<p>打开电脑控制面板，编辑系统环境变量</p>
-<p>系统变量中新建变量，名为NODE_PATH，值为D:\nodejs\node_global\node_modules</p>
-<p>再将用户变量的Path的npm路径改为D:\nodejs\node_global,并新建一个路径D:\Blog\node_modules\hexo-cli\bin</p>
-<img src="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F1.png" class="lazyload placeholder" data-srcset="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F1.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
-
-<img src="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F2.png" class="lazyload placeholder" data-srcset="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F2.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
-
-<img src="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F3.png" class="lazyload placeholder" data-srcset="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F3.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
-
-<p>点击确认保存设置</p>
-<p>打开cmd，输入</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install webpack -g</span><br></pre></td></tr></table></figure>
-
-<h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><p>在github中新建储存库，名称随便填</p>
-<img src="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E6%96%B0%E5%BB%BA%E5%82%A8%E5%AD%98%E5%BA%93.png" class="lazyload placeholder" data-srcset="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E6%96%B0%E5%BB%BA%E5%82%A8%E5%AD%98%E5%BA%93.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
-
-<p>D盘新建文件夹，名称为Blog，打开cmd，输入</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
-
-<p>打开Blog文件，打开Git bash，输入</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
-
-<p>以笔记本打开 _config.yml文件，在最下面写上</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: 你的储存库链接</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
-
-<p><mark>*冒号都为英语的冒号，冒号和内容之间有空格（之后的所有设置也是这样）</mark></p>
-<p>再打开Git bash，输入</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-
-<p>完成后再输入</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-
-<h2 id="购买域名"><a href="#购买域名" class="headerlink" title="购买域名"></a>购买域名</h2><p>推荐<a target="_blank" rel="noopener" href="https://www.namesilo.com/?rid=3853d48oc">namesilo</a>，比较便宜</p>
-
+        
       </div>
       <div class="post-tags-categories">
-        
-        <div class="tags">
-          
-            <a href="/tags/hexo/" class="">
-              hexo
-            </a>
-          
-            <a href="/tags/%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B/" class="">
-              新手教程
-            </a>
-          
-        </div>
         
       </div>
       
@@ -680,7 +620,7 @@
     </li>
     <li class="post-copyright-link">
     <strong>文章链接:  </strong>
-    <a href="/2022/10/25/搭建hexo博客教程（2）/" target="_blank" title="搭建hexo博客教程（2）">http://baicarrots.top/2022/10/25/搭建hexo博客教程（2）/</a>
+    <a href="/chat/index.html" target="_blank" title="聊天室">http://baicarrots.top/chat/index.html</a>
     </li>
     <li class="post-copyright-license">
       <strong>版权声明:   </strong>
@@ -699,30 +639,6 @@
 
 
 
-
-  
-  <div class="post-nav-next post-nav-item">
-    <div class="post-nav-img" style="background-size: cover; 
-      background-position: center center;">
-      <img class="lazyload lazyload placeholder" src="/medias/8.jpg" class="lazyload placeholder" data-srcset="/medias/8.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" src="" alt="">
-    </div>
-    <a href="/2022/10/24/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%881%EF%BC%89/" class="post-nav-link">
-      <div class="title">
-        下一篇: <i class="fas fa-angle-right"></i>
-        <div class="title-text">搭建hexo博客教程（1）</div>
-      </div>
-      <!-- <div class="content">
-        注册Github账号注册完成后验证邮箱
-安装GitGit官网
-
-
-例如我是windows
-
-下载完成后打开安装程序
-除了
-      </div> -->
-    </a>
-  </div>
 
 </div>
 
