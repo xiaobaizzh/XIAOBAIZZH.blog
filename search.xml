@@ -30,6 +30,63 @@
       </tags>
   </entry>
   <entry>
+    <title>搭建hexo博客教程（2）</title>
+    <url>/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="安装nodejs"><a href="#安装nodejs" class="headerlink" title="安装nodejs"></a>安装nodejs</h2><p><a href="https://nodejs.org/zh-cn/">nodejs下载</a></p>
+<p>翻到第17页下载12.15.0版本</p>
+<img src="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E4%B8%8B%E8%BD%BDnodejs.png" class="lazyload placeholder" data-srcset="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E4%B8%8B%E8%BD%BDnodejs.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+
+<p>下载完成打开，一直按next安装就好</p>
+<p>Win+R打开cmd，输入命令查看是否安装成功</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure>
+
+<p>在nodejs文件中新建两个文件夹，分别命名node_cache和node_global</p>
+<p>打开电脑控制面板，编辑系统环境变量</p>
+<p>系统变量中新建变量，名为NODE_PATH，值为D:\nodejs\node_global\node_modules</p>
+<p>再将用户变量的Path的npm路径改为D:\nodejs\node_global,并新建一个路径D:\Blog\node_modules\hexo-cli\bin</p>
+<img src="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F1.png" class="lazyload placeholder" data-srcset="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F1.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+
+<img src="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F2.png" class="lazyload placeholder" data-srcset="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F2.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+
+<img src="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F3.png" class="lazyload placeholder" data-srcset="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F3.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+
+<p>点击确认保存设置</p>
+<p>打开cmd，输入</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install webpack -g</span><br></pre></td></tr></table></figure>
+
+<h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><p>在github中新建储存库，名称随便填</p>
+<img src="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E6%96%B0%E5%BB%BA%E5%82%A8%E5%AD%98%E5%BA%93.png" class="lazyload placeholder" data-srcset="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E6%96%B0%E5%BB%BA%E5%82%A8%E5%AD%98%E5%BA%93.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+
+<p>D盘新建文件夹，名称为Blog，打开cmd，输入</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+
+<p>打开Blog文件，打开Git bash，输入</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
+
+<p>以笔记本打开 _config.yml文件，在最下面写上</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: 你的储存库链接</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+
+<p><mark>*冒号都为英语的冒号，冒号和内容之间有空格（之后的所有设置也是这样）</mark></p>
+<p>再打开Git bash，输入</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+<p>完成后再输入</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+
+<h2 id="购买域名"><a href="#购买域名" class="headerlink" title="购买域名"></a>购买域名</h2><p>推荐<a href="https://www.namesilo.com/?rid=3853d48oc">namesilo</a>，比较便宜</p>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
+        <tag>新手教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>搭建hexo博客教程（1）</title>
     <url>/2022/10/24/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%881%EF%BC%89/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="注册Github账号"><a href="#注册Github账号" class="headerlink" title="注册Github账号"></a>注册<a href="https://github.com/">Github</a>账号</h2><p>注册完成后验证邮箱</p>
@@ -93,63 +150,6 @@
 
 <p>第一次上传需要验证邮箱，验证即可</p>
 <p>现在在github库里可以看到text文件了</p>
-]]></content>
-      <tags>
-        <tag>hexo</tag>
-        <tag>新手教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>搭建hexo博客教程（2）</title>
-    <url>/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="安装nodejs"><a href="#安装nodejs" class="headerlink" title="安装nodejs"></a>安装nodejs</h2><p><a href="https://nodejs.org/zh-cn/">nodejs下载</a></p>
-<p>翻到第17页下载12.15.0版本</p>
-<img src="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E4%B8%8B%E8%BD%BDnodejs.png" class="lazyload placeholder" data-srcset="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E4%B8%8B%E8%BD%BDnodejs.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
-
-<p>下载完成打开，一直按next安装就好</p>
-<p>Win+R打开cmd，输入命令查看是否安装成功</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure>
-
-<p>在nodejs文件中新建两个文件夹，分别命名node_cache和node_global</p>
-<p>打开电脑控制面板，编辑系统环境变量</p>
-<p>系统变量中新建变量，名为NODE_PATH，值为D:\nodejs\node_global\node_modules</p>
-<p>再将用户变量的Path的npm路径改为D:\nodejs\node_global,并新建一个路径D:\Blog\node_modules\hexo-cli\bin</p>
-<img src="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F1.png" class="lazyload placeholder" data-srcset="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F1.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
-
-<img src="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F2.png" class="lazyload placeholder" data-srcset="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F2.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
-
-<img src="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F3.png" class="lazyload placeholder" data-srcset="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F3.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
-
-<p>点击确认保存设置</p>
-<p>打开cmd，输入</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install webpack -g</span><br></pre></td></tr></table></figure>
-
-<h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><p>在github中新建储存库，名称随便填</p>
-<img src="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E6%96%B0%E5%BB%BA%E5%82%A8%E5%AD%98%E5%BA%93.png" class="lazyload placeholder" data-srcset="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E6%96%B0%E5%BB%BA%E5%82%A8%E5%AD%98%E5%BA%93.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
-
-<p>D盘新建文件夹，名称为Blog，打开cmd，输入</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
-
-<p>打开Blog文件，打开Git bash，输入</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
-
-<p>以笔记本打开 _config.yml文件，在最下面写上</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: 你的储存库链接</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
-
-<p><mark>*冒号都为英语的冒号，冒号和内容之间有空格（之后的所有设置也是这样）</mark></p>
-<p>再打开Git bash，输入</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-
-<p>完成后再输入</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-
-<h2 id="购买域名"><a href="#购买域名" class="headerlink" title="购买域名"></a>购买域名</h2><p>推荐<a href="https://www.namesilo.com/?rid=3853d48oc">namesilo</a>，比较便宜</p>
 ]]></content>
       <tags>
         <tag>hexo</tag>
