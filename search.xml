@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>博客终于弄好了</title>
-    <url>/2022/10/06/%E5%8D%9A%E5%AE%A2%E7%BB%88%E4%BA%8E%E5%BC%84%E5%A5%BD%E4%BA%86/</url>
+    <url>/2022/10/06/bo-ke-zhong-yu-nong-hao-liao/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><a href="https://zhuanlan.zhihu.com/p/102592286">参考教程</a></p>
 <p>域名：<a href="https://www.namesilo.com/?rid=3853d48oc">NameSilo</a><br>服务器＆DNS：<a href="https://dash.cloudflare.com/">Cloudflare</a><br><a href="https://hexo.io/zh-cn/">Hexo</a>部署</p>
 ]]></content>
@@ -12,7 +12,7 @@
   </entry>
   <entry>
     <title>hexo搭建博客教程（3）</title>
-    <url>/2022/10/28/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%883%EF%BC%89/</url>
+    <url>/2022/10/28/hexo-da-jian-bo-ke-jiao-cheng-3/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>让我鸽两天</p>
 ]]></content>
       <tags>
@@ -22,7 +22,7 @@
   </entry>
   <entry>
     <title>如何创建自己的&#39;机器贝&#39;</title>
-    <url>/2022/10/10/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84-%E6%9C%BA%E5%99%A8%E8%B4%9D/</url>
+    <url>/2022/10/10/ru-he-chuang-jian-zi-ji-de-ji-qi-bei/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><mark>提示：最好用虚拟机或者备用机弄机器人，否则会有一系列问题影响正常使用</mark></p>
 <h2 id="注册一个新的微信账号"><a href="#注册一个新的微信账号" class="headerlink" title="注册一个新的微信账号"></a>注册一个新的微信账号</h2><p>（如果你不担心人和机器一个号说话的困扰，也可以不注册）<br><mark>*账号请务必实名认证（未成年人也可以实名，不影响使用的），不然大概率会封号</mark></p>
 <h2 id="去茉莉云网站注册账号"><a href="#去茉莉云网站注册账号" class="headerlink" title="去茉莉云网站注册账号"></a>去<a href="https://mlyai.com/profile/index.html#/dashboard">茉莉云网站</a>注册账号</h2><span id="more"></span>
@@ -41,10 +41,10 @@
   </entry>
   <entry>
     <title>搭建hexo博客教程（2）</title>
-    <url>/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/</url>
+    <url>/2022/10/25/da-jian-hexo-bo-ke-jiao-cheng-2/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="安装nodejs"><a href="#安装nodejs" class="headerlink" title="安装nodejs"></a>安装nodejs</h2><p><a href="https://nodejs.org/zh-cn/">nodejs下载</a></p>
 <p>翻到第17页下载12.15.0版本</p>
-<img src="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E4%B8%8B%E8%BD%BDnodejs.png" class="lazyload placeholder" data-srcset="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E4%B8%8B%E8%BD%BDnodejs.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<img src="/2022/10/25/da-jian-hexo-bo-ke-jiao-cheng-2/%E4%B8%8B%E8%BD%BDnodejs.png" class="lazyload placeholder" data-srcset="/2022/10/25/da-jian-hexo-bo-ke-jiao-cheng-2/%E4%B8%8B%E8%BD%BDnodejs.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
 
 <p>下载完成打开，一直按next安装就好</p>
 <p>Win+R打开cmd，输入命令查看是否安装成功</p>
@@ -54,18 +54,18 @@
 <p>打开电脑控制面板，编辑系统环境变量</p>
 <p>系统变量中新建变量，名为NODE_PATH，值为D:\nodejs\node_global\node_modules</p>
 <p>再将用户变量的Path的npm路径改为D:\nodejs\node_global,并新建一个路径D:\Blog\node_modules\hexo-cli\bin</p>
-<img src="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F1.png" class="lazyload placeholder" data-srcset="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F1.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<img src="/2022/10/25/da-jian-hexo-bo-ke-jiao-cheng-2/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F1.png" class="lazyload placeholder" data-srcset="/2022/10/25/da-jian-hexo-bo-ke-jiao-cheng-2/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F1.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
 
-<img src="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F2.png" class="lazyload placeholder" data-srcset="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F2.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<img src="/2022/10/25/da-jian-hexo-bo-ke-jiao-cheng-2/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F2.png" class="lazyload placeholder" data-srcset="/2022/10/25/da-jian-hexo-bo-ke-jiao-cheng-2/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F2.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
 
-<img src="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F3.png" class="lazyload placeholder" data-srcset="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F3.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<img src="/2022/10/25/da-jian-hexo-bo-ke-jiao-cheng-2/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F3.png" class="lazyload placeholder" data-srcset="/2022/10/25/da-jian-hexo-bo-ke-jiao-cheng-2/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F3.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
 
 <p>点击确认保存设置</p>
 <p>打开cmd，输入</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install webpack -g</span><br></pre></td></tr></table></figure>
 
 <h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><p>在github中新建储存库，名称随便填</p>
-<img src="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E6%96%B0%E5%BB%BA%E5%82%A8%E5%AD%98%E5%BA%93.png" class="lazyload placeholder" data-srcset="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E6%96%B0%E5%BB%BA%E5%82%A8%E5%AD%98%E5%BA%93.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<img src="/2022/10/25/da-jian-hexo-bo-ke-jiao-cheng-2/%E6%96%B0%E5%BB%BA%E5%82%A8%E5%AD%98%E5%BA%93.png" class="lazyload placeholder" data-srcset="/2022/10/25/da-jian-hexo-bo-ke-jiao-cheng-2/%E6%96%B0%E5%BB%BA%E5%82%A8%E5%AD%98%E5%BA%93.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
 
 <p>D盘新建文件夹，名称为Blog，打开cmd，输入</p>
 <figure class="highlight text"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
@@ -98,7 +98,7 @@
   </entry>
   <entry>
     <title>搭建hexo博客教程（1）</title>
-    <url>/2022/10/24/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%881%EF%BC%89/</url>
+    <url>/2022/10/24/da-jian-hexo-bo-ke-jiao-cheng-1/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="注册Github账号"><a href="#注册Github账号" class="headerlink" title="注册Github账号"></a>注册<a href="https://github.com/">Github</a>账号</h2><p>注册完成后验证邮箱</p>
 <h2 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h2><p><a href="https://git-scm.com/">Git官网</a></p>
 <p><img src="https://pic1.zhimg.com/80/v2-379a8b004dada6536c52ede0489d0d0f_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-379a8b004dada6536c52ede0489d0d0f_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="下载Git"></p>
@@ -131,19 +131,19 @@
 
 <p>出现yes&#x2F;no选择，输入yes即可</p>
 <p>在Github新建一个储存库，名字写text</p>
-<img src="/2022/10/24/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%881%EF%BC%89/Snipaste_2022-10-25_18-46-52.png" class="lazyload placeholder" data-srcset="/2022/10/24/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%881%EF%BC%89/Snipaste_2022-10-25_18-46-52.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<img src="/2022/10/24/da-jian-hexo-bo-ke-jiao-cheng-1/Snipaste_2022-10-25_18-46-52.png" class="lazyload placeholder" data-srcset="/2022/10/24/da-jian-hexo-bo-ke-jiao-cheng-1/Snipaste_2022-10-25_18-46-52.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
 
-<img src="/2022/10/24/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%881%EF%BC%89/Snipaste_2022-10-25_18-46-01.png" class="lazyload placeholder" data-srcset="/2022/10/24/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%881%EF%BC%89/Snipaste_2022-10-25_18-46-01.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<img src="/2022/10/24/da-jian-hexo-bo-ke-jiao-cheng-1/Snipaste_2022-10-25_18-46-01.png" class="lazyload placeholder" data-srcset="/2022/10/24/da-jian-hexo-bo-ke-jiao-cheng-1/Snipaste_2022-10-25_18-46-01.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
 
 <p>进入库，复制链接</p>
-<img src="/2022/10/24/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%881%EF%BC%89/%E5%A4%8D%E5%88%B6%E9%93%BE%E6%8E%A5.png" class="lazyload placeholder" data-srcset="/2022/10/24/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%881%EF%BC%89/%E5%A4%8D%E5%88%B6%E9%93%BE%E6%8E%A5.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<img src="/2022/10/24/da-jian-hexo-bo-ke-jiao-cheng-1/%E5%A4%8D%E5%88%B6%E9%93%BE%E6%8E%A5.png" class="lazyload placeholder" data-srcset="/2022/10/24/da-jian-hexo-bo-ke-jiao-cheng-1/%E5%A4%8D%E5%88%B6%E9%93%BE%E6%8E%A5.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
 
 <p>在之前建的文件夹text里打开Git bash，输入</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone 复制的链接</span><br></pre></td></tr></table></figure>
 
 <p><mark>*git中的复制粘贴是 Ctrl+insert 和Shift+insert</mark></p>
 <p>在本地就会克隆库的内容，新建一个text.txt文件</p>
-<img src="/2022/10/24/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%881%EF%BC%89/%E6%96%B0%E5%BB%BAtext.png" class="lazyload placeholder" data-srcset="/2022/10/24/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%881%EF%BC%89/%E6%96%B0%E5%BB%BAtext.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<img src="/2022/10/24/da-jian-hexo-bo-ke-jiao-cheng-1/%E6%96%B0%E5%BB%BAtext.png" class="lazyload placeholder" data-srcset="/2022/10/24/da-jian-hexo-bo-ke-jiao-cheng-1/%E6%96%B0%E5%BB%BAtext.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
 
 <p>打开Git bash，输入</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git add text.txt</span><br></pre></td></tr></table></figure>
@@ -168,7 +168,7 @@
   </entry>
   <entry>
     <title>萌新玩我的世界JAVA服务器教程</title>
-    <url>/2022/10/09/%E8%90%8C%E6%96%B0%E7%8E%A9%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8CJAVA%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B/</url>
+    <url>/2022/10/09/meng-xin-wan-wo-de-shi-jie-java-fu-wu-qi-jiao-cheng/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="安装hmcl启动器"><a href="#安装hmcl启动器" class="headerlink" title="安装hmcl启动器"></a>安装hmcl启动器</h2><p><a href="https://url94.ctfile.com/d/33326794-44675752-fc62fc">下载hmcl（Windows）</a>（访问密码5267）<br> <a href="https://wwc.lanzoub.com/iKwAu0e4bi2f">下载hmcl（安卓）</a>（密码:5iq9）</p>
 <span id="more"></span>
 

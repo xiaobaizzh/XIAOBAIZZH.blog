@@ -11,7 +11,7 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-  <title>搭建hexo博客教程（2） | 波兰仔的博客</title>
+  <title>搭建hexo博客教程（1） | 波兰仔的博客</title>
 
   <link rel="icon" type="image/png" href="/medias/favicon.png">
   <link rel="stylesheet" href="https://at.alicdn.com/t/font_1911880_c1nvbyezg17.css">
@@ -557,21 +557,21 @@
 
 
 <div class="post-detail-header" id="thumbnail_canvas" style="background-repeat: no-repeat; background-size: cover; 
-  background-position: center center;position: relative;background-image:url('/medias/7.jpg')">
+  background-position: center center;position: relative;background-image:url('/medias/8.jpg')">
   <div class="post-detail-header-mask"></div>
   <canvas id="header_canvas"style="position:absolute;bottom:0;pointer-events:none;"></canvas>
   
   <div class="post-detail-header_info-box">
     <div class="title-box">
       <span class="title">
-        搭建hexo博客教程（2）
+        搭建hexo博客教程（1）
       </span>
     </div>
     
     
       
         <span class="post-detail-header_date">
-          <i class="fas fa-calendar"></i> 发表于：2022-10-25 |
+          <i class="fas fa-calendar"></i> 发表于：2022-10-24 |
         </span>
       
 
@@ -580,7 +580,7 @@
       
         <div class="post-detail-header_wordcount">
           <span class="totalcount">
-            <i class="fas fa-file-text-o"></i> 字数统计: 292 |
+            <i class="fas fa-file-text-o"></i> 字数统计: 397 |
           </span>
   
           <span class="min2read">
@@ -611,54 +611,67 @@
   <div class="main-content">
     <article class="post post-detail">
       <div class="post-content">
-        <h2 id="安装nodejs"><a href="#安装nodejs" class="headerlink" title="安装nodejs"></a>安装nodejs</h2><p><a target="_blank" rel="noopener" href="https://nodejs.org/zh-cn/">nodejs下载</a></p>
-<p>翻到第17页下载12.15.0版本</p>
-<img src="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E4%B8%8B%E8%BD%BDnodejs.png" class="lazyload placeholder" data-srcset="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E4%B8%8B%E8%BD%BDnodejs.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+        <h2 id="注册Github账号"><a href="#注册Github账号" class="headerlink" title="注册Github账号"></a>注册<a target="_blank" rel="noopener" href="https://github.com/">Github</a>账号</h2><p>注册完成后验证邮箱</p>
+<h2 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h2><p><a target="_blank" rel="noopener" href="https://git-scm.com/">Git官网</a></p>
+<p><img src="https://pic1.zhimg.com/80/v2-379a8b004dada6536c52ede0489d0d0f_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-379a8b004dada6536c52ede0489d0d0f_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="下载Git"></p>
+<p><img src="https://pica.zhimg.com/80/v2-4f95ecc79b8723c0a3092720278aaca6_1440w.png" class="lazyload placeholder" data-srcset="https://pica.zhimg.com/80/v2-4f95ecc79b8723c0a3092720278aaca6_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="选择版本"></p>
+<p>例如我是windows</p>
+<p><img src="https://pic2.zhimg.com/80/v2-9220bd8d39630524d1301ca4589120ba_1440w.png" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-9220bd8d39630524d1301ca4589120ba_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="选择版本"></p>
+<p>下载完成后打开安装程序</p>
+<p>除了下图的要手动勾选，其余的直接按next即可</p>
+<p><img src="https://pic3.zhimg.com/80/v2-d9a9a347d7161c437a8574c4936da9b0_1440w.png" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-d9a9a347d7161c437a8574c4936da9b0_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="勾选"></p>
+<p>安装完成后打开Git bash，输入git</p>
+<p><img src="https://pic1.zhimg.com/80/v2-d1ff650848022c25129e1ed8a0aa9b80_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-d1ff650848022c25129e1ed8a0aa9b80_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"></p>
+<h2 id="绑定GitHub"><a href="#绑定GitHub" class="headerlink" title="绑定GitHub"></a>绑定GitHub</h2><p>新建一个文件夹取名git codelife，在文件夹中再创建一个文件夹取名text</p>
+<p><img src="https://pic2.zhimg.com/80/v2-29e814a4907ad72e668d131171c8f651_1440w.png" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-29e814a4907ad72e668d131171c8f651_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="创建文件夹"></p>
+<p>在text文件夹中右键打开 Git Bash</p>
+<p><img src="https://pic4.zhimg.com/80/v2-df08affebb19c1b6dd280078eabcf448_1440w.png" class="lazyload placeholder" data-srcset="https://pic4.zhimg.com/80/v2-df08affebb19c1b6dd280078eabcf448_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"></p>
+<p>输入ssh</p>
+<p><img src="https://pic1.zhimg.com/80/v2-be8ac5cab6b6ab21cc39d5d589b54220_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-be8ac5cab6b6ab21cc39d5d589b54220_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="输入ssh"></p>
+<p>输入</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa</span><br></pre></td></tr></table></figure>
 
-<p>下载完成打开，一直按next安装就好</p>
-<p>Win+R打开cmd，输入命令查看是否安装成功</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure>
+<p>然后敲四次回车键，会生成文件在以下目录：Linux：&#x2F;.ssh    Mac：&#x2F;.ssh    Windows：C:&#x2F;Users&#x2F;用户&#x2F;.ssh</p>
+<p>复制id_rsa.pub 文件里的内容</p>
+<p>打开Github，点击右上角settings</p>
+<p><img src="https://pic3.zhimg.com/80/v2-dcdeec78bfc0e46f6f9e10ee8e6b7661_1440w.png" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-dcdeec78bfc0e46f6f9e10ee8e6b7661_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"></p>
+<p>点SSH and GPG keys，再点击New SSH key</p>
+<p><img src="https://pica.zhimg.com/80/v2-ceb794c00fbe818141258e952330d599_1440w.png" class="lazyload placeholder" data-srcset="https://pica.zhimg.com/80/v2-ceb794c00fbe818141258e952330d599_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"></p>
+<p>将之前复制的内容黏贴到key内，再点击 Add SSH key</p>
+<p>在Git bash中输入</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
 
-<p>在nodejs文件中新建两个文件夹，分别命名node_cache和node_global</p>
-<p>打开电脑控制面板，编辑系统环境变量</p>
-<p>系统变量中新建变量，名为NODE_PATH，值为D:\nodejs\node_global\node_modules</p>
-<p>再将用户变量的Path的npm路径改为D:\nodejs\node_global,并新建一个路径D:\Blog\node_modules\hexo-cli\bin</p>
-<img src="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F1.png" class="lazyload placeholder" data-srcset="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F1.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<p>出现yes&#x2F;no选择，输入yes即可</p>
+<p>在Github新建一个储存库，名字写text</p>
+<img src="/2022/10/24/da-jian-hexo-bo-ke-jiao-cheng-1/Snipaste_2022-10-25_18-46-52.png" class="lazyload placeholder" data-srcset="/2022/10/24/da-jian-hexo-bo-ke-jiao-cheng-1/Snipaste_2022-10-25_18-46-52.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
 
-<img src="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F2.png" class="lazyload placeholder" data-srcset="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F2.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<img src="/2022/10/24/da-jian-hexo-bo-ke-jiao-cheng-1/Snipaste_2022-10-25_18-46-01.png" class="lazyload placeholder" data-srcset="/2022/10/24/da-jian-hexo-bo-ke-jiao-cheng-1/Snipaste_2022-10-25_18-46-01.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
 
-<img src="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F3.png" class="lazyload placeholder" data-srcset="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F3.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<p>进入库，复制链接</p>
+<img src="/2022/10/24/da-jian-hexo-bo-ke-jiao-cheng-1/%E5%A4%8D%E5%88%B6%E9%93%BE%E6%8E%A5.png" class="lazyload placeholder" data-srcset="/2022/10/24/da-jian-hexo-bo-ke-jiao-cheng-1/%E5%A4%8D%E5%88%B6%E9%93%BE%E6%8E%A5.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
 
-<p>点击确认保存设置</p>
-<p>打开cmd，输入</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install webpack -g</span><br></pre></td></tr></table></figure>
+<p>在之前建的文件夹text里打开Git bash，输入</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone 复制的链接</span><br></pre></td></tr></table></figure>
 
-<h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><p>在github中新建储存库，名称随便填</p>
-<img src="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E6%96%B0%E5%BB%BA%E5%82%A8%E5%AD%98%E5%BA%93.png" class="lazyload placeholder" data-srcset="/2022/10/25/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%882%EF%BC%89/%E6%96%B0%E5%BB%BA%E5%82%A8%E5%AD%98%E5%BA%93.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<p><mark>*git中的复制粘贴是 Ctrl+insert 和Shift+insert</mark></p>
+<p>在本地就会克隆库的内容，新建一个text.txt文件</p>
+<img src="/2022/10/24/da-jian-hexo-bo-ke-jiao-cheng-1/%E6%96%B0%E5%BB%BAtext.png" class="lazyload placeholder" data-srcset="/2022/10/24/da-jian-hexo-bo-ke-jiao-cheng-1/%E6%96%B0%E5%BB%BAtext.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
 
-<p>D盘新建文件夹，名称为Blog，打开cmd，输入</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+<p>打开Git bash，输入</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add text.txt</span><br></pre></td></tr></table></figure>
 
-<p>打开Blog文件，打开Git bash，输入</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"> git commit -m &quot;commit text file&quot;</span><br></pre></td></tr></table></figure>
 
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
+<p>第一次提交要填邮箱和用户名，输入</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.email <span class="string">&quot;你的邮箱&quot;</span></span><br></pre></td></tr></table></figure>
 
-<p>以笔记本打开 _config.yml文件，在最下面写上</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: 你的储存库链接</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;你的用户名&quot;</span></span><br></pre></td></tr></table></figure>
 
-<p><mark>*冒号都为英语的冒号，冒号和内容之间有空格（之后的所有设置也是这样）</mark></p>
-<p>再打开Git bash，输入</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+<p>现在要将本地库提交到Github，输入</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push origin main</span><br></pre></td></tr></table></figure>
 
-<p>完成后再输入</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-
-<h2 id="购买域名"><a href="#购买域名" class="headerlink" title="购买域名"></a>购买域名</h2><p>推荐<a target="_blank" rel="noopener" href="https://www.namesilo.com/?rid=3853d48oc">namesilo</a>，比较便宜</p>
+<p>第一次上传需要验证邮箱，验证即可</p>
+<p>现在在github库里可以看到text文件了</p>
 
       </div>
       <div class="post-tags-categories">
@@ -684,7 +697,7 @@
     </li>
     <li class="post-copyright-link">
     <strong>文章链接:  </strong>
-    <a href="/2022/10/25/搭建hexo博客教程（2）/" target="_blank" title="搭建hexo博客教程（2）">http://baicarrots.top/2022/10/25/搭建hexo博客教程（2）/</a>
+    <a href="/2022/10/24/da-jian-hexo-bo-ke-jiao-cheng-1/" target="_blank" title="搭建hexo博客教程（1）">http://baicarrots.top/2022/10/24/da-jian-hexo-bo-ke-jiao-cheng-1/</a>
     </li>
     <li class="post-copyright-license">
       <strong>版权声明:   </strong>
@@ -706,17 +719,21 @@
   <div class="post-nav-prev post-nav-item">
     <div class="post-nav-img" style="background-size: cover; 
       background-position: center center;">
-      <img class="lazyload lazyload placeholder" src="/medias/4.jpg" class="lazyload placeholder" data-srcset="/medias/4.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+      <img class="lazyload lazyload placeholder" src="/medias/7.jpg" class="lazyload placeholder" data-srcset="/medias/7.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
     </div>
-    <a href="/2022/10/28/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%883%EF%BC%89/" class="post-nav-link">
+    <a href="/2022/10/25/da-jian-hexo-bo-ke-jiao-cheng-2/" class="post-nav-link">
       <div class="title">
         <i class="fas fa-angle-left"></i> 上一篇:
-        <div class="title-text">hexo搭建博客教程（3）</div>
+        <div class="title-text">搭建hexo博客教程（2）</div>
       </div>
       
       <!-- <div class="content">
-        让我鸽两天
+        安装nodejsnodejs下载
+翻到第17页下载12.15.0版本
 
+
+下载完成打开，一直按next安装就好
+Win+
       </div> -->
     </a>
   </div>
@@ -727,22 +744,16 @@
   <div class="post-nav-next post-nav-item">
     <div class="post-nav-img" style="background-size: cover; 
       background-position: center center;">
-      <img class="lazyload lazyload placeholder" src="/medias/8.jpg" class="lazyload placeholder" data-srcset="/medias/8.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" src="" alt="">
+      <img class="lazyload lazyload placeholder" src="/medias/12.jpg" class="lazyload placeholder" data-srcset="/medias/12.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" src="" alt="">
     </div>
-    <a href="/2022/10/24/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%881%EF%BC%89/" class="post-nav-link">
+    <a href="/2022/10/10/ru-he-chuang-jian-zi-ji-de-ji-qi-bei/" class="post-nav-link">
       <div class="title">
         下一篇: <i class="fas fa-angle-right"></i>
-        <div class="title-text">搭建hexo博客教程（1）</div>
+        <div class="title-text">如何创建自己的&#39;机器贝&#39;</div>
       </div>
       <!-- <div class="content">
-        注册Github账号注册完成后验证邮箱
-安装GitGit官网
-
-
-例如我是windows
-
-下载完成后打开安装程序
-除了
+        提示：最好用虚拟机或者备用机弄机器人，否则会有一系列问题影响正常使用
+注册一个新的微信账号（如果你不担心人和机器一个号说
       </div> -->
     </a>
   </div>
