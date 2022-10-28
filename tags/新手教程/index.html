@@ -1363,7 +1363,7 @@ Win+R打开cmd，输入命令查看是否安装成功
 
         function doSomething() {
           that.$notify({
-            title: "成功",
+            title: "复制成功",
             content: "已复制",
             type: 'success'
           })
@@ -1415,7 +1415,7 @@ Win+R打开cmd，输入命令查看是否安装成功
 <!-- 具体js，请前往valine/script.ejs查看 -->
 
     <script>
-  var requiredFields = 'nick';
+  var requiredFields = 'nick,mail';
   requiredFields = requiredFields.split(',');
   comment_el = '.comment';
   let looperValine = null;

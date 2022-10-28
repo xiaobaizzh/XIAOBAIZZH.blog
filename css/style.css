@@ -142,7 +142,7 @@ a {
   margin: 0 auto;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #42b983;
+  background-color: #6495ed;
   border-radius: 3em;
 }
 ::-webkit-scrollbar {
@@ -159,7 +159,7 @@ pre:hover::-webkit-scrollbar-thumb,
 }
 pre:hover::-webkit-scrollbar-thumb:hover,
 .toc-aside .toc-content:hover::-webkit-scrollbar-thumb:hover {
-  background-color: #42b983;
+  background-color: #6495ed;
 }
 @media (max-width: 551px) {
   html {
@@ -3909,7 +3909,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   }
 }
 .pace .pace-progress {
-  background: #f6a427 !important; /* 进度条颜色 */
+  background: #6495ed !important; /* 进度条颜色 */
   height: 3px;
 }
 .pace .pace-progress-inner {

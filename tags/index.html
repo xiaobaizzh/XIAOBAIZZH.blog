@@ -1157,7 +1157,7 @@
 
         function doSomething() {
           that.$notify({
-            title: "成功",
+            title: "复制成功",
             content: "已复制",
             type: 'success'
           })
@@ -1209,7 +1209,7 @@
 <!-- 具体js，请前往valine/script.ejs查看 -->
 
     <script>
-  var requiredFields = 'nick';
+  var requiredFields = 'nick,mail';
   requiredFields = requiredFields.split(',');
   comment_el = '.comment';
   let looperValine = null;

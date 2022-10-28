@@ -785,7 +785,7 @@ Win+
       </div>
       <div class="donate-box_title">
         <h4>
-          你的赏识是我前进的动力
+          赞助
         </h4>
       </div>
       <div class="donate-box_tab">
@@ -882,7 +882,7 @@ Win+
 		background: rgba(255,255,255,0.9);
 	}
 	#veditor {
-		background-image: url('https://img.zcool.cn/community/01a253594c71cfa8012193a329a77f.gif');
+		background-image: url('/');
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: right;
@@ -1751,7 +1751,7 @@ Win+
 
         function doSomething() {
           that.$notify({
-            title: "成功",
+            title: "复制成功",
             content: "已复制",
             type: 'success'
           })
@@ -1803,7 +1803,7 @@ Win+
 <!-- 具体js，请前往valine/script.ejs查看 -->
 
     <script>
-  var requiredFields = 'nick';
+  var requiredFields = 'nick,mail';
   requiredFields = requiredFields.split(',');
   comment_el = '.comment';
   let looperValine = null;

@@ -626,7 +626,7 @@
   var loop = JSON.parse('true') ? false : JSON.parse('true');
   var effect = 'slide';
   var swiperLength = parseInt(document.querySelector(".swiper-length").innerText);
-  var defaultDesc = '（目前国内直连速度较慢）';
+  var defaultDesc = '（国内直连速度较慢）';
   defaultDesc = defaultDesc.split(',');
   var defaultDescTypedLoop = JSON.parse('true');
   var vm = new Vue({
@@ -1507,7 +1507,7 @@ Win+R打开cmd，输入命令查看是否安装成功
     
       <div class='text'>
         
-          <h2>波兰仔</h2>
+          <h2>XIAOBAI</h2>
         
         
           <p>一位白嫖党</p>
@@ -1785,7 +1785,7 @@ Win+R打开cmd，输入命令查看是否安装成功
         <div class="webinfo-item">
           <div>最后活动时间：</div>
           
-            <div id="last-update" style="display: none;">Fri Oct 28 2022 16:54:02 GMT+0800 (中国标准时间)</div>
+            <div id="last-update" style="display: none;">Fri Oct 28 2022 19:03:33 GMT+0800 (中国标准时间)</div>
             <div id="last-update-show">2022-10-28 日</div>
           
         </div>
@@ -1851,10 +1851,6 @@ Win+R打开cmd，输入命令查看是否安装成功
 </div>
 <!-- 花瓣和雪花飘落 -->
 <!-- 雪花和花瓣特效 -->
-
-  
-    <script src="/js/falling/sakura.js"></script>
-  
 
 
 
@@ -2413,7 +2409,7 @@ Win+R打开cmd，输入命令查看是否安装成功
 
         function doSomething() {
           that.$notify({
-            title: "成功",
+            title: "复制成功",
             content: "已复制",
             type: 'success'
           })
@@ -2465,7 +2461,7 @@ Win+R打开cmd，输入命令查看是否安装成功
 <!-- 具体js，请前往valine/script.ejs查看 -->
 
     <script>
-  var requiredFields = 'nick';
+  var requiredFields = 'nick,mail';
   requiredFields = requiredFields.split(',');
   comment_el = '.comment';
   let looperValine = null;
