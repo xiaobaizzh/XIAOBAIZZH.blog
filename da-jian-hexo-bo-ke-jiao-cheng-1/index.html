@@ -11,7 +11,7 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-  <title>如何创建自己的&#39;机器贝&#39; | 波兰仔的博客</title>
+  <title>搭建hexo博客教程（1） | 波兰仔的博客</title>
 
   <link rel="icon" type="image/png" href="/medias/favicon.png">
   <link rel="stylesheet" href="https://at.alicdn.com/t/font_1911880_c1nvbyezg17.css">
@@ -617,21 +617,21 @@
 
 
 <div class="post-detail-header" id="thumbnail_canvas" style="background-repeat: no-repeat; background-size: cover; 
-  background-position: center center;position: relative;background-image:url('/medias/12.jpg')">
+  background-position: center center;position: relative;background-image:url('/medias/8.jpg')">
   <div class="post-detail-header-mask"></div>
   <canvas id="header_canvas"style="position:absolute;bottom:0;pointer-events:none;"></canvas>
   
   <div class="post-detail-header_info-box">
     <div class="title-box">
       <span class="title">
-        如何创建自己的&#39;机器贝&#39;
+        搭建hexo博客教程（1）
       </span>
     </div>
     
     
       
         <span class="post-detail-header_date">
-          <i class="fas fa-calendar"></i> 发表于：2022-10-10 |
+          <i class="fas fa-calendar"></i> 发表于：2022-10-24 |
         </span>
       
 
@@ -640,7 +640,7 @@
       
         <div class="post-detail-header_wordcount">
           <span class="totalcount">
-            <i class="fas fa-file-text-o"></i> 字数统计: 543 |
+            <i class="fas fa-file-text-o"></i> 字数统计: 397 |
           </span>
   
           <span class="min2read">
@@ -671,22 +671,76 @@
   <div class="main-content">
     <article class="post post-detail">
       <div class="post-content">
-        <p><mark>提示：最好用虚拟机或者备用机弄机器人，否则会有一系列问题影响正常使用</mark></p>
-<h2 id="注册一个新的微信账号"><a href="#注册一个新的微信账号" class="headerlink" title="注册一个新的微信账号"></a>注册一个新的微信账号</h2><p>（如果你不担心人和机器一个号说话的困扰，也可以不注册）<br><mark>*账号请务必实名认证（未成年人也可以实名，不影响使用的），不然大概率会封号</mark></p>
-<h2 id="去茉莉云网站注册账号"><a href="#去茉莉云网站注册账号" class="headerlink" title="去茉莉云网站注册账号"></a>去<a target="_blank" rel="noopener" href="https://mlyai.com/profile/index.html#/dashboard">茉莉云网站</a>注册账号</h2><span id="more"></span>
+        <h2 id="注册Github账号"><a href="#注册Github账号" class="headerlink" title="注册Github账号"></a>注册<a target="_blank" rel="noopener" href="https://github.com/">Github</a>账号</h2><p>注册完成后验证邮箱</p>
+<h2 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h2><p><a target="_blank" rel="noopener" href="https://git-scm.com/">Git官网</a></p>
+<p><img src="https://pic1.zhimg.com/80/v2-379a8b004dada6536c52ede0489d0d0f_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-379a8b004dada6536c52ede0489d0d0f_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="下载Git"></p>
+<p><img src="https://pica.zhimg.com/80/v2-4f95ecc79b8723c0a3092720278aaca6_1440w.png" class="lazyload placeholder" data-srcset="https://pica.zhimg.com/80/v2-4f95ecc79b8723c0a3092720278aaca6_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="选择版本"></p>
+<p>例如我是windows</p>
+<p><img src="https://pic2.zhimg.com/80/v2-9220bd8d39630524d1301ca4589120ba_1440w.png" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-9220bd8d39630524d1301ca4589120ba_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="选择版本"></p>
+<p>下载完成后打开安装程序</p>
+<p>除了下图的要手动勾选，其余的直接按next即可</p>
+<p><img src="https://pic3.zhimg.com/80/v2-d9a9a347d7161c437a8574c4936da9b0_1440w.png" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-d9a9a347d7161c437a8574c4936da9b0_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="勾选"></p>
+<p>安装完成后打开Git bash，输入git</p>
+<p><img src="https://pic1.zhimg.com/80/v2-d1ff650848022c25129e1ed8a0aa9b80_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-d1ff650848022c25129e1ed8a0aa9b80_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"></p>
+<h2 id="绑定GitHub"><a href="#绑定GitHub" class="headerlink" title="绑定GitHub"></a>绑定GitHub</h2><p>新建一个文件夹取名git codelife，在文件夹中再创建一个文件夹取名text</p>
+<p><img src="https://pic2.zhimg.com/80/v2-29e814a4907ad72e668d131171c8f651_1440w.png" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-29e814a4907ad72e668d131171c8f651_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="创建文件夹"></p>
+<p>在text文件夹中右键打开 Git Bash</p>
+<p><img src="https://pic4.zhimg.com/80/v2-df08affebb19c1b6dd280078eabcf448_1440w.png" class="lazyload placeholder" data-srcset="https://pic4.zhimg.com/80/v2-df08affebb19c1b6dd280078eabcf448_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"></p>
+<p>输入ssh</p>
+<p><img src="https://pic1.zhimg.com/80/v2-be8ac5cab6b6ab21cc39d5d589b54220_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-be8ac5cab6b6ab21cc39d5d589b54220_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="输入ssh"></p>
+<p>输入</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa</span><br></pre></td></tr></table></figure>
 
-<p>注册完成后添加机器人<br><img src="https://picx.zhimg.com/80/v2-f8434a2489c525fce24708e6e98fe0cd_1440w.jpeg" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-f8434a2489c525fce24708e6e98fe0cd_1440w.jpeg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"><br><img src="https://picx.zhimg.com/80/v2-558aac54bdd7f7a5f55d21ab584aa64a_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-558aac54bdd7f7a5f55d21ab584aa64a_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"></p>
-<h2 id="安装微X模块"><a href="#安装微X模块" class="headerlink" title="安装微X模块"></a>安装微X模块</h2><p><mark>*必须要安卓系统，如果你是Windows可以用安卓虚拟机</mark><br>有两种方法：1.直接用内置微X <mark>*某些机型无法使用</mark><br>2.用太极 <mark>*用太极会导致无法用微信登陆&#x2F;支付等问题</mark></p>
-<h3 id="内置微X"><a href="#内置微X" class="headerlink" title="内置微X"></a>内置微X</h3><p><a target="_blank" rel="noopener" href="https://www.123pan.com/s/iLx0Vv-I38lA">点击下载</a><br>下载安装后登陆注册的新账号，在微信设置中点击微X模块，按它说的重启微信<br>（如果设置里没有微X模块或是多次重启微信后依然显示加载错误，就是机型不适配)</p>
-<h3 id="太极"><a href="#太极" class="headerlink" title="太极"></a>太极</h3><p><a target="_blank" rel="noopener" href="http://wwd.lanzouf.com/iFInu03mbtde">点击下载太极</a><br>下载完成后安装     点击上方更新，然后点开右上角设置把自启动权限和保持存活打开<br><img src="https://pica.zhimg.com/80/v2-4e306ad021c5281f5f4eed15d7cd955c_1440w.jpeg" class="lazyload placeholder" data-srcset="https://pica.zhimg.com/80/v2-4e306ad021c5281f5f4eed15d7cd955c_1440w.jpeg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"><br><img src="https://picx.zhimg.com/80/v2-e2c22d22ef2059ca08810007c2fd5f35_1440w.jpeg" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-e2c22d22ef2059ca08810007c2fd5f35_1440w.jpeg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"><br><a target="_blank" rel="noopener" href="https://www.123pan.com/s/KL6A-49yq3">点击下载微X模块</a></p>
-<p>安装完成后打开太极，点击右下角模块管理将微X模块启用    然后创建应用，选择微信<br><img src="https://pica.zhimg.com/80/v2-a26fc435cb7793b30cf7f45490f3fbd3_1440w.jpeg" class="lazyload placeholder" data-srcset="https://pica.zhimg.com/80/v2-a26fc435cb7793b30cf7f45490f3fbd3_1440w.jpeg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"><br><img src="https://pic1.zhimg.com/80/v2-c3a1d397b4ccd5c23fba6b28892594e2_1440w.jpeg" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-c3a1d397b4ccd5c23fba6b28892594e2_1440w.jpeg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"></p>
-<p>点击创建后耐心等待，完成后在太极里重新安装微信即可<br><mark>*重新安装之前微信里的聊天记录一定要备份</mark><br>重新安装后后登陆注册的新账号，在微信设置中点击微X模块，按它说的重启微信</p>
-<h2 id="添加机器人"><a href="#添加机器人" class="headerlink" title="添加机器人"></a>添加机器人</h2><p>打开微X模块的自动管理-设置聊天机器人<br><img src="https://picx.zhimg.com/80/v2-654cc6d0da3dd915ec07c51d10b5ee29_1440w.jpeg" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-654cc6d0da3dd915ec07c51d10b5ee29_1440w.jpeg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"><br>选择茉莉云机器人，将茉莉云网站里的机器人API和密钥复制到这里<br><img src="https://picx.zhimg.com/80/v2-73328389a66360c3f33345cdce0a669d_1440w.jpeg" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-73328389a66360c3f33345cdce0a669d_1440w.jpeg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"><br><img src="https://picx.zhimg.com/80/v2-f08276093182b07f4e0247df8cd3fd14_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-f08276093182b07f4e0247df8cd3fd14_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"><br>将通用设置设置成这样  在设置自动回复语里把聊天机器人打开<br><img src="https://picx.zhimg.com/80/v2-3099cdb19bd31807e712481dbb7d85b2_1440w.jpeg" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-3099cdb19bd31807e712481dbb7d85b2_1440w.jpeg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"><br><img src="https://pic1.zhimg.com/80/v2-8b99b62d2a7336cc8d66087d755dc5f4_1440w.jpeg" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-8b99b62d2a7336cc8d66087d755dc5f4_1440w.jpeg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"><br>到这你的机器人就差不多弄好了  要设置回复语去茉莉云网站里新建知识库，添加回复即可</p>
+<p>然后敲四次回车键，会生成文件在以下目录：Linux：&#x2F;.ssh    Mac：&#x2F;.ssh    Windows：C:&#x2F;Users&#x2F;用户&#x2F;.ssh</p>
+<p>复制id_rsa.pub 文件里的内容</p>
+<p>打开Github，点击右上角settings</p>
+<p><img src="https://pic3.zhimg.com/80/v2-dcdeec78bfc0e46f6f9e10ee8e6b7661_1440w.png" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-dcdeec78bfc0e46f6f9e10ee8e6b7661_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"></p>
+<p>点SSH and GPG keys，再点击New SSH key</p>
+<p><img src="https://pica.zhimg.com/80/v2-ceb794c00fbe818141258e952330d599_1440w.png" class="lazyload placeholder" data-srcset="https://pica.zhimg.com/80/v2-ceb794c00fbe818141258e952330d599_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"></p>
+<p>将之前复制的内容黏贴到key内，再点击 Add SSH key</p>
+<p>在Git bash中输入</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
+
+<p>出现yes&#x2F;no选择，输入yes即可</p>
+<p>在Github新建一个储存库，名字写text</p>
+<img src="/da-jian-hexo-bo-ke-jiao-cheng-1/Snipaste_2022-10-25_18-46-52.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-1/Snipaste_2022-10-25_18-46-52.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+
+<img src="/da-jian-hexo-bo-ke-jiao-cheng-1/Snipaste_2022-10-25_18-46-01.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-1/Snipaste_2022-10-25_18-46-01.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+
+<p>进入库，复制链接</p>
+<img src="/da-jian-hexo-bo-ke-jiao-cheng-1/%E5%A4%8D%E5%88%B6%E9%93%BE%E6%8E%A5.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-1/%E5%A4%8D%E5%88%B6%E9%93%BE%E6%8E%A5.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+
+<p>在之前建的文件夹text里打开Git bash，输入</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone 复制的链接</span><br></pre></td></tr></table></figure>
+
+<p><mark>*git中的复制粘贴是 Ctrl+insert 和Shift+insert</mark></p>
+<p>在本地就会克隆库的内容，新建一个text.txt文件</p>
+<img src="/da-jian-hexo-bo-ke-jiao-cheng-1/%E6%96%B0%E5%BB%BAtext.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-1/%E6%96%B0%E5%BB%BAtext.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+
+<p>打开Git bash，输入</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add text.txt</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"> git commit -m &quot;commit text file&quot;</span><br></pre></td></tr></table></figure>
+
+<p>第一次提交要填邮箱和用户名，输入</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.email <span class="string">&quot;你的邮箱&quot;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;你的用户名&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>现在要将本地库提交到Github，输入</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push origin main</span><br></pre></td></tr></table></figure>
+
+<p>第一次上传需要验证邮箱，验证即可</p>
+<p>现在在github库里可以看到text文件了</p>
 
       </div>
       <div class="post-tags-categories">
         
         <div class="tags">
+          
+            <a href="/tags/hexo/" class="">
+              hexo
+            </a>
           
             <a href="/tags/%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B/" class="">
               新手教程
@@ -703,7 +757,7 @@
     </li>
     <li class="post-copyright-link">
     <strong>文章链接:  </strong>
-    <a href="/2022/10/10/ru-he-chuang-jian-zi-ji-de-ji-qi-bei/" target="_blank" title="如何创建自己的&#39;机器贝&#39;">http://baicarrots.top/2022/10/10/ru-he-chuang-jian-zi-ji-de-ji-qi-bei/</a>
+    <a href="/da-jian-hexo-bo-ke-jiao-cheng-1/" target="_blank" title="搭建hexo博客教程（1）">http://baicarrots.top/da-jian-hexo-bo-ke-jiao-cheng-1/</a>
     </li>
     <li class="post-copyright-license">
       <strong>版权声明:   </strong>
@@ -725,23 +779,21 @@
   <div class="post-nav-prev post-nav-item">
     <div class="post-nav-img" style="background-size: cover; 
       background-position: center center;">
-      <img class="lazyload lazyload placeholder" src="/medias/8.jpg" class="lazyload placeholder" data-srcset="/medias/8.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+      <img class="lazyload lazyload placeholder" src="/medias/7.jpg" class="lazyload placeholder" data-srcset="/medias/7.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
     </div>
-    <a href="/2022/10/24/da-jian-hexo-bo-ke-jiao-cheng-1/" class="post-nav-link">
+    <a href="/da-jian-hexo-bo-ke-jiao-cheng-2/" class="post-nav-link">
       <div class="title">
         <i class="fas fa-angle-left"></i> 上一篇:
-        <div class="title-text">搭建hexo博客教程（1）</div>
+        <div class="title-text">搭建hexo博客教程（2）</div>
       </div>
       
       <!-- <div class="content">
-        注册Github账号注册完成后验证邮箱
-安装GitGit官网
+        安装nodejsnodejs下载
+翻到第17页下载12.15.0版本
 
 
-例如我是windows
-
-下载完成后打开安装程序
-除了
+下载完成打开，一直按next安装就好
+Win+
       </div> -->
     </a>
   </div>
@@ -752,18 +804,16 @@
   <div class="post-nav-next post-nav-item">
     <div class="post-nav-img" style="background-size: cover; 
       background-position: center center;">
-      <img class="lazyload lazyload placeholder" src="/medias/13.jpg" class="lazyload placeholder" data-srcset="/medias/13.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" src="" alt="">
+      <img class="lazyload lazyload placeholder" src="/medias/12.jpg" class="lazyload placeholder" data-srcset="/medias/12.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" src="" alt="">
     </div>
-    <a href="/2022/10/09/meng-xin-wan-wo-de-shi-jie-java-fu-wu-qi-jiao-cheng/" class="post-nav-link">
+    <a href="/ru-he-chuang-jian-zi-ji-de-ji-qi-bei/" class="post-nav-link">
       <div class="title">
         下一篇: <i class="fas fa-angle-right"></i>
-        <div class="title-text">萌新玩我的世界JAVA服务器教程</div>
+        <div class="title-text">如何创建自己的&#39;机器贝&#39;</div>
       </div>
       <!-- <div class="content">
-        安装hmcl启动器下载hmcl（Windows）（访问密码5267） 下载hmcl（安卓）（密码:5iq9）
-
-
-下载完
+        提示：最好用虚拟机或者备用机弄机器人，否则会有一系列问题影响正常使用
+注册一个新的微信账号（如果你不担心人和机器一个号说
       </div> -->
     </a>
   </div>
