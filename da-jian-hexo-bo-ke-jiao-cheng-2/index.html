@@ -640,7 +640,7 @@
       
         <div class="post-detail-header_wordcount">
           <span class="totalcount">
-            <i class="fas fa-file-text-o"></i> 字数统计: 292 |
+            <i class="fas fa-file-text-o"></i> 字数统计: 294 |
           </span>
   
           <span class="min2read">
@@ -671,54 +671,42 @@
   <div class="main-content">
     <article class="post post-detail">
       <div class="post-content">
-        <h2 id="安装nodejs"><a href="#安装nodejs" class="headerlink" title="安装nodejs"></a>安装nodejs</h2><p><a target="_blank" rel="noopener" href="https://nodejs.org/zh-cn/">nodejs下载</a></p>
+        <h2 id="安装nodejs"><a class="markdownIt-Anchor" href="#安装nodejs"></a> 安装nodejs</h2>
+<p><a target="_blank" rel="noopener" href="https://nodejs.org/zh-cn/">nodejs下载</a></p>
 <p>翻到第17页下载12.15.0版本</p>
 <img src="/da-jian-hexo-bo-ke-jiao-cheng-2/%E4%B8%8B%E8%BD%BDnodejs.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-2/%E4%B8%8B%E8%BD%BDnodejs.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
-
 <p>下载完成打开，一直按next安装就好</p>
 <p>Win+R打开cmd，输入命令查看是否安装成功</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure>
-
 <p>在nodejs文件中新建两个文件夹，分别命名node_cache和node_global</p>
 <p>打开电脑控制面板，编辑系统环境变量</p>
 <p>系统变量中新建变量，名为NODE_PATH，值为D:\nodejs\node_global\node_modules</p>
 <p>再将用户变量的Path的npm路径改为D:\nodejs\node_global,并新建一个路径D:\Blog\node_modules\hexo-cli\bin</p>
 <img src="/da-jian-hexo-bo-ke-jiao-cheng-2/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F1.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-2/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F1.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
-
 <img src="/da-jian-hexo-bo-ke-jiao-cheng-2/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F2.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-2/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F2.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
-
 <img src="/da-jian-hexo-bo-ke-jiao-cheng-2/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F3.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-2/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F3.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
-
 <p>点击确认保存设置</p>
 <p>打开cmd，输入</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install webpack -g</span><br></pre></td></tr></table></figure>
-
-<h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><p>在github中新建储存库，名称随便填</p>
+<h2 id="安装hexo"><a class="markdownIt-Anchor" href="#安装hexo"></a> 安装Hexo</h2>
+<p>在github中新建储存库，名称随便填</p>
 <img src="/da-jian-hexo-bo-ke-jiao-cheng-2/%E6%96%B0%E5%BB%BA%E5%82%A8%E5%AD%98%E5%BA%93.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-2/%E6%96%B0%E5%BB%BA%E5%82%A8%E5%AD%98%E5%BA%93.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
-
 <p>D盘新建文件夹，名称为Blog，打开cmd，输入</p>
 <figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
-
 <p>打开Blog文件，打开Git bash，输入</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
-
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
-
 <p>以笔记本打开 _config.yml文件，在最下面写上</p>
 <figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: 你的储存库链接</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
-
 <p><mark>*冒号都为英语的冒号，冒号和内容之间有空格（之后的所有设置也是这样）</mark></p>
 <p>再打开Git bash，输入</p>
 <figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-
 <p>完成后再输入</p>
 <figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
-
 <figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
-
 <figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-
-<h2 id="购买域名"><a href="#购买域名" class="headerlink" title="购买域名"></a>购买域名</h2><p>推荐<a target="_blank" rel="noopener" href="https://www.namesilo.com/?rid=3853d48oc">namesilo</a>，比较便宜</p>
+<h2 id="购买域名"><a class="markdownIt-Anchor" href="#购买域名"></a> 购买域名</h2>
+<p>推荐<a target="_blank" rel="noopener" href="https://www.namesilo.com/?rid=3853d48oc">namesilo</a>，比较便宜</p>
 
       </div>
       <div class="post-tags-categories">
@@ -795,14 +783,15 @@
         <div class="title-text">搭建hexo博客教程（1）</div>
       </div>
       <!-- <div class="content">
-        注册Github账号注册完成后验证邮箱
-安装GitGit官网
+         注册Github账号
+注册完成后验证邮箱
+ 安装Git
+Git官网
 
 
 例如我是windows
 
-下载完成后打开安装程序
-除了
+下载完成后打开安装程
       </div> -->
     </a>
   </div>
@@ -1424,7 +1413,7 @@
       
         
           <div class="footer-copyright">
-            <p>波兰仔的博客 </p>
+            <p>波兰仔的博客</p>
 
           </div>
         
