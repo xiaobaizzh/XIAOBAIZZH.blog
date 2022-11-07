@@ -11,18 +11,6 @@
       </tags>
   </entry>
   <entry>
-    <title>博客终于弄好了</title>
-    <url>/bo-ke-zhong-yu-nong-hao-liao/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><a href="https://zhuanlan.zhihu.com/p/102592286">参考教程</a></p>
-<p>域名：<a href="https://www.namesilo.com/?rid=3853d48oc">NameSilo</a><br />
-服务器＆DNS：<a href="https://dash.cloudflare.com/">Cloudflare</a><br />
-<a href="https://hexo.io/zh-cn/">Hexo</a>部署</p>
-]]></content>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>如何创建自己的&#39;机器贝&#39;</title>
     <url>/ru-he-chuang-jian-zi-ji-de-ji-qi-bei/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><mark>提示：最好用虚拟机或者备用机弄机器人，否则会有一系列问题影响正常使用</mark></p>
@@ -67,6 +55,18 @@
 ]]></content>
       <tags>
         <tag>新手教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客终于弄好了</title>
+    <url>/bo-ke-zhong-yu-nong-hao-liao/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><a href="https://zhuanlan.zhihu.com/p/102592286">参考教程</a></p>
+<p>域名：<a href="https://www.namesilo.com/?rid=3853d48oc">NameSilo</a><br />
+服务器＆DNS：<a href="https://dash.cloudflare.com/">Cloudflare</a><br />
+<a href="https://hexo.io/zh-cn/">Hexo</a>部署</p>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
