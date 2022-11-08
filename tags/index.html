@@ -516,7 +516,7 @@
       methods: {
       },
       created() { }
-    })</script><script defer src="https://unpkg.com/vanilla-lazyload@17.1.0/dist/lazyload.min.js"></script><script>window.lazyLoadOptions={elements_selector:".lazyload",threshold:0},window.addEventListener("LazyLoad::Initialized",function(n){window.lazyLoadInstance=n.detail.instance},!1),document.addEventListener("DOMContentLoaded",function(){lazyLoadInstance.update()}),document.addEventListener("pjax:complete",function(){lazyLoadInstance.update()})</script><script>var requiredFields = 'nick,mail';
+    })</script><script defer src="https://unpkg.com/vanilla-lazyload@17.1.0/dist/lazyload.min.js"></script><script>window.lazyLoadOptions={elements_selector:".lazyload",threshold:0},window.addEventListener("LazyLoad::Initialized",function(n){window.lazyLoadInstance=n.detail.instance},!1),document.addEventListener("DOMContentLoaded",function(){lazyLoadInstance.update()}),document.addEventListener("pjax:complete",function(){lazyLoadInstance.update()})</script><link href="/js/danmu/barrager.css" rel="stylesheet"><script src="/js/danmu/jquery.barrager.js"></script><script>var requiredFields = 'nick,mail';
   requiredFields = requiredFields.split(',');
   comment_el = '.comment';
   let looperValine = null;
@@ -551,8 +551,8 @@
         }
       }
       //查询评论 valine.Q('*').limit(7) -- 查询所有，限制7条, 下面的的代码是查询当前页面
-      var themeDanmu = eval('false');
-      var themeLoop = eval('false');
+      var themeDanmu = eval('true');
+      var themeLoop = eval('true');
       var themeLooperTime = '5000' || 5000;
       var speed = '40' || 20;
       var isBarrager = true;
@@ -631,6 +631,10 @@
   };
   $(document).ready(load_valine);
   document.addEventListener('pjax:send', function (e) {
+    
+      $('.danmuBox').length > 0 && $('.danmuBox').remove()
+      looperValine && clearInterval(looperValine);
+      $.fn.barrager.removeAll();
     
   })
   document.addEventListener('pjax:complete', function () {
