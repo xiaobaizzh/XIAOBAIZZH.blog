@@ -23,75 +23,6 @@
       </tags>
   </entry>
   <entry>
-    <title>搭建hexo博客教程（1）</title>
-    <url>/da-jian-hexo-bo-ke-jiao-cheng-1/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="注册github账号"><a class="markdownIt-Anchor" href="#注册github账号"></a> 注册<a href="https://github.com/">Github</a>账号</h2>
-<p>注册完成后验证邮箱</p>
-<h2 id="安装git"><a class="markdownIt-Anchor" href="#安装git"></a> 安装Git</h2>
-<p><a href="https://git-scm.com/">Git官网</a></p>
-<p><img src="https://pic1.zhimg.com/80/v2-379a8b004dada6536c52ede0489d0d0f_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-379a8b004dada6536c52ede0489d0d0f_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="下载Git" /></p>
-<p><img src="https://pica.zhimg.com/80/v2-4f95ecc79b8723c0a3092720278aaca6_1440w.png" class="lazyload placeholder" data-srcset="https://pica.zhimg.com/80/v2-4f95ecc79b8723c0a3092720278aaca6_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="选择版本" /></p>
-<p>例如我是windows</p>
-<p><img src="https://pic2.zhimg.com/80/v2-9220bd8d39630524d1301ca4589120ba_1440w.png" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-9220bd8d39630524d1301ca4589120ba_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="选择版本" /></p>
-<p>下载完成后打开安装程序</p>
-<p>除了下图的要手动勾选，其余的直接按next即可</p>
-<p><img src="https://pic3.zhimg.com/80/v2-d9a9a347d7161c437a8574c4936da9b0_1440w.png" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-d9a9a347d7161c437a8574c4936da9b0_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="勾选" /></p>
-<p>安装完成后打开Git bash，输入git</p>
-<p><img src="https://pic1.zhimg.com/80/v2-d1ff650848022c25129e1ed8a0aa9b80_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-d1ff650848022c25129e1ed8a0aa9b80_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="" /></p>
-<h2 id="绑定github"><a class="markdownIt-Anchor" href="#绑定github"></a> 绑定GitHub</h2>
-<p>新建一个文件夹取名git codelife，在文件夹中再创建一个文件夹取名text</p>
-<p><img src="https://pic2.zhimg.com/80/v2-29e814a4907ad72e668d131171c8f651_1440w.png" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-29e814a4907ad72e668d131171c8f651_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="创建文件夹" /></p>
-<p>在text文件夹中右键打开 Git Bash</p>
-<p><img src="https://pic4.zhimg.com/80/v2-df08affebb19c1b6dd280078eabcf448_1440w.png" class="lazyload placeholder" data-srcset="https://pic4.zhimg.com/80/v2-df08affebb19c1b6dd280078eabcf448_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="" /></p>
-<p>输入ssh</p>
-<p><img src="https://pic1.zhimg.com/80/v2-be8ac5cab6b6ab21cc39d5d589b54220_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-be8ac5cab6b6ab21cc39d5d589b54220_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="输入ssh" /></p>
-<p>输入</p>
-<pre class="highlight"><code class="">ssh-keygen -t rsa
-</code></pre>
-<p>然后敲四次回车键，会生成文件在以下目录：Linux：/.ssh    Mac：/.ssh    Windows：C:/Users/用户/.ssh</p>
-<p>复制id_rsa.pub 文件里的内容</p>
-<p>打开Github，点击右上角settings</p>
-<p><img src="https://pic3.zhimg.com/80/v2-dcdeec78bfc0e46f6f9e10ee8e6b7661_1440w.png" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-dcdeec78bfc0e46f6f9e10ee8e6b7661_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="" /></p>
-<p>点SSH and GPG keys，再点击New SSH key</p>
-<p><img src="https://pica.zhimg.com/80/v2-ceb794c00fbe818141258e952330d599_1440w.png" class="lazyload placeholder" data-srcset="https://pica.zhimg.com/80/v2-ceb794c00fbe818141258e952330d599_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="" /></p>
-<p>将之前复制的内容黏贴到key内，再点击 Add SSH key</p>
-<p>在Git bash中输入</p>
-<pre class="highlight"><code class="">ssh -T git@github.com
-</code></pre>
-<p>出现yes/no选择，输入yes即可</p>
-<p>在Github新建一个储存库，名字写text</p>
-<img src="/da-jian-hexo-bo-ke-jiao-cheng-1/Snipaste_2022-10-25_18-46-52.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-1/Snipaste_2022-10-25_18-46-52.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
-<img src="/da-jian-hexo-bo-ke-jiao-cheng-1/Snipaste_2022-10-25_18-46-01.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-1/Snipaste_2022-10-25_18-46-01.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
-<p>进入库，复制链接</p>
-<img src="/da-jian-hexo-bo-ke-jiao-cheng-1/%E5%A4%8D%E5%88%B6%E9%93%BE%E6%8E%A5.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-1/%E5%A4%8D%E5%88%B6%E9%93%BE%E6%8E%A5.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
-<p>在之前建的文件夹text里打开Git bash，输入</p>
-<pre class="highlight"><code class="">git clone 复制的链接
-</code></pre>
-<p><mark>*git中的复制粘贴是 Ctrl+insert 和Shift+insert</mark></p>
-<p>在本地就会克隆库的内容，新建一个text.txt文件</p>
-<img src="/da-jian-hexo-bo-ke-jiao-cheng-1/%E6%96%B0%E5%BB%BAtext.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-1/%E6%96%B0%E5%BB%BAtext.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
-<p>打开Git bash，输入</p>
-<pre class="highlight"><code class="">git add text.txt
-</code></pre>
-<pre class="highlight"><code class=""> git commit -m &quot;commit text file&quot;
-</code></pre>
-<p>第一次提交要填邮箱和用户名，输入</p>
-<pre class="highlight"><code class="c">git config --global user.email <span class="hljs-string">&quot;你的邮箱&quot;</span>
-</code></pre>
-<pre class="highlight"><code class="c">git config --global user.name <span class="hljs-string">&quot;你的用户名&quot;</span>
-</code></pre>
-<p>现在要将本地库提交到Github，输入</p>
-<pre class="highlight"><code class="">git push origin main
-</code></pre>
-<p>第一次上传需要验证邮箱，验证即可</p>
-<p>现在在github库里可以看到text文件了</p>
-]]></content>
-      <tags>
-        <tag>hexo</tag>
-        <tag>新手教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>如何创建自己的&#39;机器贝&#39;</title>
     <url>/ru-he-chuang-jian-zi-ji-de-ji-qi-bei/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><mark>提示：最好用虚拟机或者备用机弄机器人，否则会有一系列问题影响正常使用</mark></p>
@@ -191,6 +122,75 @@ npm -v
 </code></pre>
 <h2 id="购买域名"><a class="markdownIt-Anchor" href="#购买域名"></a> 购买域名</h2>
 <p>推荐<a href="https://www.namesilo.com/?rid=3853d48oc">namesilo</a>，比较便宜</p>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
+        <tag>新手教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>搭建hexo博客教程（1）</title>
+    <url>/da-jian-hexo-bo-ke-jiao-cheng-1/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="注册github账号"><a class="markdownIt-Anchor" href="#注册github账号"></a> 注册<a href="https://github.com/">Github</a>账号</h2>
+<p>注册完成后验证邮箱</p>
+<h2 id="安装git"><a class="markdownIt-Anchor" href="#安装git"></a> 安装Git</h2>
+<p><a href="https://git-scm.com/">Git官网</a></p>
+<p><img src="https://pic1.zhimg.com/80/v2-379a8b004dada6536c52ede0489d0d0f_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-379a8b004dada6536c52ede0489d0d0f_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="下载Git" /></p>
+<p><img src="https://pica.zhimg.com/80/v2-4f95ecc79b8723c0a3092720278aaca6_1440w.png" class="lazyload placeholder" data-srcset="https://pica.zhimg.com/80/v2-4f95ecc79b8723c0a3092720278aaca6_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="选择版本" /></p>
+<p>例如我是windows</p>
+<p><img src="https://pic2.zhimg.com/80/v2-9220bd8d39630524d1301ca4589120ba_1440w.png" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-9220bd8d39630524d1301ca4589120ba_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="选择版本" /></p>
+<p>下载完成后打开安装程序</p>
+<p>除了下图的要手动勾选，其余的直接按next即可</p>
+<p><img src="https://pic3.zhimg.com/80/v2-d9a9a347d7161c437a8574c4936da9b0_1440w.png" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-d9a9a347d7161c437a8574c4936da9b0_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="勾选" /></p>
+<p>安装完成后打开Git bash，输入git</p>
+<p><img src="https://pic1.zhimg.com/80/v2-d1ff650848022c25129e1ed8a0aa9b80_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-d1ff650848022c25129e1ed8a0aa9b80_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="" /></p>
+<h2 id="绑定github"><a class="markdownIt-Anchor" href="#绑定github"></a> 绑定GitHub</h2>
+<p>新建一个文件夹取名git codelife，在文件夹中再创建一个文件夹取名text</p>
+<p><img src="https://pic2.zhimg.com/80/v2-29e814a4907ad72e668d131171c8f651_1440w.png" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-29e814a4907ad72e668d131171c8f651_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="创建文件夹" /></p>
+<p>在text文件夹中右键打开 Git Bash</p>
+<p><img src="https://pic4.zhimg.com/80/v2-df08affebb19c1b6dd280078eabcf448_1440w.png" class="lazyload placeholder" data-srcset="https://pic4.zhimg.com/80/v2-df08affebb19c1b6dd280078eabcf448_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="" /></p>
+<p>输入ssh</p>
+<p><img src="https://pic1.zhimg.com/80/v2-be8ac5cab6b6ab21cc39d5d589b54220_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-be8ac5cab6b6ab21cc39d5d589b54220_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="输入ssh" /></p>
+<p>输入</p>
+<pre class="highlight"><code class="">ssh-keygen -t rsa
+</code></pre>
+<p>然后敲四次回车键，会生成文件在以下目录：Linux：/.ssh    Mac：/.ssh    Windows：C:/Users/用户/.ssh</p>
+<p>复制id_rsa.pub 文件里的内容</p>
+<p>打开Github，点击右上角settings</p>
+<p><img src="https://pic3.zhimg.com/80/v2-dcdeec78bfc0e46f6f9e10ee8e6b7661_1440w.png" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-dcdeec78bfc0e46f6f9e10ee8e6b7661_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="" /></p>
+<p>点SSH and GPG keys，再点击New SSH key</p>
+<p><img src="https://pica.zhimg.com/80/v2-ceb794c00fbe818141258e952330d599_1440w.png" class="lazyload placeholder" data-srcset="https://pica.zhimg.com/80/v2-ceb794c00fbe818141258e952330d599_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="" /></p>
+<p>将之前复制的内容黏贴到key内，再点击 Add SSH key</p>
+<p>在Git bash中输入</p>
+<pre class="highlight"><code class="">ssh -T git@github.com
+</code></pre>
+<p>出现yes/no选择，输入yes即可</p>
+<p>在Github新建一个储存库，名字写text</p>
+<img src="/da-jian-hexo-bo-ke-jiao-cheng-1/Snipaste_2022-10-25_18-46-52.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-1/Snipaste_2022-10-25_18-46-52.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<img src="/da-jian-hexo-bo-ke-jiao-cheng-1/Snipaste_2022-10-25_18-46-01.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-1/Snipaste_2022-10-25_18-46-01.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<p>进入库，复制链接</p>
+<img src="/da-jian-hexo-bo-ke-jiao-cheng-1/%E5%A4%8D%E5%88%B6%E9%93%BE%E6%8E%A5.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-1/%E5%A4%8D%E5%88%B6%E9%93%BE%E6%8E%A5.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<p>在之前建的文件夹text里打开Git bash，输入</p>
+<pre class="highlight"><code class="">git clone 复制的链接
+</code></pre>
+<p><mark>*git中的复制粘贴是 Ctrl+insert 和Shift+insert</mark></p>
+<p>在本地就会克隆库的内容，新建一个text.txt文件</p>
+<img src="/da-jian-hexo-bo-ke-jiao-cheng-1/%E6%96%B0%E5%BB%BAtext.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-1/%E6%96%B0%E5%BB%BAtext.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<p>打开Git bash，输入</p>
+<pre class="highlight"><code class="">git add text.txt
+</code></pre>
+<pre class="highlight"><code class=""> git commit -m &quot;commit text file&quot;
+</code></pre>
+<p>第一次提交要填邮箱和用户名，输入</p>
+<pre class="highlight"><code class="c">git config --global user.email <span class="hljs-string">&quot;你的邮箱&quot;</span>
+</code></pre>
+<pre class="highlight"><code class="c">git config --global user.name <span class="hljs-string">&quot;你的用户名&quot;</span>
+</code></pre>
+<p>现在要将本地库提交到Github，输入</p>
+<pre class="highlight"><code class="">git push origin main
+</code></pre>
+<p>第一次上传需要验证邮箱，验证即可</p>
+<p>现在在github库里可以看到text文件了</p>
 ]]></content>
       <tags>
         <tag>hexo</tag>
