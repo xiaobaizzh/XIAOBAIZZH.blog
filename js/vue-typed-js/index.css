@@ -1,3 +1,14 @@
-/* build time:Thu Nov 10 2022 19:30:09 GMT+0800 (中国标准时间)*/
-.typed-element{display:flex;align-items:center}.typed-element .typed-cursor{opacity:1;animation:typedjsBlink .7s infinite}@keyframes typedjsBlink{50%{opacity:0}}
-/* rebuild by neat */
+
+.typed-element {
+    display: flex;
+    align-items: center;
+  }
+  .typed-element .typed-cursor {
+      opacity: 1;
+      animation: typedjsBlink 0.7s infinite;
+  }
+  @keyframes typedjsBlink {
+  50% {
+      opacity: 0.0;
+  }
+  }

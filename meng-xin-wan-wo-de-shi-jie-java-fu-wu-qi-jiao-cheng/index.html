@@ -1,8 +1,131 @@
-<!DOCTYPE html><html><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" name="viewport"><title>萌新玩我的世界JAVA服务器教程 | 波兰仔的博客</title><link rel="icon" type="image/png" href="/medias/favicon.png"><link rel="stylesheet" href="https://at.alicdn.com/t/font_1911880_c1nvbyezg17.css"><link href="https://unpkg.com/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet"><link href="/js/swiper/swiper@5.4.1.min.css" rel="stylesheet"><link rel="stylesheet" href="/css/animate.min.css"><link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/js/fancybox/jquery.fancybox.min.css"><link rel="stylesheet" href="/js/shareJs/share.min.css"><style>@media (max-width:992px){#waifu{display:none}}</style><script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script><link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet"><script src="/js/valine/index.js"></script><meta name="generator" content="Hexo 6.3.0"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head><script src="https://unpkg.com/jquery@3.5.1/dist/jquery.min.js"></script><script src="https://unpkg.com/vue@2.6.11/dist/vue.min.js"></script><body><div id="loader"><link rel="stylesheet" href="/js/loaded/index.css"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><script>var endLoading=function(){document.body.style.overflow="auto",document.getElementById("loader").classList.add("loading")};window.addEventListener("DOMContentLoaded",endLoading)</script><script>let isDark = JSON.parse(localStorage.getItem('dark')) || JSON.parse('false');
+<!DOCTYPE html>
+<html>
+  <!-- meta/link... -->
+  
+
+
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+  <title>萌新玩我的世界JAVA服务器教程 | 波兰仔的博客</title>
+
+  <link rel="icon" type="image/png" href="/medias/favicon.png">
+  <link rel="stylesheet" href="https://at.alicdn.com/t/font_1911880_c1nvbyezg17.css">
+  <link href="https://unpkg.com/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="/js/swiper/swiper@5.4.1.min.css" rel="stylesheet">
+  
+  
+  
+  
+<link rel="stylesheet" href="/css/animate.min.css">
+
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+  
+    
+<link rel="stylesheet" href="/js/fancybox/jquery.fancybox.min.css">
+
+  
+  
+    
+<link rel="stylesheet" href="/js/shareJs/share.min.css">
+
+  
+  <style>
+        @media (max-width: 992px) {
+            #waifu {
+                display: none;
+            }
+        }
+    </style>
+    <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+    <link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+
+    
+        <script src="/js/valine/index.js"></script>
+    
+
+    <!-- import link -->
+    
+        
+            
+        
+            
+        
+    
+    <!-- import script -->
+    
+        
+            
+        
+            
+        
+    
+
+<meta name="generator" content="Hexo 6.3.0"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+
+  
+  <!-- 依赖于jquery和vue -->
+  
+    
+<script src="https://unpkg.com/jquery@3.5.1/dist/jquery.min.js"></script>
+
+  
+
+  
+    
+<script src="https://unpkg.com/vue@2.6.11/dist/vue.min.js"></script>
+
+  
+  
+  <body>
+    <!-- 预加载动画 -->
+    <!-- 页面预加载动画 -->
+
+<div id='loader'>
+  <link rel="stylesheet" href="/js/loaded/index.css" >
+  <div class="loading-left-bg"></div>
+  <div class="loading-right-bg"></div>
+  <div class="spinner-box">
+    <div class="configure-border-1">
+      <div class="configure-core"></div>
+    </div>
+    <div class="configure-border-2">
+      <div class="configure-core"></div>
+    </div>
+    <div class="loading-word">加载中...</div>
+  </div>
+</div>
+
+<script>
+  var endLoading = function () {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loader').classList.add("loading");
+  }
+  window.addEventListener('DOMContentLoaded',endLoading);
+  
+</script>
+
+    
+    <!-- 判断是否为暗黑风格 -->
+    <!-- 判断是否为黑夜模式 -->
+<script>
+  let isDark = JSON.parse(localStorage.getItem('dark')) || JSON.parse('false');
 
   if (isDark) {
     $(document.body).addClass('darkModel');
-  }</script><script>function loadScript(src, cb) {
+  }
+</script>
+
+    <!-- 需要在上面加载的js -->
+    <script>
+  function loadScript(src, cb) {
     return new Promise(resolve => {
       setTimeout(function () {
         var HEAD = document.getElementsByTagName("head")[0] || document.documentElement;
@@ -47,7 +170,174 @@
         document.getElementsByTagName("head")[0].appendChild(link);
       });
     });
-  };</script><script src="/js/swiper/swiper.min.js"></script><script src="/js/swiper/vue-awesome-swiper.js"></script><script src="/js/swiper/swiper.animate1.0.3.min.js"></script><script type="text/javascript">Vue.use(window.VueAwesomeSwiper)</script><script src="/js/vue-typed-js/index.js"></script><script src="/js/vue-seamless-scroll/index.js"></script><script src="https://unpkg.com/typed.js@2.0.11"></script><div id="safearea"><main class="main" id="pjax-container"><header class="header" id="navHeader" style="position:fixed;left:0;top:0;z-index:10;width:100%"><div class="header-content"><div class="bars"><div id="appDrawer" class="sidebar-image"><div class="drawer-box-icon"><i class="fas fa-bars" aria-hidden="true" @click="showDialogDrawer"></i></div><transition name="fade"><div class="drawer-box_mask" v-cloak style="display:none" v-show="visible" @click.self="cancelDialogDrawer"></div></transition><div class="drawer-box" :class="{'active': visible}"><div class="drawer-box-head bg-color"><img class="drawer-box-head_logo lazyload placeholder" src="/medias/logo.png" class="lazyload placeholder" data-srcset="/medias/logo.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="logo"><h3 class="drawer-box-head_title">波兰仔的博客</h3><h5 class="drawer-box-head_desc">一位资深白嫖党</h5></div><div class="drawer-box-content"><ul class="drawer-box-content_menu"><li class="drawer-box-content_item" style="position:relative"><a href="/" class="drawer-menu-item-link"><i class="fas fa-home" aria-hidden="true"></i> <span class="name">首页</span></a></li><li class="drawer-box-content_item" style="position:relative"><a href="/archives" class="drawer-menu-item-link"><i class="fas fa-archive" aria-hidden="true"></i> <span class="name">归档</span></a></li><li class="drawer-box-content_item" style="position:relative"><a href="/tags" class="drawer-menu-item-link"><i class="fas fa-tags" aria-hidden="true"></i> <span class="name">标签</span></a></li><li class="drawer-box-content_item" style="position:relative"><a href="/about" class="drawer-menu-item-link"><i class="fas fa-user" aria-hidden="true"></i> <span class="name">关于</span></a></li><li class="drawer-box-content_item" style="position:relative"><a href="javascript:;" class="drawer-menu-item-link has-children" @click="openOrCloseMenu(4)"><span><i class="fas fa-link"></i> <span class="name">更多</span> </span><i class="fas fa-chevron-left arrow" :class="{'icon-rotate': isOpen(4)}" aria-hidden="true"></i></a><ul class="drawer-sub-menu" v-if="isOpen(4)"><li><a href="/carrotbot"><i class="fas fa-coffee" style="margin-top:-20px"></i> <span>机器贝</span></a></li><li><a href="/game"><i class="fas fa-television" style="margin-top:-20px"></i> <span>游戏</span></a></li><li><a href="/chat"><i class="fas fa-comments" style="margin-top:-20px"></i> <span>留言板</span></a></li><li><a href="/friends"><i class="fas fa-users" style="margin-top:-20px"></i> <span>友情链接</span></a></li></ul></li><li class="drawer-box-content_item"><a target="_blank" rel="noopener" href="https://github.com/XIAOBAIZZH"><i class="fas fa-github" aria-hidden="true"></i> <span>Github</span></a></li></ul></div></div></div><script>var body = document.body || document.documentElement || window;
+  };
+
+</script> 
+
+<!-- 轮播图所需要的js -->
+<script src="/js/swiper/swiper.min.js"></script>
+<script src="/js/swiper/vue-awesome-swiper.js"></script>
+<script src="/js/swiper/swiper.animate1.0.3.min.js"></script>
+
+<script type="text/javascript">
+  Vue.use(window.VueAwesomeSwiper)
+</script>
+
+
+  <script src="/js/vue-typed-js/index.js"></script>
+
+
+<!-- 首页的公告滚动插件的js需要重新加载 -->
+<script src="/js/vue-seamless-scroll/index.js"></script>
+
+<!-- 打字机效果js -->
+<script src="https://unpkg.com/typed.js@2.0.11"></script>
+
+
+    <div id="safearea">
+      <main class="main" id="pjax-container">
+        <!-- 头部导航 -->
+        
+<header class="header   " 
+  id="navHeader"
+  style="position: fixed;
+  left: 0; top: 0; z-index: 10;width: 100%;"
+>
+  <div class="header-content">
+    <div class="bars">
+      <div id="appDrawer" class="sidebar-image">
+  <div class="drawer-box-icon">
+    <i class="fas fa-bars" aria-hidden="true" @click="showDialogDrawer"></i>
+  </div>
+  
+  <transition name="fade">
+    <div class="drawer-box_mask" v-cloak style="display: none;" v-show="visible" @click.self="cancelDialogDrawer">
+    </div>
+  </transition>
+  <div class="drawer-box" :class="{'active': visible}">
+    <div class="drawer-box-head bg-color">
+      <img class="drawer-box-head_logo lazyload placeholder" src="/medias/logo.png" class="lazyload placeholder" data-srcset="/medias/logo.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="logo">
+      <h3 class="drawer-box-head_title">波兰仔的博客</h3>
+      <h5 class="drawer-box-head_desc">一位资深白嫖党</h5>
+    </div>
+    
+    <div class="drawer-box-content">
+      <ul class="drawer-box-content_menu">
+        
+          
+            <li class="drawer-box-content_item" style="position: relative;">
+              
+                <a href="/" class="drawer-menu-item-link">
+                  
+                    <i class="fas fa-home" aria-hidden="true"></i>
+                  
+                  <span class="name">首页</span>
+                </a>
+              
+            </li>
+          
+            <li class="drawer-box-content_item" style="position: relative;">
+              
+                <a href="/archives" class="drawer-menu-item-link">
+                  
+                    <i class="fas fa-archive" aria-hidden="true"></i>
+                  
+                  <span class="name">归档</span>
+                </a>
+              
+            </li>
+          
+            <li class="drawer-box-content_item" style="position: relative;">
+              
+                <a href="/tags" class="drawer-menu-item-link">
+                  
+                    <i class="fas fa-tags" aria-hidden="true"></i>
+                  
+                  <span class="name">标签</span>
+                </a>
+              
+            </li>
+          
+            <li class="drawer-box-content_item" style="position: relative;">
+              
+                <a href="/about" class="drawer-menu-item-link">
+                  
+                    <i class="fas fa-user" aria-hidden="true"></i>
+                  
+                  <span class="name">关于</span>
+                </a>
+              
+            </li>
+          
+            <li class="drawer-box-content_item" style="position: relative;">
+              
+                <a href="javascript:;" class="drawer-menu-item-link has-children" @click="openOrCloseMenu(4)">
+                  <span>
+                    
+                      <i class="fas fa-link"></i>
+                    
+                    <span class="name">更多</span>
+                  </span>
+                  <i class="fas fa-chevron-left arrow " :class="{'icon-rotate': isOpen(4)}" aria-hidden="true"></i>
+                </a>
+                <ul class="drawer-sub-menu" v-if="isOpen(4)">
+                  
+                  <li>
+                    <a href="/carrotbot">
+                      
+                      <i class="fas fa-coffee" style="margin-top: -20px;"></i>
+                      
+                      <span>机器贝</span>
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/game">
+                      
+                      <i class="fas fa-television" style="margin-top: -20px;"></i>
+                      
+                      <span>游戏</span>
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/chat">
+                      
+                      <i class="fas fa-comments" style="margin-top: -20px;"></i>
+                      
+                      <span>留言板</span>
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/friends">
+                      
+                      <i class="fas fa-users" style="margin-top: -20px;"></i>
+                      
+                      <span>友情链接</span>
+                    </a>
+                  </li>
+                  
+                </ul>
+              
+            </li>
+          
+        
+        
+          <li class="drawer-box-content_item">
+            <a target="_blank" rel="noopener" href="https://github.com/XIAOBAIZZH">
+              <i class="fas fa-github" aria-hidden="true"></i>
+              <span>Github</span>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script>
+  var body = document.body || document.documentElement || window;
   var vm = new Vue({
     el: '#appDrawer',
     data: {
@@ -88,7 +378,152 @@
       }
     },
     created() {}
-  })</script></div><div class="blog-title" id="author-avatar"><div class="avatar"><img src="/medias/logo.png" class="lazyload placeholder" data-srcset="/medias/logo.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="logo"></div><a href="/" class="logo">波兰仔的博客</a></div><nav class="navbar"><ul class="menu"><li class="menu-item" style="position:relative"><a href="/" class="menu-item-link" title="首页"><i class="fas fa-home" aria-hidden="true"></i> <span class="name">首页</span></a></li><li class="menu-item" style="position:relative"><a href="/archives" class="menu-item-link" title="归档"><i class="fas fa-archive" aria-hidden="true"></i> <span class="name">归档</span></a></li><li class="menu-item" style="position:relative"><a href="/tags" class="menu-item-link" title="标签"><i class="fas fa-tags" aria-hidden="true"></i> <span class="name">标签</span></a></li><li class="menu-item" style="position:relative"><a href="/about" class="menu-item-link" title="关于"><i class="fas fa-user" aria-hidden="true"></i> <span class="name">关于</span></a></li><li class="menu-item" style="position:relative"><a href="javascript:;" class="menu-item-link" title="更多"><i class="fas fa-link"></i> <span class="name">更多</span> <i class="fas fa-chevron-down arrow" aria-hidden="true"></i></a><ul class="sub-menu"><li><a href="/carrotbot"><i class="fas fa-coffee" style="margin-top:-20px"></i> <span>机器贝</span></a></li><li><a href="/game"><i class="fas fa-television" style="margin-top:-20px"></i> <span>游戏</span></a></li><li><a href="/chat"><i class="fas fa-comments" style="margin-top:-20px"></i> <span>留言板</span></a></li><li><a href="/friends"><i class="fas fa-users" style="margin-top:-20px"></i> <span>友情链接</span></a></li></ul></li></ul><div id="appSearch"><div class="search" @click="showDialog()"><i class="fas fa-search" aria-hidden="true"></i></div><transition name="fade"><div class="message-box_wrapper" style="display:none" v-cloak v-show="dialogVisible" @click.self="cancelDialogVisible()"><div class="message-box animated bounceInDown"><h2><span><i class="fas fa-search" aria-hidden="true"></i> <span class="title">本地搜索</span> </span><i class="fas fa-times close" pointer style="float:right" aria-hidden="true" @click.self="cancelDialogVisible()"></i></h2><form class="site-search-form"><input type="text" placeholder="搜索..." id="local-search-input" @click="getSearchFile()" class="st-search-input" v-model="searchInput"></form><div class="result-wrapper"><div id="local-search-result" class="local-search-result-cls"></div></div></div></div></transition></div><script src="/js/local_search.js"></script><script>var body = document.body || document.documentElement || window;
+  })
+</script>
+
+    </div>
+    <div class="blog-title" id="author-avatar">
+      
+        <div class="avatar">
+          <img src="/medias/logo.png" class="lazyload placeholder" data-srcset="/medias/logo.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="logo">
+        </div>
+      
+      <a href="/" class="logo">波兰仔的博客</a>
+    </div>
+    <nav class="navbar">
+      <ul class="menu">
+        
+          
+            <li class="menu-item" style="position: relative;">
+              
+                <a href="/" class="menu-item-link" title="首页">
+                  
+                    <i class="fas fa-home" aria-hidden="true"></i>
+                  
+                  <span class="name">首页</span>
+                </a>
+              
+            </li>
+          
+            <li class="menu-item" style="position: relative;">
+              
+                <a href="/archives" class="menu-item-link" title="归档">
+                  
+                    <i class="fas fa-archive" aria-hidden="true"></i>
+                  
+                  <span class="name">归档</span>
+                </a>
+              
+            </li>
+          
+            <li class="menu-item" style="position: relative;">
+              
+                <a href="/tags" class="menu-item-link" title="标签">
+                  
+                    <i class="fas fa-tags" aria-hidden="true"></i>
+                  
+                  <span class="name">标签</span>
+                </a>
+              
+            </li>
+          
+            <li class="menu-item" style="position: relative;">
+              
+                <a href="/about" class="menu-item-link" title="关于">
+                  
+                    <i class="fas fa-user" aria-hidden="true"></i>
+                  
+                  <span class="name">关于</span>
+                </a>
+              
+            </li>
+          
+            <li class="menu-item" style="position: relative;">
+              
+                <a href="javascript:;" class="menu-item-link" title="更多">
+                  
+                    <i class="fas fa-link"></i>
+                  
+                  <span class="name">更多</span>
+                  <i class="fas fa-chevron-down arrow" aria-hidden="true"></i>
+                </a>
+                <ul class="sub-menu">
+                  
+                  <li>
+                    <a href="/carrotbot">
+                      
+                      <i class="fas fa-coffee" style="margin-top: -20px;"></i>
+                      
+                      <span>机器贝</span>
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/game">
+                      
+                      <i class="fas fa-television" style="margin-top: -20px;"></i>
+                      
+                      <span>游戏</span>
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/chat">
+                      
+                      <i class="fas fa-comments" style="margin-top: -20px;"></i>
+                      
+                      <span>留言板</span>
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/friends">
+                      
+                      <i class="fas fa-users" style="margin-top: -20px;"></i>
+                      
+                      <span>友情链接</span>
+                    </a>
+                  </li>
+                  
+                </ul>
+              
+            </li>
+          
+        
+      </ul>
+      
+      
+        <div id="appSearch">
+  <div class="search"  @click="showDialog()"><i class="fas fa-search" aria-hidden="true"></i></div>
+  <transition name="fade">
+    <div class="message-box_wrapper" style="display: none;" v-cloak v-show="dialogVisible" @click.self="cancelDialogVisible()">
+      <div class="message-box animated bounceInDown">
+        <h2>
+          <span>
+            <i class="fas fa-search" aria-hidden="true"></i>
+            <span class="title">本地搜索</span>
+          </span>
+          <i class="fas fa-times close" pointer style="float:right;" aria-hidden="true" @click.self="cancelDialogVisible()"></i>
+        </h2>
+        <form class="site-search-form">
+          <input type="text"
+            placeholder="搜索..."
+            id="local-search-input" 
+            @click="getSearchFile()"
+            class="st-search-input"
+            v-model="searchInput"
+          />
+        </form>
+        <div class="result-wrapper">
+          <div id="local-search-result" class="local-search-result-cls"></div>
+        </div>
+      </div>
+    </div>
+  </transition>
+</div>
+<script src="/js/local_search.js"></script>
+<script>
+  var body = document.body || document.documentElement || window;
   var vm = new Vue({
     el: '#appSearch',
     data: {
@@ -122,7 +557,240 @@
       },
     },
     created() {}
-  })</script></nav></div><a target="_blank" rel="noopener" href="https://github.com/XIAOBAIZZH" class="github-corner color-primary" aria-label="View source on GitHub"><svg width="60" height="60" viewBox="0 0 250 250" style="fill:#fff;position:absolute;top:0;border:0;right:0" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin:130px 106px" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style></header><div class="bg-dark-floor" style="position:fixed;left:0;top:0;width:100%;height:100%;z-index:-1"></div><div class="post-detail-header" id="thumbnail_canvas" style="background-repeat:no-repeat;background-size:cover;background-position:center center;position:relative;background-image:url(/medias/13.jpg)"><div class="post-detail-header-mask"></div><canvas id="header_canvas" style="position:absolute;bottom:0;pointer-events:none"></canvas><div class="post-detail-header_info-box"><div class="title-box"><span class="title">萌新玩我的世界JAVA服务器教程</span></div><span class="post-detail-header_date"><i class="fas fa-calendar"></i> 发表于：2022-10-09 |</span><div class="post-detail-header_wordcount"><span class="totalcount"><i class="fas fa-file-text-o"></i> 字数统计: 117 | </span><span class="min2read"><i class="fas fa-clock"></i> 阅读时长: 1分钟 | </span><span class="reading"><i class="fas fa-eye"></i> 阅读量：<span id="busuanzi_value_page_pv"></span></span></div></div><script src="/js/bubble/bubble.js"></script></div><div class="post-detail-content row justify-position" style="padding-top:0"><div class="main-content"><article class="post post-detail"><div class="post-content"><h2 id="安装hmcl启动器"><a class="markdownIt-Anchor" href="#安装hmcl启动器"></a> 安装hmcl启动器</h2><p><a target="_blank" rel="noopener" href="https://url94.ctfile.com/d/33326794-44675752-fc62fc">下载hmcl（Windows）</a>（访问密码5267）<br><a target="_blank" rel="noopener" href="https://wwc.lanzoub.com/iKwAu0e4bi2f">下载hmcl（安卓）</a>（密码:5iq9）</p><span id="more"></span><p><img src="https://picx.zhimg.com/80/v2-2ec57081a55a676c827ed8f030b7f548_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-2ec57081a55a676c827ed8f030b7f548_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="点击文件名下载">下载完成后直接打开</p><h2 id="添加账户"><a class="markdownIt-Anchor" href="#添加账户"></a> 添加账户</h2><p><img src="https://picx.zhimg.com/80/v2-7c3f7c55d54e8f62d4147ac717795aed_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-7c3f7c55d54e8f62d4147ac717795aed_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="点击左侧的账户"></p><p>如果你没有正版，用离线模式即可，离线模式可以玩没有正版验证的服务器</p><h2 id="下载服务器的版本"><a class="markdownIt-Anchor" href="#下载服务器的版本"></a> 下载服务器的版本</h2><p>这里以1.16.5为例 <img src="https://picx.zhimg.com/80/v2-87a34b0d86feca67a2e2b9742be7618a_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-87a34b0d86feca67a2e2b9742be7618a_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="点击左侧下载"> <img src="https://pic1.zhimg.com/80/v2-b921cba769deb5bf4b66f9659b6b7e54_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-b921cba769deb5bf4b66f9659b6b7e54_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="选择版本"> <img src="https://pic1.zhimg.com/80/v2-ebef5796af2ca6bc99a936e300dfd1d6_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-ebef5796af2ca6bc99a936e300dfd1d6_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="安装">安装完成后回到主界面启动游戏</p><h2 id="添加服务器"><a class="markdownIt-Anchor" href="#添加服务器"></a> 添加服务器</h2><p><img src="https://pic1.zhimg.com/80/v2-651db25f6ef266f6407e8832a39825c3_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-651db25f6ef266f6407e8832a39825c3_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="点击多人游戏"> <img src="https://pic1.zhimg.com/80/v2-a3a2de81972340347123843706461e4a_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-a3a2de81972340347123843706461e4a_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="添加服务器"> <img src="https://picx.zhimg.com/80/v2-f5460974d552c7fc0144a71679296498_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-f5460974d552c7fc0144a71679296498_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="填服务器信息">添加完成后就可以进服务器游玩了</p></div><div class="post-tags-categories"><div class="tags"><a href="/tags/%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B/">新手教程</a></div></div><div class="copyright"><ul class="post-copyright"><li class="post-copyright-author"><strong>作者: </strong>XIAOBAI</li><li class="post-copyright-link"><strong>文章链接: </strong><a href="/meng-xin-wan-wo-de-shi-jie-java-fu-wu-qi-jiao-cheng/" target="_blank" title="萌新玩我的世界JAVA服务器教程">http://baicarrots.top/meng-xin-wan-wo-de-shi-jie-java-fu-wu-qi-jiao-cheng/</a></li><li class="post-copyright-license"><strong>版权声明: </strong>文章采用 <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">CC BY-NC-ND 4.0</a> 许可协议，转载请注明出处</li></ul><div></div></div></article><div class="post-nav"><div class="post-nav-prev post-nav-item"><div class="post-nav-img" style="background-size:cover;background-position:center center"><img class="lazyload lazyload placeholder" src="/medias/12.jpg" class="lazyload placeholder" data-srcset="/medias/12.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt=""></div><a href="/ru-he-chuang-jian-zi-ji-de-ji-qi-bei/" class="post-nav-link"><div class="title"><i class="fas fa-angle-left"></i> 上一篇:<div class="title-text">如何创建自己的&#39;机器贝&#39;</div></div></a></div><div class="post-nav-next post-nav-item"><div class="post-nav-img" style="background-size:cover;background-position:center center"><img class="lazyload lazyload placeholder" src="/medias/2.jpg" class="lazyload placeholder" data-srcset="/medias/2.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" src="" alt=""></div><a href="/bo-ke-zhong-yu-nong-hao-liao/" class="post-nav-link"><div class="title">下一篇: <i class="fas fa-angle-right"></i><div class="title-text">博客终于弄好了</div></div></a></div></div><div id="appDonate" class="post-donate"><div id="donate_board" class="donate_bar center" ref="donate"><a id="btn_donate" class="btn_donate" href="javascript:;" title="打赏" @click="showDialogDrawer()"></a></div><transition name="fade"><div class="donate-box-mask" v-cloak v-show="visible" @click="cancelDialogDrawer()"></div></transition><transition name="bounce"><div class="donate-box" v-cloak v-show="visible"><div class="donate-box_close"><i class="fas fa-times" aria-hidden="true" @click="cancelDialogDrawer" pointer></i></div><div class="donate-box_title"><h4>赞助</h4></div><div class="donate-box_tab"><div class="Alipay" pointer :class="{'active': tabActive === 'Alipay'}" @click="changeTabActive('Alipay')">支付宝</div><div class="WeChatpay" pointer :class="{'active': tabActive === 'WeChatpay'}" @click="changeTabActive('WeChatpay')">微信</div></div><div class="donate-box_img"><div class="AlipayImg" v-show="tabActive === 'Alipay'"><img src="/medias/alipay.png" class="lazyload placeholder" data-srcset="/medias/alipay.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="支付宝打赏"></div><div class="WeChatpayImg" v-show="tabActive === 'WeChatpay'"><img src="/medias/wechatpay.png" class="lazyload placeholder" data-srcset="/medias/wechatpay.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="微信打赏"></div></div></div></transition></div><script>var body = document.body || document.documentElement || window;
+  })
+</script>
+<!-- 解决刷新页面闪烁问题，可以在元素上添加display: none, 或者用vue.extend方法，详情：https://blog.csdn.net/qq_31393401/article/details/81017912 -->
+<!-- 下面是搜索基本写法 -->
+<!-- <script type="text/javascript" id="local.search.active">
+  var inputArea = document.querySelector("#local-search-input");
+  inputArea.onclick   = function(){ getSearchFile(); this.onclick = null }
+  inputArea.onkeydown = function(){ if(event.keyCode == 13) return false }
+</script> -->
+
+      
+
+    </nav>
+  </div>
+  
+    <a target="_blank" rel="noopener" href="https://github.com/XIAOBAIZZH" class="github-corner color-primary" aria-label="View source on GitHub"><svg width="60" height="60" viewBox="0 0 250 250" style="fill:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+  
+  
+</header>
+        <!-- 内容区域 -->
+        
+ <!-- prismjs 代码高亮 -->
+ 
+
+
+<div class="bg-dark-floor" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -1;"></div>
+
+
+  <!-- 文章详情页顶部图片和标题 -->
+
+
+
+
+<div class="post-detail-header" id="thumbnail_canvas" style="background-repeat: no-repeat; background-size: cover; 
+  background-position: center center;position: relative;background-image:url('/medias/13.jpg')">
+  <div class="post-detail-header-mask"></div>
+  <canvas id="header_canvas"style="position:absolute;bottom:0;pointer-events:none;"></canvas>
+  
+  <div class="post-detail-header_info-box">
+    <div class="title-box">
+      <span class="title">
+        萌新玩我的世界JAVA服务器教程
+      </span>
+    </div>
+    
+    
+      
+        <span class="post-detail-header_date">
+          <i class="fas fa-calendar"></i> 发表于：2022-10-09 |
+        </span>
+      
+
+      
+
+      
+        <div class="post-detail-header_wordcount">
+          <span class="totalcount">
+            <i class="fas fa-file-text-o"></i> 字数统计: 117 |
+          </span>
+  
+          <span class="min2read">
+            <i class="fas fa-clock"></i> 阅读时长: 1分钟 |
+          </span>
+  
+          
+            <span class="reading">
+              <i class="fas fa-eye"></i> 阅读量：<span id="busuanzi_value_page_pv"></span>
+            </span>
+          
+        </div>
+      
+    
+  </div>
+  
+  
+    <script src="/js/bubble/bubble.js"></script>
+  
+</div>
+
+
+
+
+
+<div class="post-detail-content row justify-position" 
+  style="padding-top: 0px;">
+  <div class="main-content">
+    <article class="post post-detail">
+      <div class="post-content">
+        <h2 id="安装hmcl启动器"><a class="markdownIt-Anchor" href="#安装hmcl启动器"></a> 安装hmcl启动器</h2>
+<p><a target="_blank" rel="noopener" href="https://url94.ctfile.com/d/33326794-44675752-fc62fc">下载hmcl（Windows）</a>（访问密码5267）<br />
+<a target="_blank" rel="noopener" href="https://wwc.lanzoub.com/iKwAu0e4bi2f">下载hmcl（安卓）</a>（密码:5iq9）</p>
+<span id="more"></span>
+<p><img src="https://picx.zhimg.com/80/v2-2ec57081a55a676c827ed8f030b7f548_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-2ec57081a55a676c827ed8f030b7f548_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="点击文件名下载" />下载完成后直接打开</p>
+<h2 id="添加账户"><a class="markdownIt-Anchor" href="#添加账户"></a> 添加账户</h2>
+<p><img src="https://picx.zhimg.com/80/v2-7c3f7c55d54e8f62d4147ac717795aed_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-7c3f7c55d54e8f62d4147ac717795aed_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="点击左侧的账户" /></p>
+<p>如果你没有正版，用离线模式即可，离线模式可以玩没有正版验证的服务器</p>
+<h2 id="下载服务器的版本"><a class="markdownIt-Anchor" href="#下载服务器的版本"></a> 下载服务器的版本</h2>
+<p>这里以1.16.5为例 <img src="https://picx.zhimg.com/80/v2-87a34b0d86feca67a2e2b9742be7618a_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-87a34b0d86feca67a2e2b9742be7618a_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="点击左侧下载" /> <img src="https://pic1.zhimg.com/80/v2-b921cba769deb5bf4b66f9659b6b7e54_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-b921cba769deb5bf4b66f9659b6b7e54_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="选择版本" /> <img src="https://pic1.zhimg.com/80/v2-ebef5796af2ca6bc99a936e300dfd1d6_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-ebef5796af2ca6bc99a936e300dfd1d6_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="安装" />安装完成后回到主界面启动游戏</p>
+<h2 id="添加服务器"><a class="markdownIt-Anchor" href="#添加服务器"></a> 添加服务器</h2>
+<p><img src="https://pic1.zhimg.com/80/v2-651db25f6ef266f6407e8832a39825c3_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-651db25f6ef266f6407e8832a39825c3_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="点击多人游戏" /> <img src="https://pic1.zhimg.com/80/v2-a3a2de81972340347123843706461e4a_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-a3a2de81972340347123843706461e4a_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="添加服务器" /> <img src="https://picx.zhimg.com/80/v2-f5460974d552c7fc0144a71679296498_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-f5460974d552c7fc0144a71679296498_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="填服务器信息" />添加完成后就可以进服务器游玩了</p>
+
+      </div>
+      <div class="post-tags-categories">
+        
+        <div class="tags">
+          
+            <a href="/tags/%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B/" class="">
+              新手教程
+            </a>
+          
+        </div>
+        
+      </div>
+      
+        <div class="copyright">
+  <ul class="post-copyright">
+    <li class="post-copyright-author">
+    <strong>作者:  </strong>XIAOBAI</a>
+    </li>
+    <li class="post-copyright-link">
+    <strong>文章链接:  </strong>
+    <a href="/meng-xin-wan-wo-de-shi-jie-java-fu-wu-qi-jiao-cheng/" target="_blank" title="萌新玩我的世界JAVA服务器教程">http://baicarrots.top/meng-xin-wan-wo-de-shi-jie-java-fu-wu-qi-jiao-cheng/</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong>版权声明:   </strong>
+      文章采用 <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">CC BY-NC-ND 4.0</a>
+      许可协议，转载请注明出处
+    </li>
+  </ul>
+<div>
+      
+    </article>
+    <!-- 上一篇文章和下一篇文章 -->
+    
+      <!-- 文章详情页的上一页和下一页 -->
+<div class="post-nav">
+
+
+
+  
+  <div class="post-nav-prev post-nav-item">
+    <div class="post-nav-img" style="background-size: cover; 
+      background-position: center center;">
+      <img class="lazyload lazyload placeholder" src="/medias/12.jpg" class="lazyload placeholder" data-srcset="/medias/12.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+    </div>
+    <a href="/ru-he-chuang-jian-zi-ji-de-ji-qi-bei/" class="post-nav-link">
+      <div class="title">
+        <i class="fas fa-angle-left"></i> 上一篇:
+        <div class="title-text">如何创建自己的&#39;机器贝&#39;</div>
+      </div>
+      
+      <!-- <div class="content">
+        提示：最好用虚拟机或者备用机弄机器人，否则会有一系列问题影响正常使用
+ 注册一个新的微信账号
+（如果你不担心人和机器一个
+      </div> -->
+    </a>
+  </div>
+
+
+
+  
+  <div class="post-nav-next post-nav-item">
+    <div class="post-nav-img" style="background-size: cover; 
+      background-position: center center;">
+      <img class="lazyload lazyload placeholder" src="/medias/2.jpg" class="lazyload placeholder" data-srcset="/medias/2.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" src="" alt="">
+    </div>
+    <a href="/bo-ke-zhong-yu-nong-hao-liao/" class="post-nav-link">
+      <div class="title">
+        下一篇: <i class="fas fa-angle-right"></i>
+        <div class="title-text">博客终于弄好了</div>
+      </div>
+      <!-- <div class="content">
+        参考教程
+域名：NameSilo
+服务器＆DNS：Cloudflare
+Hexo部署
+
+      </div> -->
+    </a>
+  </div>
+
+</div>
+
+    
+    
+
+    <!-- 打赏 -->
+    
+      <div id="appDonate" class="post-donate">
+  <div id="donate_board" class="donate_bar center" ref="donate">
+    <a id="btn_donate" class="btn_donate" href="javascript:;" title="打赏" @click="showDialogDrawer()"></a>
+  </div>
+  <transition name="fade">
+    <div 
+      class="donate-box-mask"
+      v-cloak 
+      v-show="visible"
+      @click="cancelDialogDrawer()"
+    >
+    </div>
+  </transition>
+  <transition name="bounce">
+    <div class="donate-box" v-cloak v-show="visible">
+      <div class="donate-box_close">
+        <i class="fas fa-times" aria-hidden="true" @click="cancelDialogDrawer" pointer></i>
+      </div>
+      <div class="donate-box_title">
+        <h4>
+          赞助
+        </h4>
+      </div>
+      <div class="donate-box_tab">
+        <div class="Alipay" pointer :class="{'active': tabActive === 'Alipay'}" @click="changeTabActive('Alipay')">
+          支付宝
+        </div>
+        <div class="WeChatpay" pointer :class="{'active': tabActive === 'WeChatpay'}" @click="changeTabActive('WeChatpay')">
+          微信
+        </div>
+      </div>
+      <div class="donate-box_img">
+        <div class="AlipayImg" v-show="tabActive === 'Alipay'">
+          <img src="/medias/alipay.png" class="lazyload placeholder" data-srcset="/medias/alipay.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="支付宝打赏" />
+        </div> 
+        <div class="WeChatpayImg" v-show="tabActive === 'WeChatpay'">
+          <img src="/medias/wechatpay.png" class="lazyload placeholder" data-srcset="/medias/wechatpay.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="微信打赏" />
+        </div>
+      </div>
+    </div>
+  </transition>
+</div>
+
+<script>
+  var body = document.body || document.documentElement || window;
   var vm = new Vue({
     el: '#appDonate',
     data: {
@@ -158,7 +826,162 @@
       }
     },
     created() {}
-  })</script><div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div><script src="/js/shareJs/social-share.min.js"></script><style>.social-share{margin:20px 0}</style><div id="myComment"><section id="comments" style="padding:1em" class="animated bounceInUp"><div id="vcomment" class="comment"></div></section><style>#comments{background:rgba(255,255,255,.9)}#veditor{background-image:url(/);background-size:contain;background-repeat:no-repeat;background-position:right;background-color:rgba(255,255,255,0);resize:vertical}#veditor:focus{background-position-y:200px;transition:all .2s ease-in-out 0s}#vcomment .vcards .vcard .vh .vhead .vtag.vvisitor{background-color:#42b983}.v[data-class=v] .vbtn:active,.v[data-class=v] .vbtn:hover{color:#42b983;border-color:#42b983}#vcomment .vcards .vcard .vhead .vsys i{display:none}#vcomment .vpower{display:none}img.vimg{transition:all 1s}img.vimg:hover{transform:rotate(360deg);-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);-o-transform:rotate(360deg);-ms-transform:rotate(360deg)}#vcomment .vcards .vcard{padding:15px 20px 0 20px;border-radius:10px;margin-bottom:15px;box-shadow:0 0 4px 1px rgba(0,0,0,.12);transition:all .3s}#vcomment .vcards .vcard:hover{box-shadow:0 0 8px 3px rgba(0,0,0,.12)}#vcomment .vcards .vcard .vh .vcard{border:none;box-shadow:none}</style></div></div><div class="toc-aside"><div class="toc-main"><div class="toc-aside-title"><i class="fas fa-list-ul" aria-hidden="true"></i><span>目录</span><div class="toc-open-close">目录</div></div><div class="toc-content"><div class="toc"></div></div></div></div><div id="toc-mobile-btn"><i class="fas fa-list-ul" aria-hidden="true"></i></div><script>function closeToc(init) {
+  })
+</script>
+    
+
+    <!-- 分享 -->
+    
+      <!-- https://github.com/overtrue/share.js -->
+<!-- 文章详情页的分享 -->
+<div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+
+<script src="/js/shareJs/social-share.min.js"></script>
+</script>
+
+<style>
+  .social-share {
+    margin: 20px 0;
+  }
+</style>
+
+
+    
+    
+    <!-- 评论 -->
+    <!-- 评论 -->
+
+  <div id="myComment">
+    
+      
+<section id="comments" style="padding: 1em;"
+	class="animated bounceInUp">
+	<div id="vcomment" class="comment"></div>
+</section>
+<style>
+	#comments {
+		background: rgba(255,255,255,0.9);
+	}
+	#veditor {
+		background-image: url('/');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: right;
+		background-color: rgba(255, 255, 255, 0);
+		resize: vertical;
+	}
+	#veditor:focus{
+		background-position-y: 200px;
+		transition: all 0.2s ease-in-out 0s;
+	}
+	#vcomment .vcards .vcard .vh .vhead .vtag.vvisitor {
+		background-color: #42b983;
+	}
+	.v[data-class=v] .vbtn:active, .v[data-class=v] .vbtn:hover {
+		color: #42b983;
+		border-color: #42b983;
+	}
+	#vcomment .vcards .vcard .vhead .vsys i {
+		display: none;
+	}
+	/* 底部valine链接 */
+	#vcomment .vpower {
+		display: none;
+	}
+	
+	/* 底下注释是修改 名称和邮箱和网址输入框的样式 */
+	/* #vcomment .vheader {
+		display: flex;
+		justify-content: space-around;
+	}
+	
+	#vcomment .vheader .vnick {
+		width: 31%;
+		border: 2px solid #dedede;
+		padding-left: 10px;
+		padding-right: 10px;
+		border-radius: 5px
+	}
+
+	#vcomment .vheader .vmail {
+		width: 31%;
+		border: 2px solid #dedede;
+		padding-left: 10px;
+		padding-right: 10px;
+		border-radius: 5px
+	}
+
+	#vcomment .vheader .vlink {
+		width: 31%;
+		border: 2px solid #dedede;
+		padding-left: 10px;
+		padding-right: 10px;
+		border-radius: 5px
+	} */
+
+	img.vimg {
+		transition: all 1s;
+		/* 头像旋转时间为 1s */
+	}
+
+	img.vimg:hover {
+		transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+	}
+
+	#vcomment .vcards .vcard {
+		padding: 15px 20px 0 20px;
+		border-radius: 10px;
+		margin-bottom: 15px;
+		box-shadow: 0 0 4px 1px rgba(0, 0, 0, .12);
+		transition: all .3s
+	}
+
+	#vcomment .vcards .vcard:hover {
+		box-shadow: 0 0 8px 3px rgba(0, 0, 0, .12)
+	}
+
+	#vcomment .vcards .vcard .vh .vcard {
+		border: none;
+		box-shadow: none;
+	}
+</style>
+    
+  </div>
+
+<!-- comment script in themes\hexo-theme-bamboo\layout\_partial\scripts\index.ejs -->
+
+
+  </div>
+
+  <!-- 目录 -->
+  <!-- 文章详情页右侧目录 -->
+
+  <div class="toc-aside">
+    <div class="toc-main">
+      <div class="toc-aside-title">
+        <i class="fas fa-list-ul" aria-hidden="true"></i><span>目录</span>
+        
+          <div class="toc-open-close">目录</div>
+        
+      </div>
+      <div class="toc-content">
+        <div class="toc"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 手机端目录按钮 -->
+  <div id="toc-mobile-btn">
+    <i class="fas fa-list-ul" aria-hidden="true"></i>
+  </div>
+
+
+<script>
+  function closeToc(init) {
     $(".toc-aside").css({'width': 0, 'padding': 0, 'transition': init ?  'noe' : 'width 0.3s' });
     $(".toc-content").css({'width': 0});
     $(".toc-aside-title span, .toc-aside-title i").css({'display': 'none'});
@@ -198,7 +1021,25 @@
   })
   document.addEventListener('pjax:complete', function () {
     openBtnClickFn();
-  })</script><script src="/js/wrapImage.js"></script></div><div id="appBgSwiper" style="position:fixed;left:0;top:0;width:100%;height:100%;z-index:-2" :style="{'background-color': bgColor ? bgColor : 'transparent'}"><transition-group tag="ul" :name="names"><li v-for="(image,index) in img" :key="index" v-show="index === mark" class="bg-swiper-box"><img :src="image" class="bg-swiper-img no-lazy"></li></transition-group></div><script>var vm = new Vue({
+  })
+  
+</script>
+
+  <!-- 图片放大 Wrap images with fancybox support -->
+  <script src="/js/wrapImage.js"></script>
+</div>
+
+<!-- 文章详情页背景图 -->
+<div id="appBgSwiper" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -2;"
+	:style="{'background-color': bgColor ? bgColor : 'transparent'}">
+	<transition-group tag="ul" :name="names">
+		<li v-for='(image,index) in img' :key='index' v-show="index === mark" class="bg-swiper-box">
+			<img :src="image" class="bg-swiper-img no-lazy">
+		</li>
+	</transition-group>
+</div>
+<script>
+	var vm = new Vue({
 		el: '#appBgSwiper',
 		data: {
 			names: '' || 'fade' || 'fade', // translate-fade fade
@@ -290,7 +1131,29 @@
 				this.bgColor = prop;
 			}
 		}
-	})</script><style>.bg-swiper-box{position:absolute;display:block;width:100%;height:100%}.bg-swiper-img{object-fit:cover;width:100%;height:100%}</style><script>function loadMermaid() {
+	})
+</script>
+
+<style>
+	.bg-swiper-box {
+		position: absolute;
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+
+	.bg-swiper-img {
+		object-fit: cover;
+		width: 100%;
+		height: 100%;
+	}
+</style>
+
+
+
+
+  <script>
+  function loadMermaid() {
     if (document.getElementsByClassName('mermaid').length) {
       if (window.mermaidJsLoad) mermaid.init()
       else {
@@ -312,7 +1175,22 @@
 
   document.addEventListener('pjax:complete', function () {
     loadMermaid();
-  })</script></main></div><div id="j-fish-skip" style="position:relative;height:153px;width:auto"></div><script>var RENDERER = {
+  })
+  
+</script>
+
+
+      </main>
+    </div>
+
+    <!-- 页脚 -->
+    
+  
+  
+    <!-- 底部鱼儿跳动效果，依赖于jquery-->
+<div id="j-fish-skip" style=" position: relative;height: 153px;width: auto;"></div>
+<script>
+  var RENDERER = {
     POINT_INTERVAL: 5,
     FISH_COUNT: 3,
     MAX_INTERVAL_COUNT: 50,
@@ -464,7 +1342,63 @@
         RENDERER.context.fill();
       });
     })
-  });</script><div class="footer bg-color"><div class="footer-main"><div class="link"></div><div class="footer-copyright"><p>波兰仔的博客</p></div><span id="busuanzi_container_site_pv"><i class="fas fa-eye" aria-hidden="true"></i>本站总访问量：<span id="busuanzi_value_site_pv"></span> 次 </span><span class="post-meta-divider">|</span> <span id="busuanzi_container_site_uv" style="display:none"><i class="fas fa-users" aria-hidden="true"></i>本站访客数：<span id="busuanzi_value_site_uv"></span> 人</span><div class="footer-custom"></div></div></div><div class="dark"><div class="dark-content"><i class="fas fa-moon" aria-hidden="true"></i></div></div><script>$(function() {
+  });
+</script>
+  
+  <div class="footer bg-color">
+    <div class="footer-main">
+      
+        
+          <div class="link">
+            
+          </div>
+        
+      
+        
+          <div class="footer-copyright">
+            <p>波兰仔的博客</p>
+
+          </div>
+        
+      
+        
+          
+            <!-- 不蒜子统计 -->
+            <!-- 不蒜子统计 -->
+<span id="busuanzi_container_site_pv">
+      <i class="fas fa-eye" aria-hidden="true"></i>本站总访问量：<span id="busuanzi_value_site_pv"></span> 次
+</span>
+<span class="post-meta-divider">|</span>
+<span id="busuanzi_container_site_uv" style='display:none'>
+      <i class="fas fa-users" aria-hidden="true"></i>本站访客数：<span id="busuanzi_value_site_uv"></span> 人
+</span>
+
+          
+        
+      
+        
+          <div class="footer-custom">
+            
+          </div>
+        
+      
+    </div>
+  </div>
+
+
+
+    <!-- 渲染暗黑按钮 -->
+    
+      <div class="dark">
+  <div class="dark-content">
+    <i class="fas fa-moon" aria-hidden="true"></i>
+    <!-- <span>关灯</span> -->
+  </div>
+  
+</div>
+
+<script>
+  $(function() {
     let isDark = JSON.parse(localStorage.getItem('dark'))  || JSON.parse('false');
     if (isDark) {
       $(".dark-content").replaceWith(
@@ -498,7 +1432,57 @@
         );
       }
     })
-  })</script><div class="goTop top-btn-color" pointer><i class="fas fa-arrow-up" aria-hidden="true"></i></div><script src="/js/goTop.js"></script><script src="/js/fancybox/jquery.fancybox.min.js"></script><script>!function(){var t=document.createElement("script"),e=window.location.protocol.split(":")[0];t.src="https"===e?"https://zz.bdstatic.com/linksubmit/push.js":"http://push.zhanzhang.baidu.com/push.js";var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(t,s)}()</script><script src="/js/utils/index.js"></script><script src="/js/app.js"></script><link href="/js/tocbot/tocbot.css" rel="stylesheet"><script src="/js/tocbot/tocbot.min.js"></script><script>var headerEl = 'h2, h3, h4',  //headers 
+  })
+</script>
+    
+    <!-- 渲染回到顶部按钮 -->
+    
+      <div class="goTop top-btn-color" pointer>
+  <i class="fas fa-arrow-up" aria-hidden="true"></i>
+</div>
+<script src="/js/goTop.js"></script>
+
+    
+    <!-- 渲染左下角音乐播放器 -->
+    
+
+    <!-- 图片放大 -->
+    
+      <script src="/js/fancybox/jquery.fancybox.min.js"></script>
+    
+
+    <!-- 百度解析 -->
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <!-- 背景彩带 -->
+    
+
+    <script src="/js/utils/index.js"></script>
+    <script src="/js/app.js"></script>
+    
+    <!-- 文章目录所需js -->
+<link href="/js/tocbot/tocbot.css" rel="stylesheet">
+<script src="/js/tocbot/tocbot.min.js"></script>
+
+<script>
+  var headerEl = 'h2, h3, h4',  //headers 
     content = '.post-detail',//文章容器
     idArr = {};  //标题数组以确定是否增加索引id
   //add #id
@@ -616,7 +1600,31 @@
         mobileToc.close()
       }
     })
-  }</script><style>.is-position-fixed{position:sticky!important;top:74px}.toc-main ul{counter-reset:show-list}.toc-main ul li::before{content:counter(item) ".";display:block;position:absolute;left:12px;top:0}</style><script>let setHeaderClass = () => {
+  }
+</script>
+
+<style>
+  .is-position-fixed {
+    position: sticky !important;
+    top: 74px;
+  }
+
+  .toc-main ul {
+    counter-reset: show-list;
+  }
+
+  .toc-main ul li::before {
+    content: counter(item)".";
+    display: block;
+    position: absolute;
+    left: 12px;
+    top: 0;
+  }
+</style> 
+
+<!-- 设置导航背景 -->
+<script>
+  let setHeaderClass = () => {
     const headerMenuTransparent = true;
     if (!headerMenuTransparent) { return; }
     const nav = $('#navHeader');
@@ -649,7 +1657,47 @@
   document.addEventListener('pjax:complete', function () {
     window.addEventListener('scroll', scrollCollect);
     setHeaderClass();
-  })</script><script>function loadIssuesJS(){0!=$(".post-detail").find(".issues-api").length&&loadScript("/js/issues/index.js")}$(function(){loadIssuesJS()}),document.addEventListener("pjax:complete",function(){"undefined"==typeof IssuesAPI&&loadIssuesJS()})</script><script src="/js/activate-power-mode.js"></script><script>POWERMODE.colorful=!0,POWERMODE.shake=!1,document.body.addEventListener("input",POWERMODE)</script><link rel="stylesheet" href="https://unpkg.com/v-plugs-ayu/lib/ayu.css"><script src="https://unpkg.com/v-plugs-ayu/lib/ayu.umd.min.js"></script><script src="/js/clipboard/clipboard.min.js"></script><div id="appCopy"></div><script data-pjax>var vm = new Vue({
+  })
+</script> 
+
+<!-- 渲染issues标签里的内容 -->
+<script>
+  function loadIssuesJS() {
+    if ($(".post-detail").find(".issues-api").length == 0) {
+      return;
+    } 
+    loadScript('/js/issues/index.js');
+  };
+  $(function () {
+    loadIssuesJS();
+  });
+  document.addEventListener('pjax:complete', function () {
+    if (typeof IssuesAPI == "undefined") {
+      loadIssuesJS();
+    }
+  })
+</script>
+
+<!-- 输入框打字特效 -->
+<!-- 输入框打字特效 -->
+
+  <script src="/js/activate-power-mode.js"></script>
+  <script>
+    POWERMODE.colorful = true;  // 打开随机颜色特效
+    POWERMODE.shake = false;    // 关闭输入框抖动
+    document.body.addEventListener('input', POWERMODE);//监听打字事件
+  </script>
+
+
+<!-- markdown代码一键复制功能 -->
+
+  <link rel="stylesheet" href="https://unpkg.com/v-plugs-ayu/lib/ayu.css">
+  <script src="https://unpkg.com/v-plugs-ayu/lib/ayu.umd.min.js"></script>
+  <script src="/js/clipboard/clipboard.min.js"></script>
+  <div id="appCopy">
+  </div>
+  <script data-pjax>
+    var vm = new Vue({
       el: '#appCopy',
       data: {
       },
@@ -693,7 +1741,54 @@
       methods: {
       },
       created() { }
-    })</script><script defer src="https://unpkg.com/vanilla-lazyload@17.1.0/dist/lazyload.min.js"></script><script>window.lazyLoadOptions={elements_selector:".lazyload",threshold:0},window.addEventListener("LazyLoad::Initialized",function(n){window.lazyLoadInstance=n.detail.instance},!1),document.addEventListener("DOMContentLoaded",function(){lazyLoadInstance.update()}),document.addEventListener("pjax:complete",function(){lazyLoadInstance.update()})</script><link href="/js/danmu/barrager.css" rel="stylesheet"><script src="/js/danmu/jquery.barrager.js"></script><script>var requiredFields = 'nick,mail';
+    })
+  </script>
+  
+
+<!-- 图片懒加载 -->
+<script defer src="https://unpkg.com/vanilla-lazyload@17.1.0/dist/lazyload.min.js"></script>
+<script>
+  // https://www.npmjs.com/package/vanilla-lazyload
+  // Set the options globally
+  // to make LazyLoad self-initialize
+  window.lazyLoadOptions = {
+    elements_selector: ".lazyload",
+    threshold: 0
+  };
+  // Listen to the initialization event
+  // and get the instance of LazyLoad
+  window.addEventListener(
+    "LazyLoad::Initialized",
+    function (event) {
+      window.lazyLoadInstance = event.detail.instance;
+    },
+    false
+  );
+  document.addEventListener('DOMContentLoaded', function () {
+    lazyLoadInstance.update();
+  });
+  document.addEventListener('pjax:complete', function () {
+    lazyLoadInstance.update();
+  });
+</script>
+
+
+<!-- 卡片滚动动画 -->
+   
+
+<!-- 评论所需js -->
+
+  
+    <!-- 弹幕所需的css和js -->
+    
+  <!-- 弹幕插件 -->
+  <link href="/js/danmu/barrager.css" rel="stylesheet">
+  <script src="/js/danmu/jquery.barrager.js"></script>
+
+<!-- 具体js，请前往valine/script.ejs查看 -->
+
+    <script>
+  var requiredFields = 'nick,mail';
   requiredFields = requiredFields.split(',');
   comment_el = '.comment';
   let looperValine = null;
@@ -731,7 +1826,7 @@
       var themeDanmu = eval('true');
       var themeLoop = eval('true');
       var themeLooperTime = '5000' || 5000;
-      var speed = '40' || 20;
+      var speed = '30' || 20;
       var isBarrager = true;
       if (themeDanmu == true) {
         do_barrager();
@@ -816,7 +1911,64 @@
   })
   document.addEventListener('pjax:complete', function () {
     load_valine();
-  });</script><script src="/js/cursor/clicklove.js"></script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" data-pjax></script><script src="/js/pjax@0.2.8/index.js"></script><div class="pjax-animate"><div class="loading-circle"><div id="loader-circle"></div></div><script>window.ShowLoading=function(){$(".loading-circle").css("display","block")},window.HideLoading=function(){$(".loading-circle").css("display","none")}</script><script>document.addEventListener("pjax:complete",function(){window.HideLoading()}),document.addEventListener("pjax:send",function(){window.ShowLoading()}),document.addEventListener("pjax:error",function(){window.HideLoading()})</script></div><script>var pjax = new Pjax({
+  });
+</script>
+
+  
+
+
+<!-- 鼠标点击特效 -->
+<!-- 爱心点击 -->
+
+   
+    <script src="/js/cursor/clicklove.js"></script> 
+  
+
+
+
+
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" data-pjax></script>
+
+
+    <!-- pjax -->
+    
+
+<!-- pjax -->
+
+
+  <script src="/js/pjax@0.2.8/index.js"></script>
+  
+    <!-- 样式位于：source/css/_third-party/pjaxanimate.styl -->
+
+<div class="pjax-animate">
+  
+    <div class="loading-circle"><div id="loader-circle"></div></div>
+    <script>
+      window.ShowLoading = function() {
+        $(".loading-circle").css("display", "block");
+      };
+      window.HideLoading = function() {
+        $(".loading-circle").css("display", "none");
+      }
+    </script>
+  
+	<script>
+    document.addEventListener('pjax:complete', function () {
+      window.HideLoading();
+    })
+    document.addEventListener('pjax:send', function () {
+      window.ShowLoading();
+    })
+    document.addEventListener('pjax:error', function () {
+      window.HideLoading();
+    })
+	</script>
+</div>
+
+  
+
+  <script>
+    var pjax = new Pjax({
       elements: 'a[href]:not([href^="#"]):not([href="javascript:void(0)"]):not([no-pjax])',   // 拦截正常带链接的 a 标签
       selectors: ["#pjax-container","title"],                                   // 根据实际需要确认重载区域
       cacheBust: false,   // url 地址追加时间戳，用以避免浏览器缓存
@@ -859,4 +2011,10 @@
     // 刷新不从顶部开始
     document.addEventListener("DOMContentLoaded", function () {
       history.scrollRestoration = 'auto';
-    })</script></body></html>
+    })
+  </script>
+
+
+
+  </body>
+</html>
