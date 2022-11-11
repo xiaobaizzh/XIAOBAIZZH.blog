@@ -299,7 +299,7 @@ W<br />
 <p>.za 南非<br />
 .zm 赞比亚<br />
 .zw 津巴布韦</p>
-<p><strong>原作者：<a href="www.suidaosan.icu">Thedustye</a></strong></p>
+<p><strong>原作者：<a href="https://suidaosan.icu/">Thedustye</a></strong></p>
 ]]></content>
       <tags>
         <tag>域名</tag>
@@ -453,6 +453,17 @@ W<br />
 <figure class="highlight text"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
 <h2 id="购买域名"><a class="markdownIt-Anchor" href="#购买域名"></a> 购买域名</h2>
 <p>推荐<a href="https://www.namesilo.com/?rid=3853d48oc">namesilo</a>，比较便宜</p>
+<h2 id="配置cloudflare"><a class="markdownIt-Anchor" href="#配置cloudflare"></a> 配置Cloudflare</h2>
+<p>前往<a href="https://dash.cloudflare.com/5839b84c6ffd45cf62a501a9f40971e6">Cloudflare官网</a>注册账号   注册完成后添加站点，将你购买的域名填入</p>
+<img src="/da-jian-hexo-bo-ke-jiao-cheng-2/cloudflare.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-2/cloudflare.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<p>添加后他会有两个服务器地址，将这两个地址添加到买域名的网站的域名管理页面的服务器一栏</p>
+<p>这里以namesilo为例</p>
+<img src="/da-jian-hexo-bo-ke-jiao-cheng-2/%E6%9C%8D%E5%8A%A1%E5%99%A8.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-2/%E6%9C%8D%E5%8A%A1%E5%99%A8.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<p>回到cloudflare，打开pages-创建项目-连接到git</p>
+<img src="/da-jian-hexo-bo-ke-jiao-cheng-2/pages.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-2/pages.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<img src="/da-jian-hexo-bo-ke-jiao-cheng-2/pages2.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-2/pages2.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<p>登陆你的github账号，选择之前创建的储存库（不是text那个）</p>
+<p>环境变量等不用设置，再自定义域中填上买的域名，部署选择自动</p>
 ]]></content>
       <tags>
         <tag>hexo</tag>
