@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>hexo搭建博客教程（3）</title>
+    <url>/hexo-da-jian-bo-ke-jiao-cheng-3/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>让我鸽两天</p>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
+        <tag>新手教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>博客终于弄好了</title>
     <url>/bo-ke-zhong-yu-nong-hao-liao/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><a href="https://zhuanlan.zhihu.com/p/102592286">参考教程</a></p>
@@ -10,16 +20,6 @@
 ]]></content>
       <tags>
         <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo搭建博客教程（3）</title>
-    <url>/hexo-da-jian-bo-ke-jiao-cheng-3/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>让我鸽两天</p>
-]]></content>
-      <tags>
-        <tag>hexo</tag>
-        <tag>新手教程</tag>
       </tags>
   </entry>
   <entry>
@@ -310,23 +310,22 @@ W<br />
     <title>如何创建自己的&#39;机器贝&#39;</title>
     <url>/ru-he-chuang-jian-zi-ji-de-ji-qi-bei/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><mark>提示：最好用虚拟机或者备用机弄机器人，否则会有一系列问题影响正常使用</mark></p>
-<h2 id="注册一个新的微信账号"><a class="markdownIt-Anchor" href="#注册一个新的微信账号"></a> 注册一个新的微信账号</h2>
+<h2 class="bamboo-h " id="注册一个新的微信账号">注册一个新的微信账号</h2><br/>
 <p>（如果你不担心人和机器一个号说话的困扰，也可以不注册）<br />
 <mark>*账号请务必实名认证（未成年人也可以实名，不影响使用的），不然大概率会封号</mark></p>
-<h2 id="去茉莉云网站注册账号"><a class="markdownIt-Anchor" href="#去茉莉云网站注册账号"></a> 去<a href="https://mlyai.com/profile/index.html#/dashboard">茉莉云网站</a>注册账号</h2>
-<span id="more"></span>
+<h2 class="bamboo-h " id="去[茉莉云网站](https://mlyai.com/profile/index.html#/dashboard)注册账号">去[茉莉云网站](https://mlyai.com/profile/index.html#/dashboard)注册账号</h2><br/>
 <p>注册完成后添加机器人<br />
 <img src="https://picx.zhimg.com/80/v2-f8434a2489c525fce24708e6e98fe0cd_1440w.jpeg" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-f8434a2489c525fce24708e6e98fe0cd_1440w.jpeg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="" /><br />
 <img src="https://picx.zhimg.com/80/v2-558aac54bdd7f7a5f55d21ab584aa64a_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-558aac54bdd7f7a5f55d21ab584aa64a_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="" /></p>
-<h2 id="安装微x模块"><a class="markdownIt-Anchor" href="#安装微x模块"></a> 安装微X模块</h2>
+<h2 class="bamboo-h " id="安装微X模块">安装微X模块</h2><br/>
 <p><mark>*必须要安卓系统，如果你是Windows可以用安卓虚拟机</mark><br />
 有两种方法：1.直接用内置微X <mark>*某些机型无法使用</mark><br />
 2.用太极 <mark>*用太极会导致无法用微信登陆/支付等问题</mark></p>
-<h3 id="内置微x"><a class="markdownIt-Anchor" href="#内置微x"></a> 内置微X</h3>
+<h3 class="bamboo-h " id="内置微X">内置微X</h3><br/>
 <p><a href="https://www.123pan.com/s/iLx0Vv-I38lA">点击下载</a><br />
 下载安装后登陆注册的新账号，在微信设置中点击微X模块，按它说的重启微信<br />
 （如果设置里没有微X模块或是多次重启微信后依然显示加载错误，就是机型不适配)</p>
-<h3 id="太极"><a class="markdownIt-Anchor" href="#太极"></a> 太极</h3>
+<h3 class="bamboo-h " id="太极">太极</h3><br/>
 <p><a href="http://wwd.lanzouf.com/iFInu03mbtde">点击下载太极</a><br />
 下载完成后安装     点击上方更新，然后点开右上角设置把自启动权限和保持存活打开<br />
 <img src="https://pica.zhimg.com/80/v2-4e306ad021c5281f5f4eed15d7cd955c_1440w.jpeg" class="lazyload placeholder" data-srcset="https://pica.zhimg.com/80/v2-4e306ad021c5281f5f4eed15d7cd955c_1440w.jpeg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="" /><br />
@@ -338,7 +337,7 @@ W<br />
 <p>点击创建后耐心等待，完成后在太极里重新安装微信即可<br />
 <mark>*重新安装之前微信里的聊天记录一定要备份</mark><br />
 重新安装后后登陆注册的新账号，在微信设置中点击微X模块，按它说的重启微信</p>
-<h2 id="添加机器人"><a class="markdownIt-Anchor" href="#添加机器人"></a> 添加机器人</h2>
+<h2 class="bamboo-h " id="添加机器人">添加机器人</h2><br/>
 <p>打开微X模块的自动管理-设置聊天机器人<br />
 <img src="https://picx.zhimg.com/80/v2-654cc6d0da3dd915ec07c51d10b5ee29_1440w.jpeg" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-654cc6d0da3dd915ec07c51d10b5ee29_1440w.jpeg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="" /><br />
 选择茉莉云机器人，将茉莉云网站里的机器人API和密钥复制到这里<br />
@@ -473,20 +472,20 @@ W<br />
   <entry>
     <title>自制文明时代二剧本TSO</title>
     <url>/zi-zhi-wen-ming-shi-dai-ju-ben-tso/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="the-stuid-order"><a class="markdownIt-Anchor" href="#the-stuid-order"></a> The Stuid Order</h1>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 class="bamboo-h " id="The Stuid Order">The Stuid Order</h1><br/>
 <p>自制的文明时代二剧本</p>
 <p>目前只有一个地图，之后会加入更多事件</p>
 <p><strong><a href="https://www.123pan.com/s/owIrVv-rSiwv">点击下载</a>（提取码:1145）</strong></p>
-<h3 id="地图"><a class="markdownIt-Anchor" href="#地图"></a> 地图</h3>
+<h3 class="bamboo-h " id="地图">地图</h3><br/>
 <img src="/zi-zhi-wen-ming-shi-dai-ju-ben-tso/%E5%9C%B0%E5%9B%BE.png" class="lazyload placeholder" data-srcset="/zi-zhi-wen-ming-shi-dai-ju-ben-tso/%E5%9C%B0%E5%9B%BE.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
-<h3 id="同盟"><a class="markdownIt-Anchor" href="#同盟"></a> 同盟</h3>
+<h3 class="bamboo-h " id="同盟">同盟</h3><br/>
 <p><em><strong>协约国</strong></em>：英国、俄罗斯帝国、德意志联邦、卡尔马联盟、英属印度、英属加拿大、捷克、巴伐利亚王国、高加索王国、德属西南非洲</p>
 <p><em><strong>法兰西帝国公约</strong></em>：法兰西帝国、法国东印度公司、西班牙、爱尔兰、波兰、波罗的海联盟、魁北克</p>
 <p><em><strong>轴心国</strong></em>：土耳其、日本、奥地利、保加利亚帝国</p>
 <p><em><strong>泛伊斯兰联会</strong></em>：大阿拉伯伊斯兰联合国、伊朗伊斯兰共和国、阿富汗、巴基斯坦、东突厥斯坦伊斯兰共和国、伊拉克</p>
 <p><em><strong>中华联合政府（中华联邦）</strong></em>：中华民国、中华人民共和国、贵系、滇系、新疆维吾尔自治区、藏区</p>
 <p><em><strong>非洲独立联盟</strong></em>：东非联邦、西南非洲、南非联邦、非洲独立委员会</p>
-<h3 id="事件"><a class="markdownIt-Anchor" href="#事件"></a> 事件</h3>
+<h3 class="bamboo-h " id="事件">事件</h3><br/>
 <p>美国内战</p>
 ]]></content>
       <tags>
@@ -497,17 +496,17 @@ W<br />
   <entry>
     <title>萌新玩我的世界JAVA服务器教程</title>
     <url>/meng-xin-wan-wo-de-shi-jie-java-fu-wu-qi-jiao-cheng/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="安装hmcl启动器"><a class="markdownIt-Anchor" href="#安装hmcl启动器"></a> 安装hmcl启动器</h2>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 class="bamboo-h " id="安装hmcl启动器">安装hmcl启动器</h2><br/>
 <p><a href="https://url94.ctfile.com/d/33326794-44675752-fc62fc">下载hmcl（Windows）</a>（访问密码5267）<br />
 <a href="https://wwc.lanzoub.com/iKwAu0e4bi2f">下载hmcl（安卓）</a>（密码:5iq9）</p>
 <span id="more"></span>
 <p><img src="https://picx.zhimg.com/80/v2-2ec57081a55a676c827ed8f030b7f548_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-2ec57081a55a676c827ed8f030b7f548_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="点击文件名下载" />下载完成后直接打开</p>
-<h2 id="添加账户"><a class="markdownIt-Anchor" href="#添加账户"></a> 添加账户</h2>
+<h2 class="bamboo-h " id="添加账户">添加账户</h2><br/>
 <p><img src="https://picx.zhimg.com/80/v2-7c3f7c55d54e8f62d4147ac717795aed_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-7c3f7c55d54e8f62d4147ac717795aed_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="点击左侧的账户" /></p>
 <p>如果你没有正版，用离线模式即可，离线模式可以玩没有正版验证的服务器</p>
-<h2 id="下载服务器的版本"><a class="markdownIt-Anchor" href="#下载服务器的版本"></a> 下载服务器的版本</h2>
+<h2 class="bamboo-h " id="下载服务器的版本">下载服务器的版本</h2><br/>
 <p>这里以1.16.5为例 <img src="https://picx.zhimg.com/80/v2-87a34b0d86feca67a2e2b9742be7618a_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-87a34b0d86feca67a2e2b9742be7618a_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="点击左侧下载" /> <img src="https://pic1.zhimg.com/80/v2-b921cba769deb5bf4b66f9659b6b7e54_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-b921cba769deb5bf4b66f9659b6b7e54_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="选择版本" /> <img src="https://pic1.zhimg.com/80/v2-ebef5796af2ca6bc99a936e300dfd1d6_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-ebef5796af2ca6bc99a936e300dfd1d6_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="安装" />安装完成后回到主界面启动游戏</p>
-<h2 id="添加服务器"><a class="markdownIt-Anchor" href="#添加服务器"></a> 添加服务器</h2>
+<h2 class="bamboo-h " id="添加服务器">添加服务器</h2><br/>
 <p><img src="https://pic1.zhimg.com/80/v2-651db25f6ef266f6407e8832a39825c3_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-651db25f6ef266f6407e8832a39825c3_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="点击多人游戏" /> <img src="https://pic1.zhimg.com/80/v2-a3a2de81972340347123843706461e4a_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-a3a2de81972340347123843706461e4a_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="添加服务器" /> <img src="https://picx.zhimg.com/80/v2-f5460974d552c7fc0144a71679296498_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-f5460974d552c7fc0144a71679296498_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="填服务器信息" />添加完成后就可以进服务器游玩了</p>
 ]]></content>
       <tags>
