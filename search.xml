@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>hexo搭建博客教程（3）</title>
-    <url>/hexo-da-jian-bo-ke-jiao-cheng-3/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>让我鸽两天</p>
-]]></content>
-      <tags>
-        <tag>hexo</tag>
-        <tag>新手教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>博客终于弄好了</title>
     <url>/bo-ke-zhong-yu-nong-hao-liao/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><a href="https://zhuanlan.zhihu.com/p/102592286">参考教程</a></p>
@@ -20,6 +10,16 @@
 ]]></content>
       <tags>
         <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo搭建博客教程（3）</title>
+    <url>/hexo-da-jian-bo-ke-jiao-cheng-3/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>让我鸽两天</p>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
+        <tag>新手教程</tag>
       </tags>
   </entry>
   <entry>
@@ -468,6 +468,30 @@ W<br />
       <tags>
         <tag>hexo</tag>
         <tag>新手教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>自制文明时代二剧本TSO</title>
+    <url>/zi-zhi-wen-ming-shi-dai-ju-ben-tso/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="the-stuid-order"><a class="markdownIt-Anchor" href="#the-stuid-order"></a> The Stuid Order</h1>
+<p>自制的文明时代二剧本</p>
+<p>目前只有一个地图，之后会加入更多事件</p>
+<p><strong><a href="https://www.123pan.com/s/owIrVv-rSiwv">点击下载</a>（提取码:1145）</strong></p>
+<h3 id="地图"><a class="markdownIt-Anchor" href="#地图"></a> 地图</h3>
+<img src="/zi-zhi-wen-ming-shi-dai-ju-ben-tso/%E5%9C%B0%E5%9B%BE.png" class="lazyload placeholder" data-srcset="/zi-zhi-wen-ming-shi-dai-ju-ben-tso/%E5%9C%B0%E5%9B%BE.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<h3 id="同盟"><a class="markdownIt-Anchor" href="#同盟"></a> 同盟</h3>
+<p><em><strong>协约国</strong></em>：英国、俄罗斯帝国、德意志联邦、卡尔马联盟、英属印度、英属加拿大、捷克、巴伐利亚王国、高加索王国、德属西南非洲</p>
+<p><em><strong>法兰西帝国公约</strong></em>：法兰西帝国、法国东印度公司、西班牙、爱尔兰、波兰、波罗的海联盟、魁北克</p>
+<p><em><strong>轴心国</strong></em>：土耳其、日本、奥地利、保加利亚帝国</p>
+<p><em><strong>泛伊斯兰联会</strong></em>：大阿拉伯伊斯兰联合国、伊朗伊斯兰共和国、阿富汗、巴基斯坦、东突厥斯坦伊斯兰共和国、伊拉克</p>
+<p><em><strong>中华联合政府（中华联邦）</strong></em>：中华民国、中华人民共和国、贵系、滇系、新疆维吾尔自治区、藏区</p>
+<p><em><strong>非洲独立联盟</strong></em>：东非联邦、西南非洲、南非联邦、非洲独立委员会</p>
+<h3 id="事件"><a class="markdownIt-Anchor" href="#事件"></a> 事件</h3>
+<p>美国内战</p>
+]]></content>
+      <tags>
+        <tag>游戏</tag>
+        <tag>文明时代二</tag>
       </tags>
   </entry>
   <entry>
