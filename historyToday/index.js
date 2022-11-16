@@ -26,24 +26,24 @@ new Vue({
   methods: {
     // 鼠标移入停止轮播
     stopAutoPlay() {
-      this.swiperOption.autoplay && this.swiper.autoplay.stop();
+      this.swiperOption.autoplay &amp;&amp; this.swiper.autoplay.stop();
     },
     // 鼠标移出开始轮播
     startAutoPlay() {
-      this.swiperOption.autoplay && this.swiper.autoplay.start();
+      this.swiperOption.autoplay &amp;&amp; this.swiper.autoplay.start();
     },
     // 请求开源api, 获取历史上的今天数据
     getHistoryList() {
       fetch("https://tenapi.cn/lishi/?format=json", {
         method: "GET", // *GET, POST, PUT, DELETE, etc.
       })
-        .then((res) => {
+        .then((res) =&gt; {
           return res.json();
         })
-        .then((data) => {
+        .then((data) =&gt; {
           this.content = data.content;
         })
-        .catch((err) => {
+        .catch((err) =&gt; {
           console.log("err", err);
         });
     },

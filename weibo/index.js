@@ -17,13 +17,13 @@
       fetch("https://tenapi.cn/resou/", {
         method: "GET", // *GET, POST, PUT, DELETE, etc.
       })
-        .then((res) => {
+        .then((res) =&gt; {
           return res.json();
         })
-        .then((data) => {
+        .then((data) =&gt; {
           this.content = data.list;
         })
-        .catch((err) => {
+        .catch((err) =&gt; {
           console.log("err", err);
         });
     },
