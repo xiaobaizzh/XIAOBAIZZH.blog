@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>博客终于弄好了</title>
+    <url>/bo-ke-zhong-yu-nong-hao-liao/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><a href="https://zhuanlan.zhihu.com/p/102592286">参考教程</a></p>
+<p>域名：<a href="https://www.namesilo.com/?rid=3853d48oc">NameSilo</a><br>
+服务器＆DNS：<a href="https://dash.cloudflare.com/">Cloudflare</a><br>
+<a href="https://hexo.io/zh-cn/">Hexo</a>部署</p>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo搭建博客教程（3）</title>
     <url>/hexo-da-jian-bo-ke-jiao-cheng-3/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>让我鸽两天</p>
@@ -12,18 +24,6 @@
       <tags>
         <tag>hexo</tag>
         <tag>新手教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客终于弄好了</title>
-    <url>/bo-ke-zhong-yu-nong-hao-liao/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><a href="https://zhuanlan.zhihu.com/p/102592286">参考教程</a></p>
-<p>域名：<a href="https://www.namesilo.com/?rid=3853d48oc">NameSilo</a><br>
-服务器＆DNS：<a href="https://dash.cloudflare.com/">Cloudflare</a><br>
-<a href="https://hexo.io/zh-cn/">Hexo</a>部署</p>
-]]></content>
-      <tags>
-        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -367,66 +367,6 @@ W<br>
       </tags>
   </entry>
   <entry>
-    <title>搭建hexo博客教程（2）</title>
-    <url>/da-jian-hexo-bo-ke-jiao-cheng-2/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="安装nodejs"><a class="markdownIt-Anchor" href="#安装nodejs"></a> 安装nodejs</h2>
-<p><a href="https://nodejs.org/zh-cn/">nodejs下载</a></p>
-<p>翻到第17页下载12.15.0版本</p>
-<img src="/da-jian-hexo-bo-ke-jiao-cheng-2/%E4%B8%8B%E8%BD%BDnodejs.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-2/%E4%B8%8B%E8%BD%BDnodejs.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
-<p>下载完成打开，一直按next安装就好</p>
-<p>Win+R打开cmd，输入命令查看是否安装成功</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></tbody></table></figure>
-<p>在nodejs文件中新建两个文件夹，分别命名node_cache和node_global</p>
-<p>打开电脑控制面板，编辑系统环境变量</p>
-<p>系统变量中新建变量，名为NODE_PATH，值为D:\nodejs\node_global\node_modules</p>
-<p>再将用户变量的Path的npm路径改为D:\nodejs\node_global,并新建一个路径D:\Blog\node_modules\hexo-cli\bin</p>
-<img src="/da-jian-hexo-bo-ke-jiao-cheng-2/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F1.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-2/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F1.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
-<img src="/da-jian-hexo-bo-ke-jiao-cheng-2/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F2.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-2/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F2.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
-<img src="/da-jian-hexo-bo-ke-jiao-cheng-2/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F3.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-2/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F3.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
-<p>点击确认保存设置</p>
-<p>打开cmd，输入</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">npm install webpack -g</span><br></pre></td></tr></tbody></table></figure>
-<h2 id="安装hexo"><a class="markdownIt-Anchor" href="#安装hexo"></a> 安装Hexo</h2>
-<p>在github中新建储存库，名称随便填</p>
-<img src="/da-jian-hexo-bo-ke-jiao-cheng-2/%E6%96%B0%E5%BB%BA%E5%82%A8%E5%AD%98%E5%BA%93.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-2/%E6%96%B0%E5%BB%BA%E5%82%A8%E5%AD%98%E5%BA%93.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
-<p>D盘新建文件夹，名称为Blog，打开cmd，输入</p>
-<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></tbody></table></figure>
-<p>打开Blog文件，打开Git bash，输入</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></tbody></table></figure>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></tbody></table></figure>
-<p>以笔记本打开&nbsp;_config.yml文件，在最下面写上</p>
-<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: 你的储存库链接</span><br><span class="line">  branch: master</span><br></pre></td></tr></tbody></table></figure>
-<p><mark>*冒号都为英语的冒号，冒号和内容之间有空格（之后的所有设置也是这样）</mark></p>
-<p>再打开Git bash，输入</p>
-<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></tbody></table></figure>
-<p>完成后再输入</p>
-<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></tbody></table></figure>
-<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></tbody></table></figure>
-<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></tbody></table></figure>
-<h2 id="购买域名"><a class="markdownIt-Anchor" href="#购买域名"></a> 购买域名</h2>
-<p>推荐<a href="https://www.namesilo.com/?rid=3853d48oc">namesilo</a>，比较便宜</p>
-<h2 id="配置cloudflare"><a class="markdownIt-Anchor" href="#配置cloudflare"></a> 配置Cloudflare</h2>
-<p>前往<a href="https://dash.cloudflare.com/5839b84c6ffd45cf62a501a9f40971e6">Cloudflare官网</a>注册账号   注册完成后添加站点，将你购买的域名填入</p>
-<img src="/da-jian-hexo-bo-ke-jiao-cheng-2/cloudflare.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-2/cloudflare.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
-<p>添加后他会有两个服务器地址，将这两个地址添加到买域名的网站的域名管理页面的服务器一栏</p>
-<p>这里以namesilo为例</p>
-<img src="/da-jian-hexo-bo-ke-jiao-cheng-2/%E6%9C%8D%E5%8A%A1%E5%99%A8.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-2/%E6%9C%8D%E5%8A%A1%E5%99%A8.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
-<p>回到cloudflare，打开pages-创建项目-连接到git</p>
-<img src="/da-jian-hexo-bo-ke-jiao-cheng-2/pages.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-2/pages.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
-<img src="/da-jian-hexo-bo-ke-jiao-cheng-2/pages2.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-2/pages2.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
-<p>登陆你的github账号，选择之前创建的储存库（不是text那个）</p>
-<p>环境变量等不用设置，再自定义域中填上买的域名，部署选择自动</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-        <category>搭建博客</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>新手教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>搭建hexo博客教程（1）</title>
     <url>/da-jian-hexo-bo-ke-jiao-cheng-1/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="注册github账号"><a class="markdownIt-Anchor" href="#注册github账号"></a> 注册<a href="https://github.com/">Github</a>账号</h2>
@@ -492,6 +432,90 @@ W<br>
       </tags>
   </entry>
   <entry>
+    <title>搭建hexo博客教程（2）</title>
+    <url>/da-jian-hexo-bo-ke-jiao-cheng-2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="安装nodejs"><a class="markdownIt-Anchor" href="#安装nodejs"></a> 安装nodejs</h2>
+<p><a href="https://nodejs.org/zh-cn/">nodejs下载</a></p>
+<p>翻到第17页下载12.15.0版本</p>
+<img src="/da-jian-hexo-bo-ke-jiao-cheng-2/%E4%B8%8B%E8%BD%BDnodejs.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-2/%E4%B8%8B%E8%BD%BDnodejs.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<p>下载完成打开，一直按next安装就好</p>
+<p>Win+R打开cmd，输入命令查看是否安装成功</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></tbody></table></figure>
+<p>在nodejs文件中新建两个文件夹，分别命名node_cache和node_global</p>
+<p>打开电脑控制面板，编辑系统环境变量</p>
+<p>系统变量中新建变量，名为NODE_PATH，值为D:\nodejs\node_global\node_modules</p>
+<p>再将用户变量的Path的npm路径改为D:\nodejs\node_global,并新建一个路径D:\Blog\node_modules\hexo-cli\bin</p>
+<img src="/da-jian-hexo-bo-ke-jiao-cheng-2/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F1.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-2/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F1.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<img src="/da-jian-hexo-bo-ke-jiao-cheng-2/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F2.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-2/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F2.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<img src="/da-jian-hexo-bo-ke-jiao-cheng-2/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F3.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-2/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F3.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<p>点击确认保存设置</p>
+<p>打开cmd，输入</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">npm install webpack -g</span><br></pre></td></tr></tbody></table></figure>
+<h2 id="安装hexo"><a class="markdownIt-Anchor" href="#安装hexo"></a> 安装Hexo</h2>
+<p>在github中新建储存库，名称随便填</p>
+<img src="/da-jian-hexo-bo-ke-jiao-cheng-2/%E6%96%B0%E5%BB%BA%E5%82%A8%E5%AD%98%E5%BA%93.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-2/%E6%96%B0%E5%BB%BA%E5%82%A8%E5%AD%98%E5%BA%93.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<p>D盘新建文件夹，名称为Blog，打开cmd，输入</p>
+<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></tbody></table></figure>
+<p>打开Blog文件，打开Git bash，输入</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></tbody></table></figure>
+<p>以笔记本打开&nbsp;_config.yml文件，在最下面写上</p>
+<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: 你的储存库链接</span><br><span class="line">  branch: master</span><br></pre></td></tr></tbody></table></figure>
+<p><mark>*冒号都为英语的冒号，冒号和内容之间有空格（之后的所有设置也是这样）</mark></p>
+<p>再打开Git bash，输入</p>
+<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></tbody></table></figure>
+<p>完成后再输入</p>
+<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></tbody></table></figure>
+<h2 id="购买域名"><a class="markdownIt-Anchor" href="#购买域名"></a> 购买域名</h2>
+<p>推荐<a href="https://www.namesilo.com/?rid=3853d48oc">namesilo</a>，比较便宜</p>
+<h2 id="配置cloudflare"><a class="markdownIt-Anchor" href="#配置cloudflare"></a> 配置Cloudflare</h2>
+<p>前往<a href="https://dash.cloudflare.com/5839b84c6ffd45cf62a501a9f40971e6">Cloudflare官网</a>注册账号   注册完成后添加站点，将你购买的域名填入</p>
+<img src="/da-jian-hexo-bo-ke-jiao-cheng-2/cloudflare.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-2/cloudflare.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<p>添加后他会有两个服务器地址，将这两个地址添加到买域名的网站的域名管理页面的服务器一栏</p>
+<p>这里以namesilo为例</p>
+<img src="/da-jian-hexo-bo-ke-jiao-cheng-2/%E6%9C%8D%E5%8A%A1%E5%99%A8.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-2/%E6%9C%8D%E5%8A%A1%E5%99%A8.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<p>回到cloudflare，打开pages-创建项目-连接到git</p>
+<img src="/da-jian-hexo-bo-ke-jiao-cheng-2/pages.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-2/pages.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<img src="/da-jian-hexo-bo-ke-jiao-cheng-2/pages2.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-2/pages2.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<p>登陆你的github账号，选择之前创建的储存库（不是text那个）</p>
+<p>环境变量等不用设置，再自定义域中填上买的域名，部署选择自动</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+        <category>搭建博客</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>新手教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>萌新玩我的世界JAVA服务器教程</title>
+    <url>/meng-xin-wan-wo-de-shi-jie-java-fu-wu-qi-jiao-cheng/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="安装hmcl启动器"><a class="markdownIt-Anchor" href="#安装hmcl启动器"></a> 安装HMCL启动器</h2>
+<p><a href="https://url94.ctfile.com/d/33326794-44675752-fc62fc">下载hmcl（Windows）</a>（访问密码5267）<br>
+<a href="https://wwc.lanzoub.com/iKwAu0e4bi2f">下载hmcl（安卓）</a>（密码:5iq9）</p>
+<p><img src="https://picx.zhimg.com/80/v2-2ec57081a55a676c827ed8f030b7f548_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-2ec57081a55a676c827ed8f030b7f548_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="点击文件名下载">下载完成后直接打开</p>
+<h2 id="添加账户"><a class="markdownIt-Anchor" href="#添加账户"></a> 添加账户</h2>
+<p><img src="https://picx.zhimg.com/80/v2-7c3f7c55d54e8f62d4147ac717795aed_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-7c3f7c55d54e8f62d4147ac717795aed_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="点击左侧的账户"></p>
+<p>如果你没有正版，用离线模式即可，离线模式可以玩没有正版验证的服务器</p>
+<h2 id="下载服务器的版本"><a class="markdownIt-Anchor" href="#下载服务器的版本"></a> 下载服务器的版本</h2>
+<p>这里以1.16.5为例 <img src="https://picx.zhimg.com/80/v2-87a34b0d86feca67a2e2b9742be7618a_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-87a34b0d86feca67a2e2b9742be7618a_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="点击左侧下载"> <img src="https://pic1.zhimg.com/80/v2-b921cba769deb5bf4b66f9659b6b7e54_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-b921cba769deb5bf4b66f9659b6b7e54_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="选择版本"> <img src="https://pic1.zhimg.com/80/v2-ebef5796af2ca6bc99a936e300dfd1d6_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-ebef5796af2ca6bc99a936e300dfd1d6_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="安装">安装完成后回到主界面启动游戏</p>
+<h2 id="添加服务器"><a class="markdownIt-Anchor" href="#添加服务器"></a> 添加服务器</h2>
+<p><img src="https://pic1.zhimg.com/80/v2-651db25f6ef266f6407e8832a39825c3_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-651db25f6ef266f6407e8832a39825c3_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="点击多人游戏"> <img src="https://pic1.zhimg.com/80/v2-a3a2de81972340347123843706461e4a_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-a3a2de81972340347123843706461e4a_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="添加服务器"> <img src="https://picx.zhimg.com/80/v2-f5460974d552c7fc0144a71679296498_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-f5460974d552c7fc0144a71679296498_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="填服务器信息">添加完成后就可以进服务器游玩了</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+        <category>游戏</category>
+        <category>我的世界</category>
+      </categories>
+      <tags>
+        <tag>新手教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>自制文明时代二剧本TSO</title>
     <url>/zi-zhi-wen-ming-shi-dai-ju-ben-tso/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="the-stuid-order"><a class="markdownIt-Anchor" href="#the-stuid-order"></a> The Stuid Order</h1>
@@ -517,30 +541,6 @@ W<br>
       <tags>
         <tag>游戏</tag>
         <tag>文明时代二</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>萌新玩我的世界JAVA服务器教程</title>
-    <url>/meng-xin-wan-wo-de-shi-jie-java-fu-wu-qi-jiao-cheng/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="安装hmcl启动器"><a class="markdownIt-Anchor" href="#安装hmcl启动器"></a> 安装HMCL启动器</h2>
-<p><a href="https://url94.ctfile.com/d/33326794-44675752-fc62fc">下载hmcl（Windows）</a>（访问密码5267）<br>
-<a href="https://wwc.lanzoub.com/iKwAu0e4bi2f">下载hmcl（安卓）</a>（密码:5iq9）</p>
-<p><img src="https://picx.zhimg.com/80/v2-2ec57081a55a676c827ed8f030b7f548_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-2ec57081a55a676c827ed8f030b7f548_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="点击文件名下载">下载完成后直接打开</p>
-<h2 id="添加账户"><a class="markdownIt-Anchor" href="#添加账户"></a> 添加账户</h2>
-<p><img src="https://picx.zhimg.com/80/v2-7c3f7c55d54e8f62d4147ac717795aed_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-7c3f7c55d54e8f62d4147ac717795aed_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="点击左侧的账户"></p>
-<p>如果你没有正版，用离线模式即可，离线模式可以玩没有正版验证的服务器</p>
-<h2 id="下载服务器的版本"><a class="markdownIt-Anchor" href="#下载服务器的版本"></a> 下载服务器的版本</h2>
-<p>这里以1.16.5为例 <img src="https://picx.zhimg.com/80/v2-87a34b0d86feca67a2e2b9742be7618a_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-87a34b0d86feca67a2e2b9742be7618a_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="点击左侧下载"> <img src="https://pic1.zhimg.com/80/v2-b921cba769deb5bf4b66f9659b6b7e54_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-b921cba769deb5bf4b66f9659b6b7e54_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="选择版本"> <img src="https://pic1.zhimg.com/80/v2-ebef5796af2ca6bc99a936e300dfd1d6_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-ebef5796af2ca6bc99a936e300dfd1d6_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="安装">安装完成后回到主界面启动游戏</p>
-<h2 id="添加服务器"><a class="markdownIt-Anchor" href="#添加服务器"></a> 添加服务器</h2>
-<p><img src="https://pic1.zhimg.com/80/v2-651db25f6ef266f6407e8832a39825c3_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-651db25f6ef266f6407e8832a39825c3_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="点击多人游戏"> <img src="https://pic1.zhimg.com/80/v2-a3a2de81972340347123843706461e4a_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-a3a2de81972340347123843706461e4a_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="添加服务器"> <img src="https://picx.zhimg.com/80/v2-f5460974d552c7fc0144a71679296498_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-f5460974d552c7fc0144a71679296498_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="填服务器信息">添加完成后就可以进服务器游玩了</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-        <category>游戏</category>
-        <category>我的世界</category>
-      </categories>
-      <tags>
-        <tag>新手教程</tag>
       </tags>
   </entry>
 </search>
