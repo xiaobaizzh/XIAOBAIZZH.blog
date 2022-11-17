@@ -15,18 +15,6 @@
       </tags>
   </entry>
   <entry>
-    <title>博客终于弄好了</title>
-    <url>/bo-ke-zhong-yu-nong-hao-liao/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><a href="https://zhuanlan.zhihu.com/p/102592286">参考教程</a></p>
-<p>域名：<a href="https://www.namesilo.com/?rid=3853d48oc">NameSilo</a><br>
-服务器＆DNS：<a href="https://dash.cloudflare.com/">Cloudflare</a><br>
-<a href="https://hexo.io/zh-cn/">Hexo</a>部署</p>
-]]></content>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>各国域名后缀&amp;推荐域名购买网站</title>
     <url>/ge-guo-yu-ming-hou-zhui-tui-jian-yu-ming-gou-mai-wang-zhan/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="推荐购买域名网站"><a class="markdownIt-Anchor" href="#推荐购买域名网站"></a> 推荐购买域名网站</h2>
@@ -314,6 +302,18 @@ W<br>
       <tags>
         <tag>域名</tag>
         <tag>推荐</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客终于弄好了</title>
+    <url>/bo-ke-zhong-yu-nong-hao-liao/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><a href="https://zhuanlan.zhihu.com/p/102592286">参考教程</a></p>
+<p>域名：<a href="https://www.namesilo.com/?rid=3853d48oc">NameSilo</a><br>
+服务器＆DNS：<a href="https://dash.cloudflare.com/">Cloudflare</a><br>
+<a href="https://hexo.io/zh-cn/">Hexo</a>部署</p>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
