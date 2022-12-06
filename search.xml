@@ -20,13 +20,11 @@
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="简介"><a class="markdownIt-Anchor" href="#简介"></a> 简介</h2>
 <p>纯净的生存、新颖的商店、特殊的物品、简约而不简单的主城</p>
 <h3 id="插件"><a class="markdownIt-Anchor" href="#插件"></a> 插件</h3>
-<p>登陆Authme、皮肤、领地Griefprevention（有点难用）</p>
+<p>登陆Authme、皮肤、领地Griefprevention（因为一些特殊bug，暂时停用）</p>
 <h3 id="ip"><a class="markdownIt-Anchor" href="#ip"></a> IP</h3>
 <p>mc.baicarrots.top</p>
 <h3 id="版本"><a class="markdownIt-Anchor" href="#版本"></a> 版本</h3>
-<p>1.18.2</p>
-<h3 id="开服时间"><a class="markdownIt-Anchor" href="#开服时间"></a> 开服时间</h3>
-<p>工作日5:40-22:20   休息日9:00-22:45</p>
+<p>1.7-1.19（核心版本为1.18.2）</p>
 <h3 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h3>
 <p>服务器可适当使用辅助（开挂PVP这种不行）</p>
 <p><a href="https://afdian.net/a/polandserver">赞助/购买积分</a></p>
@@ -548,8 +546,9 @@ W<br>
   <entry>
     <title>萌新玩我的世界JAVA服务器教程</title>
     <url>/meng-xin-wan-wo-de-shi-jie-java-fu-wu-qi-jiao-cheng/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="安装hmcl启动器"><a class="markdownIt-Anchor" href="#安装hmcl启动器"></a> 安装HMCL启动器</h2>
-<p><a href="https://url94.ctfile.com/d/33326794-44675752-fc62fc">下载hmcl（Windows）</a>（访问密码5267）<br>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="安装启动器"><a class="markdownIt-Anchor" href="#安装启动器"></a> 安装启动器</h2>
+<p>比较推荐的有hmcl和pcl2（后面就用hmcl演示了）</p>
+<p><a href="https://url94.ctfile.com/d/33326794-44675752-fc62fc">下载hmcl（Windows）</a>（访问密码5267）<a href="https://ltcat.lanzoum.com/iJrst0fn1w0h">下载pcl2（Windows)</a><br>
 <a href="https://wwc.lanzoub.com/iKwAu0e4bi2f">下载hmcl（安卓）</a>（密码:5iq9）</p>
 <p><img src="https://picx.zhimg.com/80/v2-2ec57081a55a676c827ed8f030b7f548_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-2ec57081a55a676c827ed8f030b7f548_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="点击文件名下载">下载完成后直接打开</p>
 <h2 id="添加账户"><a class="markdownIt-Anchor" href="#添加账户"></a> 添加账户</h2>
