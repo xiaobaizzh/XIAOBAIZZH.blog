@@ -1,254 +1,585 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>“波兰服‘开服啦</title>
-      <link href="/bo-lan-fu-kai-fu-la/"/>
-      <url>/bo-lan-fu-kai-fu-la/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="简介"><a class="markdownIt-Anchor" href="#简介"></a> 简介</h2><p>纯净的生存、新颖的商店、特殊的物品、简约而不简单的主城</p><h3 id="插件"><a class="markdownIt-Anchor" href="#插件"></a> 插件</h3><p>登陆Authme、皮肤、领地Griefprevention（因为一些特殊bug，暂时停用）</p><h3 id="ip"><a class="markdownIt-Anchor" href="#ip"></a> IP</h3><p>mc.baicarrots.top</p><h3 id="版本"><a class="markdownIt-Anchor" href="#版本"></a> 版本</h3><p>1.7-1.19（核心版本为1.18.2）</p><h3 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h3><p>服务器可适当使用辅助（开挂PVP这种不行）</p><p><a href="https://afdian.net/a/polandserver">赞助/购买积分</a></p><p>如果你不会玩JAVA服务器，那么请看这个教程：</p><p><a href="https://baicarrots.top/meng-xin-wan-wo-de-shi-jie-java-fu-wu-qi-jiao-cheng/">萌新玩我的世界JAVA服务器教程</a></p>]]></content>
-      
-      
+<search>
+  <entry>
+    <title>hexo搭建博客教程（3）</title>
+    <url>/hexo-da-jian-bo-ke-jiao-cheng-3/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>让我鸽两天</p>
+]]></content>
       <categories>
-          
-          <category> 游戏 </category>
-          
-          <category> 我的世界 </category>
-          
+        <category>教程</category>
+        <category>搭建博客</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 游戏 </tag>
-            
-            <tag> 我的世界 </tag>
-            
-            <tag> 波兰服 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>文明时代二剧本-TSO</title>
-      <link href="/zi-zhi-wen-ming-shi-dai-ju-ben-tso/"/>
-      <url>/zi-zhi-wen-ming-shi-dai-ju-ben-tso/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="the-stuid-order"><a class="markdownIt-Anchor" href="#the-stuid-order"></a> The Stuid Order</h1><p>自制的文明时代二剧本</p><p><strong><a href="https://www.123pan.com/s/owIrVv-9dzwv">最新版本下载</a>（提取码:1919）</strong></p><h3 id="地图"><a class="markdownIt-Anchor" href="#地图"></a> 地图</h3><img src="/zi-zhi-wen-ming-shi-dai-ju-ben-tso/%E5%9C%B0%E5%9B%BE.png" class=""><p>*<em>此图为1.01版本，非最新版</em></p><h3 id="同盟"><a class="markdownIt-Anchor" href="#同盟"></a> 同盟</h3><p><em><strong>协约国</strong></em>：英国、俄罗斯帝国、德意志联邦、波兰、英属印度、英属加拿大、捷克、巴伐利亚王国、高加索王国、德属西南非洲</p><p><em><strong>法兰西帝国公约</strong></em>：法兰西帝国、法国东印度公司、西班牙、爱尔兰、波兰、波罗的海联盟、魁北克、新尼德兰</p><p><em><strong>轴心国</strong></em>：土耳其、日本、奥地利、保加利亚帝国</p><p><em><strong>泛伊斯兰联会</strong></em>：大阿拉伯伊斯兰联合国、伊朗伊斯兰共和国、阿富汗、巴基斯坦、东突厥斯坦伊斯兰共和国、伊拉克</p><p><em><strong>中华联合政府（中华联邦）</strong></em>：中华民国、中华人民共和国、贵系、滇系、新疆维吾尔自治区、藏区</p><p><em><strong>非洲独立联盟</strong></em>：东非联邦、南非联邦</p><h3 id="各版本及更新内容"><a class="markdownIt-Anchor" href="#各版本及更新内容"></a> 各版本及更新内容</h3><h4 id="102版本-221217"><a class="markdownIt-Anchor" href="#102版本-221217"></a> 1.02版本   22/12/17</h4><p>修改了一些小问题</p><p>修改了法德边境</p><p>大规模更改了非洲殖民状况</p><p>平衡了帝国公约和协约国</p><p>添加国家：巴斯克自治区、新尼德兰、马达加斯加、瑞士</p><p>移除国家：西南非洲、非洲独立委员会、条顿骑士团国</p><p><a href="https://www.123pan.com/s/owIrVv-9dzwv">点击下载</a>（提取码:1919）</p><h4 id="101版本-221216"><a class="markdownIt-Anchor" href="#101版本-221216"></a> 1.01版本   22/12/16</h4><p>削弱了法国</p><p>修改了美国内战</p><p>修复了存档后重进游戏会变成巴西的bug</p><p><a href="https://www.123pan.com/s/owIrVv-Zvzwv">点击下载</a>（提取码:1145）</p><h4 id="10版本-221115"><a class="markdownIt-Anchor" href="#10版本-221115"></a> 1.0版本   22/11/15</h4><p>*<em>该版本存档有致命的bug</em></p><p><a href="https://www.123pan.com/s/owIrVv-rSiwv">点击下载</a>（提取码:1145）</p>]]></content>
-      
-      
+      <tags>
+        <tag>hexo</tag>
+        <tag>新手教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客终于弄好了</title>
+    <url>/bo-ke-zhong-yu-nong-hao-liao/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><a href="https://zhuanlan.zhihu.com/p/102592286">参考教程</a></p>
+<p>域名：<a href="https://www.namesilo.com/?rid=3853d48oc">NameSilo</a><br>
+服务器＆DNS：<a href="https://dash.cloudflare.com/">Cloudflare</a><br>
+<a href="https://hexo.io/zh-cn/">Hexo</a>部署</p>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>各国域名后缀&amp;推荐域名购买网站</title>
+    <url>/ge-guo-yu-ming-hou-zhui-tui-jian-yu-ming-gou-mai-wang-zhan/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="推荐购买域名网站"><a class="markdownIt-Anchor" href="#推荐购买域名网站"></a> 推荐购买域名网站</h2>
+<p><a href="https://www.namesilo.com/">Namesilo</a> <a href="https://www.name.com/zh-cn/">Name</a> <a href="https://cloud.tencent.com/">腾讯云</a>  <a href="https://www.freenom.com/zh/index.html?lang=zh">Freenom</a></p>
+<h2 id="各国域名后缀"><a class="markdownIt-Anchor" href="#各国域名后缀"></a> 各国域名后缀</h2>
+<h3 id="a"><a class="markdownIt-Anchor" href="#a"></a> A</h3>
+<p>.ac 亚森松岛<br>
+.ad 安道尔<br>
+.ae 阿拉伯联合酋长国<br>
+.af 阿富汗<br>
+.ag 安提瓜和巴布达<br>
+.ai 安圭拉<br>
+.al 阿尔巴尼亚<br>
+.am 亚美尼亚<br>
+.an 荷属安地列斯群岛<br>
+.ao 安哥拉<br>
+.aq 南极洲<br>
+.ar 阿根廷<br>
+.as 美属萨摩亚<br>
+.at 奥地利<br>
+.au 澳大利亚<br>
+.aw 阿鲁巴<br>
+.az 阿塞拜疆</p>
+<h3 id="b"><a class="markdownIt-Anchor" href="#b"></a> B</h3>
+<p>.ba 波斯尼亚和黑塞哥维那<br>
+.bb 巴巴多斯<br>
+.bd 孟加拉国<br>
+.be 比利时<br>
+.bf 布基纳法索<br>
+.bg 保加利亚<br>
+.bh 巴林<br>
+.bi 布隆迪<br>
+.bj 贝宁<br>
+.bm 百慕大<br>
+.bn 文莱<br>
+.bo 玻利维亚<br>
+.br 巴西<br>
+.bs 巴哈马<br>
+.bt 不丹<br>
+.bv 布维岛<br>
+.bw 博茨瓦纳<br>
+.by 白俄罗斯<br>
+.bz 伯利兹</p>
+<h3 id="c"><a class="markdownIt-Anchor" href="#c"></a> C</h3>
+<p>.ca 加拿大<br>
+.cc 可可群岛<br>
+.cd 刚果民主共和国<br>
+.cf 中非共和国<br>
+.cg 刚果<br>
+.ch 瑞士<br>
+.ci 科特迪瓦<br>
+.ck 库克群岛<br>
+.cl 智利<br>
+.cm 喀麦隆<br>
+.cn 中国大陆<br>
+.co 哥伦比亚<br>
+.cr 哥斯达黎加<br>
+.cu 古巴<br>
+.cv 佛得角<br>
+.cx 圣诞岛<br>
+.cy 塞浦路斯<br>
+.cz 捷克共和国</p>
+<h3 id="d"><a class="markdownIt-Anchor" href="#d"></a> D</h3>
+<p>.de 德国<br>
+.dj 吉布提<br>
+.dk 丹麦<br>
+.dm 多米尼克<br>
+.do 多米尼加共和国<br>
+.dz 阿尔及利亚</p>
+<h3 id="e"><a class="markdownIt-Anchor" href="#e"></a> E</h3>
+<p>.ec 厄瓜多尔<br>
+.ee 爱沙尼亚<br>
+.eg 埃及<br>
+.eh 西撒哈拉<br>
+.er 厄立特里亚<br>
+.es 西班牙<br>
+.et 埃塞俄比亚<br>
+.eu 欧洲联盟</p>
+<h3 id="f"><a class="markdownIt-Anchor" href="#f"></a> F</h3>
+<p>.fi 芬兰<br>
+.fj 斐济<br>
+.fk 福克兰群岛<br>
+.fm 密克罗尼西亚联邦<br>
+.fo 法罗群岛<br>
+.fr 法国</p>
+<h3 id="g"><a class="markdownIt-Anchor" href="#g"></a> G</h3>
+<p>.ga 加蓬<br>
+.gd 格林纳达<br>
+.ge 格鲁吉亚<br>
+.gf 法属圭亚那<br>
+.gg 格恩西岛<br>
+.gh 加纳<br>
+.gi 直布罗陀<br>
+.gl 格陵兰<br>
+.gm 冈比亚<br>
+.gn 几内亚<br>
+.gp 瓜德罗普<br>
+.gq 赤道几内亚<br>
+.gr 希腊<br>
+.gs 南乔治亚岛和南桑德韦奇岛<br>
+.gt 危地马拉<br>
+.gu 关岛<br>
+.gw 几内亚比绍<br>
+.gy 圭亚那</p>
+<h3 id="h"><a class="markdownIt-Anchor" href="#h"></a> H</h3>
+<p>.hk 香港<br>
+.hm 赫德和麦克唐纳群岛<br>
+.hn 洪都拉斯<br>
+.hr 克罗地亚<br>
+.ht 海地<br>
+.hu 匈牙利</p>
+<h3 id="i"><a class="markdownIt-Anchor" href="#i"></a> I</h3>
+<p>.id 印度尼西亚<br>
+.ie 爱尔兰<br>
+.il 以色列<br>
+.im 马恩岛<br>
+.in 印度<br>
+.io 英属印度洋地区<br>
+.iq 伊拉克<br>
+.ir 伊朗<br>
+.is 冰岛<br>
+.it 意大利</p>
+<h3 id="j"><a class="markdownIt-Anchor" href="#j"></a> J</h3>
+<p>.je 泽西岛<br>
+.jm 牙买加<br>
+.jo 约旦<br>
+.jp 日本</p>
+<h3 id="k"><a class="markdownIt-Anchor" href="#k"></a> K</h3>
+<p>.ke 肯尼亚<br>
+.kg 吉尔吉斯斯坦<br>
+.kh 柬埔寨<br>
+.ki 基里巴斯<br>
+.km 科摩罗<br>
+.kn 圣基茨和尼维斯<br>
+.kp 朝鲜<br>
+.kr 韩国<br>
+.kw 科威特<br>
+.ky 开曼群岛<br>
+.kz 哈萨克斯坦</p>
+<h3 id="l"><a class="markdownIt-Anchor" href="#l"></a> L</h3>
+<p>.la 老挝<br>
+.lb 黎巴嫩<br>
+.lc 圣卢西亚<br>
+.li 列支敦士登<br>
+.lk 斯里兰卡<br>
+.lr 利比里亚<br>
+.ls 莱索托<br>
+.lt 立陶宛<br>
+.lu 卢森堡<br>
+.lv 拉脱维亚<br>
+.ly 利比亚</p>
+<h3 id="m"><a class="markdownIt-Anchor" href="#m"></a> M</h3>
+<p>.ma 摩洛哥<br>
+.mc 摩纳哥<br>
+.md 摩尔多瓦<br>
+.mg 马达加斯加<br>
+.mh 马绍尔群岛<br>
+.mk 马其顿<br>
+.ml 马里<br>
+.mm 缅甸<br>
+.mn 蒙古<br>
+.mo 中国澳门<br>
+.mp 北马里亚纳群岛<br>
+.mq 马提尼克岛<br>
+.mr 毛里塔尼亚<br>
+.ms 蒙特塞拉特岛<br>
+.mt 马耳他<br>
+.mu 毛里求斯<br>
+.mv 马尔代夫<br>
+.mw 马拉维<br>
+.mx 墨西哥<br>
+.my 马来西亚<br>
+.mz 莫桑比克</p>
+<h3 id="n"><a class="markdownIt-Anchor" href="#n"></a> N</h3>
+<p>.na 纳米比亚<br>
+.nc 新喀里多尼亚<br>
+.ne 尼日尔<br>
+.nf 诺福克岛<br>
+.ng 尼日利亚<br>
+.ni 尼加拉瓜<br>
+.nl 荷兰<br>
+.no 挪威<br>
+.np 尼泊尔<br>
+.nr 瑙鲁<br>
+.nu 纽埃岛<br>
+.nz 新西兰</p>
+<h3 id="o"><a class="markdownIt-Anchor" href="#o"></a> O</h3>
+<p>.om 阿曼</p>
+<h3 id="p"><a class="markdownIt-Anchor" href="#p"></a> P</h3>
+<p>.pa 巴拿马<br>
+.pe 秘鲁<br>
+.pf 法属波利尼西亚<br>
+.pg 巴布亚新几内亚<br>
+.ph 菲律宾<br>
+.pk 巴基斯坦<br>
+.pl 波兰<br>
+.pm 圣皮埃尔岛及密客隆岛<br>
+.pn 皮特凯恩群岛<br>
+.pr 波多黎各<br>
+.ps 巴勒斯坦<br>
+.pt 葡萄牙<br>
+.pw 帕劳<br>
+.py 巴拉圭</p>
+<h3 id="q"><a class="markdownIt-Anchor" href="#q"></a> Q</h3>
+<p>.qa 卡塔尔</p>
+<h3 id="r"><a class="markdownIt-Anchor" href="#r"></a> R</h3>
+<p>.re 留尼汪<br>
+.ro 罗马尼亚<br>
+.ru 俄罗斯<br>
+.rw 卢旺达</p>
+<h3 id="s"><a class="markdownIt-Anchor" href="#s"></a> S</h3>
+<p>.sa 沙特阿拉伯<br>
+.sb 所罗门群岛<br>
+.sc 塞舌尔<br>
+.sd 苏丹<br>
+.se 瑞典<br>
+.sg 新加坡<br>
+.sh 圣赫勒拿岛<br>
+.si 斯洛文尼亚<br>
+.sj 斯瓦尔巴岛和扬马延岛<br>
+.sk 斯洛伐克<br>
+.sl 塞拉利昂<br>
+.sm 圣马力诺<br>
+.sn 塞内加尔<br>
+.so 索马里<br>
+.sr 苏里南<br>
+.st 圣多美和普林西比<br>
+.sv 萨尔瓦多<br>
+.sy 叙利亚<br>
+.sz 斯威士兰</p>
+<h3 id="t"><a class="markdownIt-Anchor" href="#t"></a> T</h3>
+<p>.tc 特克斯和凯科斯群岛<br>
+.td 乍得<br>
+.tf 法属南部领土<br>
+.tg 多哥<br>
+.th 泰国<br>
+.tj 塔吉克斯坦<br>
+.tk 托克劳<br>
+.tl 东帝汶（新域名）<br>
+.tm 土库曼斯坦<br>
+.tn 突尼斯<br>
+.to 汤加<br>
+.tp 东帝汶（旧域名，尚未停用）<br>
+.tr 土耳其<br>
+.tt 特立尼达和多巴哥<br>
+.tv 图瓦卢<br>
+.tw 台湾<br>
+.tz 坦桑尼亚</p>
+<h3 id="u"><a class="markdownIt-Anchor" href="#u"></a> U</h3>
+<p>.ua 乌克兰<br>
+.ug 乌干达<br>
+.uk 英国<br>
+.um 美国本土外小岛屿<br>
+.us 美国<br>
+.uy 乌拉圭<br>
+.uz 乌兹别克斯坦</p>
+<h3 id="v"><a class="markdownIt-Anchor" href="#v"></a> V</h3>
+<p>.va 梵蒂冈<br>
+.vc 圣文森特和格林纳丁斯<br>
+.ve 委内瑞拉<br>
+.vg 英属维尔京群岛<br>
+.vi 美属维尔京群岛<br>
+.vn 越南<br>
+.vu 瓦努阿图<br>
+W<br>
+.wf 瓦利斯和富图纳群岛<br>
+.ws 萨摩亚</p>
+<h3 id="y"><a class="markdownIt-Anchor" href="#y"></a> Y</h3>
+<p>.ye 也门<br>
+.yt 马约特岛<br>
+.yu 塞尔维亚和黑山<br>
+.yr 耶纽</p>
+<h3 id="z"><a class="markdownIt-Anchor" href="#z"></a> Z</h3>
+<p>.za 南非<br>
+.zm 赞比亚<br>
+.zw 津巴布韦</p>
+<p><strong>原作者：<a href="https://suidaosan.icu/">Thedustye</a></strong></p>
+]]></content>
       <categories>
-          
-          <category> 游戏 </category>
-          
-          <category> 文明时代二 </category>
-          
+        <category>推荐</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 游戏 </tag>
-            
-            <tag> 文明时代二 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>各国域名后缀&amp;推荐域名购买网站</title>
-      <link href="/ge-guo-yu-ming-hou-zhui-tui-jian-yu-ming-gou-mai-wang-zhan/"/>
-      <url>/ge-guo-yu-ming-hou-zhui-tui-jian-yu-ming-gou-mai-wang-zhan/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="推荐购买域名网站"><a class="markdownIt-Anchor" href="#推荐购买域名网站"></a> 推荐购买域名网站</h2><p><a href="https://www.namesilo.com/">Namesilo</a> <a href="https://www.name.com/zh-cn/">Name</a> <a href="https://cloud.tencent.com/">腾讯云</a>  <a href="https://www.freenom.com/zh/index.html?lang=zh">Freenom</a></p><h2 id="各国域名后缀"><a class="markdownIt-Anchor" href="#各国域名后缀"></a> 各国域名后缀</h2><h3 id="a"><a class="markdownIt-Anchor" href="#a"></a> A</h3><p>.ac 亚森松岛<br>.ad 安道尔<br>.ae 阿拉伯联合酋长国<br>.af 阿富汗<br>.ag 安提瓜和巴布达<br>.ai 安圭拉<br>.al 阿尔巴尼亚<br>.am 亚美尼亚<br>.an 荷属安地列斯群岛<br>.ao 安哥拉<br>.aq 南极洲<br>.ar 阿根廷<br>.as 美属萨摩亚<br>.at 奥地利<br>.au 澳大利亚<br>.aw 阿鲁巴<br>.az 阿塞拜疆</p><h3 id="b"><a class="markdownIt-Anchor" href="#b"></a> B</h3><p>.ba 波斯尼亚和黑塞哥维那<br>.bb 巴巴多斯<br>.bd 孟加拉国<br>.be 比利时<br>.bf 布基纳法索<br>.bg 保加利亚<br>.bh 巴林<br>.bi 布隆迪<br>.bj 贝宁<br>.bm 百慕大<br>.bn 文莱<br>.bo 玻利维亚<br>.br 巴西<br>.bs 巴哈马<br>.bt 不丹<br>.bv 布维岛<br>.bw 博茨瓦纳<br>.by 白俄罗斯<br>.bz 伯利兹</p><h3 id="c"><a class="markdownIt-Anchor" href="#c"></a> C</h3><p>.ca 加拿大<br>.cc 可可群岛<br>.cd 刚果民主共和国<br>.cf 中非共和国<br>.cg 刚果<br>.ch 瑞士<br>.ci 科特迪瓦<br>.ck 库克群岛<br>.cl 智利<br>.cm 喀麦隆<br>.cn 中国大陆<br>.co 哥伦比亚<br>.cr 哥斯达黎加<br>.cu 古巴<br>.cv 佛得角<br>.cx 圣诞岛<br>.cy 塞浦路斯<br>.cz 捷克共和国</p><h3 id="d"><a class="markdownIt-Anchor" href="#d"></a> D</h3><p>.de 德国<br>.dj 吉布提<br>.dk 丹麦<br>.dm 多米尼克<br>.do 多米尼加共和国<br>.dz 阿尔及利亚</p><h3 id="e"><a class="markdownIt-Anchor" href="#e"></a> E</h3><p>.ec 厄瓜多尔<br>.ee 爱沙尼亚<br>.eg 埃及<br>.eh 西撒哈拉<br>.er 厄立特里亚<br>.es 西班牙<br>.et 埃塞俄比亚<br>.eu 欧洲联盟</p><h3 id="f"><a class="markdownIt-Anchor" href="#f"></a> F</h3><p>.fi 芬兰<br>.fj 斐济<br>.fk 福克兰群岛<br>.fm 密克罗尼西亚联邦<br>.fo 法罗群岛<br>.fr 法国</p><h3 id="g"><a class="markdownIt-Anchor" href="#g"></a> G</h3><p>.ga 加蓬<br>.gd 格林纳达<br>.ge 格鲁吉亚<br>.gf 法属圭亚那<br>.gg 格恩西岛<br>.gh 加纳<br>.gi 直布罗陀<br>.gl 格陵兰<br>.gm 冈比亚<br>.gn 几内亚<br>.gp 瓜德罗普<br>.gq 赤道几内亚<br>.gr 希腊<br>.gs 南乔治亚岛和南桑德韦奇岛<br>.gt 危地马拉<br>.gu 关岛<br>.gw 几内亚比绍<br>.gy 圭亚那</p><h3 id="h"><a class="markdownIt-Anchor" href="#h"></a> H</h3><p>.hk 香港<br>.hm 赫德和麦克唐纳群岛<br>.hn 洪都拉斯<br>.hr 克罗地亚<br>.ht 海地<br>.hu 匈牙利</p><h3 id="i"><a class="markdownIt-Anchor" href="#i"></a> I</h3><p>.id 印度尼西亚<br>.ie 爱尔兰<br>.il 以色列<br>.im 马恩岛<br>.in 印度<br>.io 英属印度洋地区<br>.iq 伊拉克<br>.ir 伊朗<br>.is 冰岛<br>.it 意大利</p><h3 id="j"><a class="markdownIt-Anchor" href="#j"></a> J</h3><p>.je 泽西岛<br>.jm 牙买加<br>.jo 约旦<br>.jp 日本</p><h3 id="k"><a class="markdownIt-Anchor" href="#k"></a> K</h3><p>.ke 肯尼亚<br>.kg 吉尔吉斯斯坦<br>.kh 柬埔寨<br>.ki 基里巴斯<br>.km 科摩罗<br>.kn 圣基茨和尼维斯<br>.kp 朝鲜<br>.kr 韩国<br>.kw 科威特<br>.ky 开曼群岛<br>.kz 哈萨克斯坦</p><h3 id="l"><a class="markdownIt-Anchor" href="#l"></a> L</h3><p>.la 老挝<br>.lb 黎巴嫩<br>.lc 圣卢西亚<br>.li 列支敦士登<br>.lk 斯里兰卡<br>.lr 利比里亚<br>.ls 莱索托<br>.lt 立陶宛<br>.lu 卢森堡<br>.lv 拉脱维亚<br>.ly 利比亚</p><h3 id="m"><a class="markdownIt-Anchor" href="#m"></a> M</h3><p>.ma 摩洛哥<br>.mc 摩纳哥<br>.md 摩尔多瓦<br>.mg 马达加斯加<br>.mh 马绍尔群岛<br>.mk 马其顿<br>.ml 马里<br>.mm 缅甸<br>.mn 蒙古<br>.mo 中国澳门<br>.mp 北马里亚纳群岛<br>.mq 马提尼克岛<br>.mr 毛里塔尼亚<br>.ms 蒙特塞拉特岛<br>.mt 马耳他<br>.mu 毛里求斯<br>.mv 马尔代夫<br>.mw 马拉维<br>.mx 墨西哥<br>.my 马来西亚<br>.mz 莫桑比克</p><h3 id="n"><a class="markdownIt-Anchor" href="#n"></a> N</h3><p>.na 纳米比亚<br>.nc 新喀里多尼亚<br>.ne 尼日尔<br>.nf 诺福克岛<br>.ng 尼日利亚<br>.ni 尼加拉瓜<br>.nl 荷兰<br>.no 挪威<br>.np 尼泊尔<br>.nr 瑙鲁<br>.nu 纽埃岛<br>.nz 新西兰</p><h3 id="o"><a class="markdownIt-Anchor" href="#o"></a> O</h3><p>.om 阿曼</p><h3 id="p"><a class="markdownIt-Anchor" href="#p"></a> P</h3><p>.pa 巴拿马<br>.pe 秘鲁<br>.pf 法属波利尼西亚<br>.pg 巴布亚新几内亚<br>.ph 菲律宾<br>.pk 巴基斯坦<br>.pl 波兰<br>.pm 圣皮埃尔岛及密客隆岛<br>.pn 皮特凯恩群岛<br>.pr 波多黎各<br>.ps 巴勒斯坦<br>.pt 葡萄牙<br>.pw 帕劳<br>.py 巴拉圭</p><h3 id="q"><a class="markdownIt-Anchor" href="#q"></a> Q</h3><p>.qa 卡塔尔</p><h3 id="r"><a class="markdownIt-Anchor" href="#r"></a> R</h3><p>.re 留尼汪<br>.ro 罗马尼亚<br>.ru 俄罗斯<br>.rw 卢旺达</p><h3 id="s"><a class="markdownIt-Anchor" href="#s"></a> S</h3><p>.sa 沙特阿拉伯<br>.sb 所罗门群岛<br>.sc 塞舌尔<br>.sd 苏丹<br>.se 瑞典<br>.sg 新加坡<br>.sh 圣赫勒拿岛<br>.si 斯洛文尼亚<br>.sj 斯瓦尔巴岛和扬马延岛<br>.sk 斯洛伐克<br>.sl 塞拉利昂<br>.sm 圣马力诺<br>.sn 塞内加尔<br>.so 索马里<br>.sr 苏里南<br>.st 圣多美和普林西比<br>.sv 萨尔瓦多<br>.sy 叙利亚<br>.sz 斯威士兰</p><h3 id="t"><a class="markdownIt-Anchor" href="#t"></a> T</h3><p>.tc 特克斯和凯科斯群岛<br>.td 乍得<br>.tf 法属南部领土<br>.tg 多哥<br>.th 泰国<br>.tj 塔吉克斯坦<br>.tk 托克劳<br>.tl 东帝汶（新域名）<br>.tm 土库曼斯坦<br>.tn 突尼斯<br>.to 汤加<br>.tp 东帝汶（旧域名，尚未停用）<br>.tr 土耳其<br>.tt 特立尼达和多巴哥<br>.tv 图瓦卢<br>.tw 台湾<br>.tz 坦桑尼亚</p><h3 id="u"><a class="markdownIt-Anchor" href="#u"></a> U</h3><p>.ua 乌克兰<br>.ug 乌干达<br>.uk 英国<br>.um 美国本土外小岛屿<br>.us 美国<br>.uy 乌拉圭<br>.uz 乌兹别克斯坦</p><h3 id="v"><a class="markdownIt-Anchor" href="#v"></a> V</h3><p>.va 梵蒂冈<br>.vc 圣文森特和格林纳丁斯<br>.ve 委内瑞拉<br>.vg 英属维尔京群岛<br>.vi 美属维尔京群岛<br>.vn 越南<br>.vu 瓦努阿图<br>W<br>.wf 瓦利斯和富图纳群岛<br>.ws 萨摩亚</p><h3 id="y"><a class="markdownIt-Anchor" href="#y"></a> Y</h3><p>.ye 也门<br>.yt 马约特岛<br>.yu 塞尔维亚和黑山<br>.yr 耶纽</p><h3 id="z"><a class="markdownIt-Anchor" href="#z"></a> Z</h3><p>.za 南非<br>.zm 赞比亚<br>.zw 津巴布韦</p><p><strong>原作者：<a href="https://suidaosan.icu/">Thedustye</a></strong></p>]]></content>
-      
-      
+      <tags>
+        <tag>域名</tag>
+        <tag>推荐</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>“波兰服‘开服啦</title>
+    <url>/bo-lan-fu-kai-fu-la/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="简介"><a class="markdownIt-Anchor" href="#简介"></a> 简介</h2>
+<p>纯净的生存、新颖的商店、特殊的物品、简约而不简单的主城</p>
+<h3 id="插件"><a class="markdownIt-Anchor" href="#插件"></a> 插件</h3>
+<p>登陆Authme、皮肤、领地Griefprevention（因为一些特殊bug，暂时停用）</p>
+<h3 id="ip"><a class="markdownIt-Anchor" href="#ip"></a> IP</h3>
+<p>mc.baicarrots.top</p>
+<h3 id="版本"><a class="markdownIt-Anchor" href="#版本"></a> 版本</h3>
+<p>1.7-1.19（核心版本为1.18.2）</p>
+<h3 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h3>
+<p>服务器可适当使用辅助（开挂PVP这种不行）</p>
+<p><a href="https://afdian.net/a/polandserver">赞助/购买积分</a></p>
+<p>如果你不会玩JAVA服务器，那么请看这个教程：</p>
+<p><a href="https://baicarrots.top/meng-xin-wan-wo-de-shi-jie-java-fu-wu-qi-jiao-cheng/">萌新玩我的世界JAVA服务器教程</a></p>
+]]></content>
       <categories>
-          
-          <category> 推荐 </category>
-          
+        <category>游戏</category>
+        <category>我的世界</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 域名 </tag>
-            
-            <tag> 推荐 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>hexo搭建博客教程（3）</title>
-      <link href="/hexo-da-jian-bo-ke-jiao-cheng-3/"/>
-      <url>/hexo-da-jian-bo-ke-jiao-cheng-3/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>让我鸽两天</p>]]></content>
-      
-      
+      <tags>
+        <tag>游戏</tag>
+        <tag>我的世界</tag>
+        <tag>波兰服</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何创建自己的&#39;机器贝&#39;</title>
+    <url>/ru-he-chuang-jian-zi-ji-de-ji-qi-bei/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><mark>提示：最好用虚拟机或者备用机弄机器人，否则会有一系列问题影响正常使用</mark></p>
+<h2 id="注册一个新的微信账号"><a class="markdownIt-Anchor" href="#注册一个新的微信账号"></a> 注册一个新的微信账号</h2>
+<p>（也可以不注册，但为了方便及避免封号）<br>
+<mark>*账号请务必实名认证（未成年人也可以实名，不影响使用的），不然大概率会封号</mark></p>
+<h2 id="去茉莉云网站注册账号"><a class="markdownIt-Anchor" href="#去茉莉云网站注册账号"></a> 去<a href="https://mlyai.com/profile/index.html#/dashboard">茉莉云网站</a>注册账号</h2>
+<p>注册完成后添加机器人<br>
+<img src="https://picx.zhimg.com/80/v2-f8434a2489c525fce24708e6e98fe0cd_1440w.jpeg" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-f8434a2489c525fce24708e6e98fe0cd_1440w.jpeg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt=""><br>
+<img src="https://picx.zhimg.com/80/v2-558aac54bdd7f7a5f55d21ab584aa64a_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-558aac54bdd7f7a5f55d21ab584aa64a_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt=""></p>
+<h2 id="安装微x模块"><a class="markdownIt-Anchor" href="#安装微x模块"></a> 安装微X模块</h2>
+<p><mark>*必须要安卓系统，如果你是Windows可以用安卓虚拟机</mark><br>
+有两种方法：1.直接用内置微X <mark>*某些机型无法使用</mark><br>
+2.用太极 <mark>*用太极会导致无法用微信登陆/支付等问题</mark></p>
+<h3 id="内置微x"><a class="markdownIt-Anchor" href="#内置微x"></a> 内置微X</h3>
+<p><a href="https://www.123pan.com/s/iLx0Vv-I38lA">点击下载</a><br>
+下载安装后登陆注册的新账号，在微信设置中点击微X模块，按它说的重启微信<br>
+（如果设置里没有微X模块或是多次重启微信后依然显示加载错误，就是机型不适配)</p>
+<h3 id="太极"><a class="markdownIt-Anchor" href="#太极"></a> 太极</h3>
+<p><a href="http://wwd.lanzouf.com/iFInu03mbtde">点击下载太极</a><br>
+下载完成后安装     点击上方更新，然后点开右上角设置把自启动权限和保持存活打开<br>
+<img src="https://pica.zhimg.com/80/v2-4e306ad021c5281f5f4eed15d7cd955c_1440w.jpeg" class="lazyload placeholder" data-srcset="https://pica.zhimg.com/80/v2-4e306ad021c5281f5f4eed15d7cd955c_1440w.jpeg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt=""><br>
+<img src="https://picx.zhimg.com/80/v2-e2c22d22ef2059ca08810007c2fd5f35_1440w.jpeg" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-e2c22d22ef2059ca08810007c2fd5f35_1440w.jpeg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt=""><br>
+<a href="https://www.123pan.com/s/KL6A-49yq3">点击下载微X模块</a></p>
+<p>安装完成后打开太极，点击右下角模块管理将微X模块启用    然后创建应用，选择微信<br>
+<img src="https://pica.zhimg.com/80/v2-a26fc435cb7793b30cf7f45490f3fbd3_1440w.jpeg" class="lazyload placeholder" data-srcset="https://pica.zhimg.com/80/v2-a26fc435cb7793b30cf7f45490f3fbd3_1440w.jpeg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt=""><br>
+<img src="https://pic1.zhimg.com/80/v2-c3a1d397b4ccd5c23fba6b28892594e2_1440w.jpeg" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-c3a1d397b4ccd5c23fba6b28892594e2_1440w.jpeg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt=""></p>
+<p>点击创建后耐心等待，完成后在太极里重新安装微信即可<br>
+<mark>*重新安装之前微信里的聊天记录一定要备份</mark><br>
+重新安装后后登陆注册的新账号，在微信设置中点击微X模块，按它说的重启微信</p>
+<h2 id="添加机器人"><a class="markdownIt-Anchor" href="#添加机器人"></a> 添加机器人</h2>
+<p>打开微X模块的自动管理-设置聊天机器人<br>
+<img src="https://picx.zhimg.com/80/v2-654cc6d0da3dd915ec07c51d10b5ee29_1440w.jpeg" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-654cc6d0da3dd915ec07c51d10b5ee29_1440w.jpeg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt=""><br>
+选择茉莉云机器人，将茉莉云网站里的机器人API和密钥复制到这里<br>
+<img src="https://picx.zhimg.com/80/v2-73328389a66360c3f33345cdce0a669d_1440w.jpeg" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-73328389a66360c3f33345cdce0a669d_1440w.jpeg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt=""><br>
+<img src="https://picx.zhimg.com/80/v2-f08276093182b07f4e0247df8cd3fd14_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-f08276093182b07f4e0247df8cd3fd14_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt=""><br>
+将通用设置设置成这样  在设置自动回复语里把聊天机器人打开<br>
+<img src="https://picx.zhimg.com/80/v2-3099cdb19bd31807e712481dbb7d85b2_1440w.jpeg" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-3099cdb19bd31807e712481dbb7d85b2_1440w.jpeg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt=""><br>
+<img src="https://pic1.zhimg.com/80/v2-8b99b62d2a7336cc8d66087d755dc5f4_1440w.jpeg" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-8b99b62d2a7336cc8d66087d755dc5f4_1440w.jpeg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt=""><br>
+到这你的机器人就差不多弄好了  要设置回复语去茉莉云网站里新建知识库，添加回复即可</p>
+]]></content>
       <categories>
-          
-          <category> 教程 </category>
-          
-          <category> 搭建博客 </category>
-          
+        <category>教程</category>
+        <category>机器贝</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> hexo </tag>
-            
-            <tag> 新手教程 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>搭建hexo博客教程（2）</title>
-      <link href="/da-jian-hexo-bo-ke-jiao-cheng-2/"/>
-      <url>/da-jian-hexo-bo-ke-jiao-cheng-2/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="安装nodejs"><a class="markdownIt-Anchor" href="#安装nodejs"></a> 安装nodejs</h2><p><a href="https://nodejs.org/zh-cn/">nodejs下载</a></p><p>翻到第17页下载12.15.0版本</p><img src="/da-jian-hexo-bo-ke-jiao-cheng-2/%E4%B8%8B%E8%BD%BDnodejs.png" class=""><p>下载完成打开，一直按next安装就好</p><p>Win+R打开cmd，输入命令查看是否安装成功</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></tbody></table></figure><p>在nodejs文件中新建两个文件夹，分别命名node_cache和node_global</p><p>打开电脑控制面板，编辑系统环境变量</p><p>系统变量中新建变量，名为NODE_PATH，值为D:\nodejs\node_global\node_modules</p><p>再将用户变量的Path的npm路径改为D:\nodejs\node_global,并新建一个路径D:\Blog\node_modules\hexo-cli\bin</p><img src="/da-jian-hexo-bo-ke-jiao-cheng-2/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F1.png" class=""><img src="/da-jian-hexo-bo-ke-jiao-cheng-2/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F2.png" class=""><img src="/da-jian-hexo-bo-ke-jiao-cheng-2/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F3.png" class=""><p>点击确认保存设置</p><p>打开cmd，输入</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install webpack -g</span><br></pre></td></tr></tbody></table></figure><h2 id="安装hexo"><a class="markdownIt-Anchor" href="#安装hexo"></a> 安装Hexo</h2><p>在github中新建储存库，名称随便填</p><img src="/da-jian-hexo-bo-ke-jiao-cheng-2/%E6%96%B0%E5%BB%BA%E5%82%A8%E5%AD%98%E5%BA%93.png" class=""><p>D盘新建文件夹，名称为Blog，打开cmd，输入</p><figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></tbody></table></figure><p>打开Blog文件，打开Git bash，输入</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></tbody></table></figure><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></tbody></table></figure><p>以笔记本打开&nbsp;_config.yml文件，在最下面写上</p><figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: 你的储存库链接</span><br><span class="line">  branch: master</span><br></pre></td></tr></tbody></table></figure><p><mark>*冒号都为英语的冒号，冒号和内容之间有空格（之后的所有设置也是这样）</mark></p><p>再打开Git bash，输入</p><figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></tbody></table></figure><p>完成后再输入</p><figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></tbody></table></figure><figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></tbody></table></figure><figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></tbody></table></figure><h2 id="购买域名"><a class="markdownIt-Anchor" href="#购买域名"></a> 购买域名</h2><p>推荐<a href="https://www.namesilo.com/?rid=3853d48oc">namesilo</a>，比较便宜</p><h2 id="配置cloudflare"><a class="markdownIt-Anchor" href="#配置cloudflare"></a> 配置Cloudflare</h2><p>前往<a href="https://dash.cloudflare.com/5839b84c6ffd45cf62a501a9f40971e6">Cloudflare官网</a>注册账号   注册完成后添加站点，将你购买的域名填入</p><img src="/da-jian-hexo-bo-ke-jiao-cheng-2/cloudflare.png" class=""><p>添加后他会有两个服务器地址，将这两个地址添加到买域名的网站的域名管理页面的服务器一栏</p><p>这里以namesilo为例</p><img src="/da-jian-hexo-bo-ke-jiao-cheng-2/%E6%9C%8D%E5%8A%A1%E5%99%A8.png" class=""><p>回到cloudflare，打开pages-创建项目-连接到git</p><img src="/da-jian-hexo-bo-ke-jiao-cheng-2/pages.png" class=""><img src="/da-jian-hexo-bo-ke-jiao-cheng-2/pages2.png" class=""><p>登陆你的github账号，选择之前创建的储存库（不是text那个）</p><p>环境变量等不用设置，再自定义域中填上买的域名，部署选择自动</p>]]></content>
-      
-      
+      <tags>
+        <tag>新手教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>搭建hexo博客教程（1）</title>
+    <url>/da-jian-hexo-bo-ke-jiao-cheng-1/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="注册github账号"><a class="markdownIt-Anchor" href="#注册github账号"></a> 注册<a href="https://github.com/">Github</a>账号</h2>
+<p>注册完成后验证邮箱</p>
+<h2 id="安装git"><a class="markdownIt-Anchor" href="#安装git"></a> 安装Git</h2>
+<p><a href="https://git-scm.com/">Git官网</a></p>
+<p><img src="https://pic1.zhimg.com/80/v2-379a8b004dada6536c52ede0489d0d0f_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-379a8b004dada6536c52ede0489d0d0f_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="下载Git"></p>
+<p><img src="https://pica.zhimg.com/80/v2-4f95ecc79b8723c0a3092720278aaca6_1440w.png" class="lazyload placeholder" data-srcset="https://pica.zhimg.com/80/v2-4f95ecc79b8723c0a3092720278aaca6_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="选择版本"></p>
+<p>例如我是windows</p>
+<p><img src="https://pic2.zhimg.com/80/v2-9220bd8d39630524d1301ca4589120ba_1440w.png" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-9220bd8d39630524d1301ca4589120ba_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="选择版本"></p>
+<p>下载完成后打开安装程序</p>
+<p>除了下图的要手动勾选，其余的直接按next即可</p>
+<p><img src="https://pic3.zhimg.com/80/v2-d9a9a347d7161c437a8574c4936da9b0_1440w.png" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-d9a9a347d7161c437a8574c4936da9b0_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="勾选"></p>
+<p>安装完成后打开Git bash，输入git</p>
+<p><img src="https://pic1.zhimg.com/80/v2-d1ff650848022c25129e1ed8a0aa9b80_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-d1ff650848022c25129e1ed8a0aa9b80_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt=""></p>
+<h2 id="绑定github"><a class="markdownIt-Anchor" href="#绑定github"></a> 绑定GitHub</h2>
+<p>新建一个文件夹取名git codelife，在文件夹中再创建一个文件夹取名text</p>
+<p><img src="https://pic2.zhimg.com/80/v2-29e814a4907ad72e668d131171c8f651_1440w.png" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-29e814a4907ad72e668d131171c8f651_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="创建文件夹"></p>
+<p>在text文件夹中右键打开 Git Bash</p>
+<p><img src="https://pic4.zhimg.com/80/v2-df08affebb19c1b6dd280078eabcf448_1440w.png" class="lazyload placeholder" data-srcset="https://pic4.zhimg.com/80/v2-df08affebb19c1b6dd280078eabcf448_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt=""></p>
+<p>输入ssh</p>
+<p><img src="https://pic1.zhimg.com/80/v2-be8ac5cab6b6ab21cc39d5d589b54220_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-be8ac5cab6b6ab21cc39d5d589b54220_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="输入ssh"></p>
+<p>输入</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa</span><br></pre></td></tr></tbody></table></figure>
+<p>然后敲四次回车键，会生成文件在以下目录：Linux：/.ssh    Mac：/.ssh    Windows：C:/Users/用户/.ssh</p>
+<p>复制id_rsa.pub 文件里的内容</p>
+<p>打开Github，点击右上角settings</p>
+<p><img src="https://pic3.zhimg.com/80/v2-dcdeec78bfc0e46f6f9e10ee8e6b7661_1440w.png" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-dcdeec78bfc0e46f6f9e10ee8e6b7661_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt=""></p>
+<p>点SSH and GPG keys，再点击New SSH key</p>
+<p><img src="https://pica.zhimg.com/80/v2-ceb794c00fbe818141258e952330d599_1440w.png" class="lazyload placeholder" data-srcset="https://pica.zhimg.com/80/v2-ceb794c00fbe818141258e952330d599_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt=""></p>
+<p>将之前复制的内容黏贴到key内，再点击&nbsp;Add SSH key</p>
+<p>在Git bash中输入</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></tbody></table></figure>
+<p>出现yes/no选择，输入yes即可</p>
+<p>在Github新建一个储存库，名字写text</p>
+<img src="/da-jian-hexo-bo-ke-jiao-cheng-1/Snipaste_2022-10-25_18-46-52.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-1/Snipaste_2022-10-25_18-46-52.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<img src="/da-jian-hexo-bo-ke-jiao-cheng-1/Snipaste_2022-10-25_18-46-01.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-1/Snipaste_2022-10-25_18-46-01.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<p>进入库，复制链接</p>
+<img src="/da-jian-hexo-bo-ke-jiao-cheng-1/%E5%A4%8D%E5%88%B6%E9%93%BE%E6%8E%A5.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-1/%E5%A4%8D%E5%88%B6%E9%93%BE%E6%8E%A5.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<p>在之前建的文件夹text里打开Git bash，输入</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">git clone 复制的链接</span><br></pre></td></tr></tbody></table></figure>
+<p><mark>*git中的复制粘贴是 Ctrl+insert 和Shift+insert</mark></p>
+<p>在本地就会克隆库的内容，新建一个text.txt文件</p>
+<img src="/da-jian-hexo-bo-ke-jiao-cheng-1/%E6%96%B0%E5%BB%BAtext.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-1/%E6%96%B0%E5%BB%BAtext.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<p>打开Git bash，输入</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">git add text.txt</span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">&nbsp;git commit -m "commit text file"</span><br></pre></td></tr></tbody></table></figure>
+<p>第一次提交要填邮箱和用户名，输入</p>
+<figure class="highlight c"><table><tbody><tr><td class="code"><pre><span class="line">git config --global user.email <span class="string">"你的邮箱"</span></span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight c"><table><tbody><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">"你的用户名"</span></span><br></pre></td></tr></tbody></table></figure>
+<p>现在要将本地库提交到Github，输入</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">git push origin main</span><br></pre></td></tr></tbody></table></figure>
+<p>第一次上传需要验证邮箱，验证即可</p>
+<p>现在在github库里可以看到text文件了</p>
+]]></content>
       <categories>
-          
-          <category> 教程 </category>
-          
-          <category> 搭建博客 </category>
-          
+        <category>教程</category>
+        <category>搭建博客</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> hexo </tag>
-            
-            <tag> 新手教程 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>搭建hexo博客教程（1）</title>
-      <link href="/da-jian-hexo-bo-ke-jiao-cheng-1/"/>
-      <url>/da-jian-hexo-bo-ke-jiao-cheng-1/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="注册github账号"><a class="markdownIt-Anchor" href="#注册github账号"></a> 注册<a href="https://github.com/">Github</a>账号</h2><p>注册完成后验证邮箱</p><h2 id="安装git"><a class="markdownIt-Anchor" href="#安装git"></a> 安装Git</h2><p><a href="https://git-scm.com/">Git官网</a></p><p><img src="https://pic1.zhimg.com/80/v2-379a8b004dada6536c52ede0489d0d0f_1440w.png" alt="下载Git"></p><p><img src="https://pica.zhimg.com/80/v2-4f95ecc79b8723c0a3092720278aaca6_1440w.png" alt="选择版本"></p><p>例如我是windows</p><p><img src="https://pic2.zhimg.com/80/v2-9220bd8d39630524d1301ca4589120ba_1440w.png" alt="选择版本"></p><p>下载完成后打开安装程序</p><p>除了下图的要手动勾选，其余的直接按next即可</p><p><img src="https://pic3.zhimg.com/80/v2-d9a9a347d7161c437a8574c4936da9b0_1440w.png" alt="勾选"></p><p>安装完成后打开Git bash，输入git</p><p><img src="https://pic1.zhimg.com/80/v2-d1ff650848022c25129e1ed8a0aa9b80_1440w.png" alt=""></p><h2 id="绑定github"><a class="markdownIt-Anchor" href="#绑定github"></a> 绑定GitHub</h2><p>新建一个文件夹取名git codelife，在文件夹中再创建一个文件夹取名text</p><p><img src="https://pic2.zhimg.com/80/v2-29e814a4907ad72e668d131171c8f651_1440w.png" alt="创建文件夹"></p><p>在text文件夹中右键打开 Git Bash</p><p><img src="https://pic4.zhimg.com/80/v2-df08affebb19c1b6dd280078eabcf448_1440w.png" alt=""></p><p>输入ssh</p><p><img src="https://pic1.zhimg.com/80/v2-be8ac5cab6b6ab21cc39d5d589b54220_1440w.png" alt="输入ssh"></p><p>输入</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa</span><br></pre></td></tr></tbody></table></figure><p>然后敲四次回车键，会生成文件在以下目录：Linux：/.ssh    Mac：/.ssh    Windows：C:/Users/用户/.ssh</p><p>复制id_rsa.pub 文件里的内容</p><p>打开Github，点击右上角settings</p><p><img src="https://pic3.zhimg.com/80/v2-dcdeec78bfc0e46f6f9e10ee8e6b7661_1440w.png" alt=""></p><p>点SSH and GPG keys，再点击New SSH key</p><p><img src="https://pica.zhimg.com/80/v2-ceb794c00fbe818141258e952330d599_1440w.png" alt=""></p><p>将之前复制的内容黏贴到key内，再点击&nbsp;Add SSH key</p><p>在Git bash中输入</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></tbody></table></figure><p>出现yes/no选择，输入yes即可</p><p>在Github新建一个储存库，名字写text</p><img src="/da-jian-hexo-bo-ke-jiao-cheng-1/Snipaste_2022-10-25_18-46-52.png" class=""><img src="/da-jian-hexo-bo-ke-jiao-cheng-1/Snipaste_2022-10-25_18-46-01.png" class=""><p>进入库，复制链接</p><img src="/da-jian-hexo-bo-ke-jiao-cheng-1/%E5%A4%8D%E5%88%B6%E9%93%BE%E6%8E%A5.png" class=""><p>在之前建的文件夹text里打开Git bash，输入</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone 复制的链接</span><br></pre></td></tr></tbody></table></figure><p><mark>*git中的复制粘贴是 Ctrl+insert 和Shift+insert</mark></p><p>在本地就会克隆库的内容，新建一个text.txt文件</p><img src="/da-jian-hexo-bo-ke-jiao-cheng-1/%E6%96%B0%E5%BB%BAtext.png" class=""><p>打开Git bash，输入</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add text.txt</span><br></pre></td></tr></tbody></table></figure><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&nbsp;git commit -m "commit text file"</span><br></pre></td></tr></tbody></table></figure><p>第一次提交要填邮箱和用户名，输入</p><figure class="highlight c"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.email <span class="string">"你的邮箱"</span></span><br></pre></td></tr></tbody></table></figure><figure class="highlight c"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">"你的用户名"</span></span><br></pre></td></tr></tbody></table></figure><p>现在要将本地库提交到Github，输入</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push origin main</span><br></pre></td></tr></tbody></table></figure><p>第一次上传需要验证邮箱，验证即可</p><p>现在在github库里可以看到text文件了</p>]]></content>
-      
-      
+      <tags>
+        <tag>hexo</tag>
+        <tag>新手教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>萌新玩我的世界JAVA服务器教程</title>
+    <url>/meng-xin-wan-wo-de-shi-jie-java-fu-wu-qi-jiao-cheng/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="安装启动器"><a class="markdownIt-Anchor" href="#安装启动器"></a> 安装启动器</h2>
+<p>比较推荐的有hmcl和pcl2（后面就用hmcl演示了）</p>
+<p><a href="https://url94.ctfile.com/d/33326794-44675752-fc62fc">下载hmcl（Windows）</a>（访问密码5267）<a href="https://ltcat.lanzoum.com/iJrst0fn1w0h">下载pcl2（Windows)</a><br>
+<a href="https://wwc.lanzoub.com/iKwAu0e4bi2f">下载hmcl（安卓）</a>（密码:5iq9）</p>
+<p><img src="https://picx.zhimg.com/80/v2-2ec57081a55a676c827ed8f030b7f548_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-2ec57081a55a676c827ed8f030b7f548_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="点击文件名下载">下载完成后直接打开</p>
+<h2 id="添加账户"><a class="markdownIt-Anchor" href="#添加账户"></a> 添加账户</h2>
+<p><img src="https://picx.zhimg.com/80/v2-7c3f7c55d54e8f62d4147ac717795aed_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-7c3f7c55d54e8f62d4147ac717795aed_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="点击左侧的账户"></p>
+<p>如果你没有正版，用离线模式即可，离线模式可以玩没有正版验证的服务器</p>
+<h2 id="下载服务器的版本"><a class="markdownIt-Anchor" href="#下载服务器的版本"></a> 下载服务器的版本</h2>
+<p>这里以1.16.5为例 <img src="https://picx.zhimg.com/80/v2-87a34b0d86feca67a2e2b9742be7618a_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-87a34b0d86feca67a2e2b9742be7618a_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="点击左侧下载"> <img src="https://pic1.zhimg.com/80/v2-b921cba769deb5bf4b66f9659b6b7e54_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-b921cba769deb5bf4b66f9659b6b7e54_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="选择版本"> <img src="https://pic1.zhimg.com/80/v2-ebef5796af2ca6bc99a936e300dfd1d6_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-ebef5796af2ca6bc99a936e300dfd1d6_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="安装">安装完成后回到主界面启动游戏</p>
+<h2 id="添加服务器"><a class="markdownIt-Anchor" href="#添加服务器"></a> 添加服务器</h2>
+<p><img src="https://pic1.zhimg.com/80/v2-651db25f6ef266f6407e8832a39825c3_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-651db25f6ef266f6407e8832a39825c3_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="点击多人游戏"> <img src="https://pic1.zhimg.com/80/v2-a3a2de81972340347123843706461e4a_1440w.png" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-a3a2de81972340347123843706461e4a_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="添加服务器"> <img src="https://picx.zhimg.com/80/v2-f5460974d552c7fc0144a71679296498_1440w.png" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-f5460974d552c7fc0144a71679296498_1440w.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="填服务器信息">添加完成后就可以进服务器游玩了</p>
+]]></content>
       <categories>
-          
-          <category> 教程 </category>
-          
-          <category> 搭建博客 </category>
-          
+        <category>游戏</category>
+        <category>我的世界</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> hexo </tag>
-            
-            <tag> 新手教程 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>如何创建自己的&#39;机器贝&#39;</title>
-      <link href="/ru-he-chuang-jian-zi-ji-de-ji-qi-bei/"/>
-      <url>/ru-he-chuang-jian-zi-ji-de-ji-qi-bei/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><mark>提示：最好用虚拟机或者备用机弄机器人，否则会有一系列问题影响正常使用</mark></p><h2 id="注册一个新的微信账号"><a class="markdownIt-Anchor" href="#注册一个新的微信账号"></a> 注册一个新的微信账号</h2><p>（也可以不注册，但为了方便及避免封号）<br><mark>*账号请务必实名认证（未成年人也可以实名，不影响使用的），不然大概率会封号</mark></p><h2 id="去茉莉云网站注册账号"><a class="markdownIt-Anchor" href="#去茉莉云网站注册账号"></a> 去<a href="https://mlyai.com/profile/index.html#/dashboard">茉莉云网站</a>注册账号</h2><p>注册完成后添加机器人<br><img src="https://picx.zhimg.com/80/v2-f8434a2489c525fce24708e6e98fe0cd_1440w.jpeg" alt=""><br><img src="https://picx.zhimg.com/80/v2-558aac54bdd7f7a5f55d21ab584aa64a_1440w.png" alt=""></p><h2 id="安装微x模块"><a class="markdownIt-Anchor" href="#安装微x模块"></a> 安装微X模块</h2><p><mark>*必须要安卓系统，如果你是Windows可以用安卓虚拟机</mark><br>有两种方法：1.直接用内置微X <mark>*某些机型无法使用</mark><br>2.用太极 <mark>*用太极会导致无法用微信登陆/支付等问题</mark></p><h3 id="内置微x"><a class="markdownIt-Anchor" href="#内置微x"></a> 内置微X</h3><p><a href="https://www.123pan.com/s/iLx0Vv-I38lA">点击下载</a><br>下载安装后登陆注册的新账号，在微信设置中点击微X模块，按它说的重启微信<br>（如果设置里没有微X模块或是多次重启微信后依然显示加载错误，就是机型不适配)</p><h3 id="太极"><a class="markdownIt-Anchor" href="#太极"></a> 太极</h3><p><a href="http://wwd.lanzouf.com/iFInu03mbtde">点击下载太极</a><br>下载完成后安装     点击上方更新，然后点开右上角设置把自启动权限和保持存活打开<br><img src="https://pica.zhimg.com/80/v2-4e306ad021c5281f5f4eed15d7cd955c_1440w.jpeg" alt=""><br><img src="https://picx.zhimg.com/80/v2-e2c22d22ef2059ca08810007c2fd5f35_1440w.jpeg" alt=""><br><a href="https://www.123pan.com/s/KL6A-49yq3">点击下载微X模块</a></p><p>安装完成后打开太极，点击右下角模块管理将微X模块启用    然后创建应用，选择微信<br><img src="https://pica.zhimg.com/80/v2-a26fc435cb7793b30cf7f45490f3fbd3_1440w.jpeg" alt=""><br><img src="https://pic1.zhimg.com/80/v2-c3a1d397b4ccd5c23fba6b28892594e2_1440w.jpeg" alt=""></p><p>点击创建后耐心等待，完成后在太极里重新安装微信即可<br><mark>*重新安装之前微信里的聊天记录一定要备份</mark><br>重新安装后后登陆注册的新账号，在微信设置中点击微X模块，按它说的重启微信</p><h2 id="添加机器人"><a class="markdownIt-Anchor" href="#添加机器人"></a> 添加机器人</h2><p>打开微X模块的自动管理-设置聊天机器人<br><img src="https://picx.zhimg.com/80/v2-654cc6d0da3dd915ec07c51d10b5ee29_1440w.jpeg" alt=""><br>选择茉莉云机器人，将茉莉云网站里的机器人API和密钥复制到这里<br><img src="https://picx.zhimg.com/80/v2-73328389a66360c3f33345cdce0a669d_1440w.jpeg" alt=""><br><img src="https://picx.zhimg.com/80/v2-f08276093182b07f4e0247df8cd3fd14_1440w.png" alt=""><br>将通用设置设置成这样  在设置自动回复语里把聊天机器人打开<br><img src="https://picx.zhimg.com/80/v2-3099cdb19bd31807e712481dbb7d85b2_1440w.jpeg" alt=""><br><img src="https://pic1.zhimg.com/80/v2-8b99b62d2a7336cc8d66087d755dc5f4_1440w.jpeg" alt=""><br>到这你的机器人就差不多弄好了  要设置回复语去茉莉云网站里新建知识库，添加回复即可</p>]]></content>
-      
-      
+      <tags>
+        <tag>新手教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>搭建hexo博客教程（2）</title>
+    <url>/da-jian-hexo-bo-ke-jiao-cheng-2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="安装nodejs"><a class="markdownIt-Anchor" href="#安装nodejs"></a> 安装nodejs</h2>
+<p><a href="https://nodejs.org/zh-cn/">nodejs下载</a></p>
+<p>翻到第17页下载12.15.0版本</p>
+<img src="/da-jian-hexo-bo-ke-jiao-cheng-2/%E4%B8%8B%E8%BD%BDnodejs.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-2/%E4%B8%8B%E8%BD%BDnodejs.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<p>下载完成打开，一直按next安装就好</p>
+<p>Win+R打开cmd，输入命令查看是否安装成功</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></tbody></table></figure>
+<p>在nodejs文件中新建两个文件夹，分别命名node_cache和node_global</p>
+<p>打开电脑控制面板，编辑系统环境变量</p>
+<p>系统变量中新建变量，名为NODE_PATH，值为D:\nodejs\node_global\node_modules</p>
+<p>再将用户变量的Path的npm路径改为D:\nodejs\node_global,并新建一个路径D:\Blog\node_modules\hexo-cli\bin</p>
+<img src="/da-jian-hexo-bo-ke-jiao-cheng-2/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F1.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-2/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F1.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<img src="/da-jian-hexo-bo-ke-jiao-cheng-2/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F2.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-2/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F2.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<img src="/da-jian-hexo-bo-ke-jiao-cheng-2/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F3.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-2/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F3.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<p>点击确认保存设置</p>
+<p>打开cmd，输入</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">npm install webpack -g</span><br></pre></td></tr></tbody></table></figure>
+<h2 id="安装hexo"><a class="markdownIt-Anchor" href="#安装hexo"></a> 安装Hexo</h2>
+<p>在github中新建储存库，名称随便填</p>
+<img src="/da-jian-hexo-bo-ke-jiao-cheng-2/%E6%96%B0%E5%BB%BA%E5%82%A8%E5%AD%98%E5%BA%93.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-2/%E6%96%B0%E5%BB%BA%E5%82%A8%E5%AD%98%E5%BA%93.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<p>D盘新建文件夹，名称为Blog，打开cmd，输入</p>
+<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></tbody></table></figure>
+<p>打开Blog文件，打开Git bash，输入</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></tbody></table></figure>
+<p>以笔记本打开&nbsp;_config.yml文件，在最下面写上</p>
+<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: 你的储存库链接</span><br><span class="line">  branch: master</span><br></pre></td></tr></tbody></table></figure>
+<p><mark>*冒号都为英语的冒号，冒号和内容之间有空格（之后的所有设置也是这样）</mark></p>
+<p>再打开Git bash，输入</p>
+<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></tbody></table></figure>
+<p>完成后再输入</p>
+<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></tbody></table></figure>
+<h2 id="购买域名"><a class="markdownIt-Anchor" href="#购买域名"></a> 购买域名</h2>
+<p>推荐<a href="https://www.namesilo.com/?rid=3853d48oc">namesilo</a>，比较便宜</p>
+<h2 id="配置cloudflare"><a class="markdownIt-Anchor" href="#配置cloudflare"></a> 配置Cloudflare</h2>
+<p>前往<a href="https://dash.cloudflare.com/5839b84c6ffd45cf62a501a9f40971e6">Cloudflare官网</a>注册账号   注册完成后添加站点，将你购买的域名填入</p>
+<img src="/da-jian-hexo-bo-ke-jiao-cheng-2/cloudflare.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-2/cloudflare.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<p>添加后他会有两个服务器地址，将这两个地址添加到买域名的网站的域名管理页面的服务器一栏</p>
+<p>这里以namesilo为例</p>
+<img src="/da-jian-hexo-bo-ke-jiao-cheng-2/%E6%9C%8D%E5%8A%A1%E5%99%A8.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-2/%E6%9C%8D%E5%8A%A1%E5%99%A8.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<p>回到cloudflare，打开pages-创建项目-连接到git</p>
+<img src="/da-jian-hexo-bo-ke-jiao-cheng-2/pages.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-2/pages.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<img src="/da-jian-hexo-bo-ke-jiao-cheng-2/pages2.png" class="lazyload placeholder" data-srcset="/da-jian-hexo-bo-ke-jiao-cheng-2/pages2.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<p>登陆你的github账号，选择之前创建的储存库（不是text那个）</p>
+<p>环境变量等不用设置，再自定义域中填上买的域名，部署选择自动</p>
+]]></content>
       <categories>
-          
-          <category> 教程 </category>
-          
-          <category> 机器贝 </category>
-          
+        <category>教程</category>
+        <category>搭建博客</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 新手教程 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>萌新玩我的世界JAVA服务器教程</title>
-      <link href="/meng-xin-wan-wo-de-shi-jie-java-fu-wu-qi-jiao-cheng/"/>
-      <url>/meng-xin-wan-wo-de-shi-jie-java-fu-wu-qi-jiao-cheng/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="安装启动器"><a class="markdownIt-Anchor" href="#安装启动器"></a> 安装启动器</h2><p>比较推荐的有hmcl和pcl2（后面就用hmcl演示了）</p><p><a href="https://url94.ctfile.com/d/33326794-44675752-fc62fc">下载hmcl（Windows）</a>（访问密码5267）<a href="https://ltcat.lanzoum.com/iJrst0fn1w0h">下载pcl2（Windows)</a><br><a href="https://wwc.lanzoub.com/iKwAu0e4bi2f">下载hmcl（安卓）</a>（密码:5iq9）</p><p><img src="https://picx.zhimg.com/80/v2-2ec57081a55a676c827ed8f030b7f548_1440w.png" alt="点击文件名下载">下载完成后直接打开</p><h2 id="添加账户"><a class="markdownIt-Anchor" href="#添加账户"></a> 添加账户</h2><p><img src="https://picx.zhimg.com/80/v2-7c3f7c55d54e8f62d4147ac717795aed_1440w.png" alt="点击左侧的账户"></p><p>如果你没有正版，用离线模式即可，离线模式可以玩没有正版验证的服务器</p><h2 id="下载服务器的版本"><a class="markdownIt-Anchor" href="#下载服务器的版本"></a> 下载服务器的版本</h2><p>这里以1.16.5为例 <img src="https://picx.zhimg.com/80/v2-87a34b0d86feca67a2e2b9742be7618a_1440w.png" alt="点击左侧下载"> <img src="https://pic1.zhimg.com/80/v2-b921cba769deb5bf4b66f9659b6b7e54_1440w.png" alt="选择版本"> <img src="https://pic1.zhimg.com/80/v2-ebef5796af2ca6bc99a936e300dfd1d6_1440w.png" alt="安装">安装完成后回到主界面启动游戏</p><h2 id="添加服务器"><a class="markdownIt-Anchor" href="#添加服务器"></a> 添加服务器</h2><p><img src="https://pic1.zhimg.com/80/v2-651db25f6ef266f6407e8832a39825c3_1440w.png" alt="点击多人游戏"> <img src="https://pic1.zhimg.com/80/v2-a3a2de81972340347123843706461e4a_1440w.png" alt="添加服务器"> <img src="https://picx.zhimg.com/80/v2-f5460974d552c7fc0144a71679296498_1440w.png" alt="填服务器信息">添加完成后就可以进服务器游玩了</p>]]></content>
-      
-      
+      <tags>
+        <tag>hexo</tag>
+        <tag>新手教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>文明时代二剧本-TSO</title>
+    <url>/zi-zhi-wen-ming-shi-dai-ju-ben-tso/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="the-stuid-order"><a class="markdownIt-Anchor" href="#the-stuid-order"></a> The Stuid Order</h1>
+<p>自制的文明时代二剧本</p>
+<p><strong><a href="https://www.123pan.com/s/owIrVv-9dzwv">最新版本下载</a>（提取码:1919）</strong></p>
+<h3 id="地图"><a class="markdownIt-Anchor" href="#地图"></a> 地图</h3>
+<img src="/zi-zhi-wen-ming-shi-dai-ju-ben-tso/%E5%9C%B0%E5%9B%BE.png" class="lazyload placeholder" data-srcset="/zi-zhi-wen-ming-shi-dai-ju-ben-tso/%E5%9C%B0%E5%9B%BE.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" class=" lazyload placeholder">
+<p>*<em>此图为1.01版本，非最新版</em></p>
+<h3 id="同盟"><a class="markdownIt-Anchor" href="#同盟"></a> 同盟</h3>
+<p><em><strong>协约国</strong></em>：英国、俄罗斯帝国、德意志联邦、波兰、英属印度、英属加拿大、捷克、巴伐利亚王国、高加索王国、德属西南非洲</p>
+<p><em><strong>法兰西帝国公约</strong></em>：法兰西帝国、法国东印度公司、西班牙、爱尔兰、波兰、波罗的海联盟、魁北克、新尼德兰</p>
+<p><em><strong>轴心国</strong></em>：土耳其、日本、奥地利、保加利亚帝国</p>
+<p><em><strong>泛伊斯兰联会</strong></em>：大阿拉伯伊斯兰联合国、伊朗伊斯兰共和国、阿富汗、巴基斯坦、东突厥斯坦伊斯兰共和国、伊拉克</p>
+<p><em><strong>中华联合政府（中华联邦）</strong></em>：中华民国、中华人民共和国、贵系、滇系、新疆维吾尔自治区、藏区</p>
+<p><em><strong>非洲独立联盟</strong></em>：东非联邦、南非联邦</p>
+<h3 id="各版本及更新内容"><a class="markdownIt-Anchor" href="#各版本及更新内容"></a> 各版本及更新内容</h3>
+<h4 id="102版本-221217"><a class="markdownIt-Anchor" href="#102版本-221217"></a> 1.02版本   22/12/17</h4>
+<p>修改了一些小问题</p>
+<p>修改了法德边境</p>
+<p>大规模更改了非洲殖民状况</p>
+<p>平衡了帝国公约和协约国</p>
+<p>添加国家：巴斯克自治区、新尼德兰、马达加斯加、瑞士</p>
+<p>移除国家：西南非洲、非洲独立委员会、条顿骑士团国</p>
+<p><a href="https://www.123pan.com/s/owIrVv-9dzwv">点击下载</a>（提取码:1919）</p>
+<h4 id="101版本-221216"><a class="markdownIt-Anchor" href="#101版本-221216"></a> 1.01版本   22/12/16</h4>
+<p>削弱了法国</p>
+<p>修改了美国内战</p>
+<p>修复了存档后重进游戏会变成巴西的bug</p>
+<p><a href="https://www.123pan.com/s/owIrVv-Zvzwv">点击下载</a>（提取码:1145）</p>
+<h4 id="10版本-221115"><a class="markdownIt-Anchor" href="#10版本-221115"></a> 1.0版本   22/11/15</h4>
+<p>*<em>该版本存档有致命的bug</em></p>
+<p><a href="https://www.123pan.com/s/owIrVv-rSiwv">点击下载</a>（提取码:1145）</p>
+]]></content>
       <categories>
-          
-          <category> 游戏 </category>
-          
-          <category> 我的世界 </category>
-          
+        <category>游戏</category>
+        <category>文明时代二</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 新手教程 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>博客终于弄好了</title>
-      <link href="/bo-ke-zhong-yu-nong-hao-liao/"/>
-      <url>/bo-ke-zhong-yu-nong-hao-liao/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><a href="https://zhuanlan.zhihu.com/p/102592286">参考教程</a></p><p>域名：<a href="https://www.namesilo.com/?rid=3853d48oc">NameSilo</a><br>服务器＆DNS：<a href="https://dash.cloudflare.com/">Cloudflare</a><br><a href="https://hexo.io/zh-cn/">Hexo</a>部署</p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> hexo </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>游戏</tag>
+        <tag>文明时代二</tag>
+      </tags>
+  </entry>
 </search>
